@@ -45,7 +45,7 @@ export default function Privacy() {
           We may update this policy from time to time. Any changes to this policy will be posted on our website.
 
           {/*<h3> Contact Us: </h3>*/}
-          
+
           {/*If you have any questions or concerns about our privacy policy, please contact us at [insert contact information].*/}
         </p>
       </main>
