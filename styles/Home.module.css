@@ -69,10 +69,18 @@
 }
 
 .card h3 {
+  display: inline-block;
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
+.card h3 span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.card:hover span {
+  transform: translateX(6rem);
+}
 .card p {
   margin: 0;
   font-size: 1.25rem;

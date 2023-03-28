@@ -20,12 +20,22 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="/privacy" className={styles.card} target={'_blank'}>
-            <h3>Privacy Policy &rarr;</h3>
+            <h3>
+              Privacy Policy
+              <span >
+                &rarr;
+              </span>
+            </h3>
             <p>We don't collect any private data. We only collect </p>
           </a>
 
           <a href="https://platform.openai.com/account/api-keys" className={styles.card} target={'_blank'}>
-            <h3>OpenAI API &rarr;</h3>
+            <h3>
+              OpenAI API
+              <span >
+                &rarr;
+              </span>
+            </h3>
             <p>Create your API Key on OpenAI Platform to use our app.</p>
           </a>
 
