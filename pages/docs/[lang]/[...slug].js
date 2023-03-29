@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
-import { remark } from 'remark';
-import html from 'remark-html';
+import { remark } from 'remark'
+import html from 'remark-html'
 import matter from 'gray-matter'
 
 export default function Doc({ data, contentHtml }) {
