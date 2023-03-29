@@ -34,11 +34,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { lang, slug } = params
-  console.log(slug)
-  if (slug.length === 1 && fs.existsSync(path.join(process.cwd(), 'docs', lang, `${slug[0]}.md`))) {
-    const fileContents = fs.readFileSync(path.join(process.cwd(), 'docs', lang, `${slug[0]}.md`), 'utf8')
-    return await generateProps(fileContents)
-  }
   const docsDir = path.join(process.cwd(), 'docs')
   const filePath = path.join(docsDir, lang, ...slug) + '.md'
   const fileContents = fs.readFileSync(filePath, 'utf8')
