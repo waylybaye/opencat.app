@@ -6,7 +6,7 @@ export default function Privacy() {
       <Head>
         <title>Privacy</title>
       </Head>
-      <div className="text-base md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 lg:px-0 m-auto">
+      <div className="text-base md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-10 m-auto">
         <main>
           <h1 className="text-5xl mb-10 font-extrabold text-center text-gray-900 dark:text-white"> Privacy Policy </h1>
           <div className="text-lg">
