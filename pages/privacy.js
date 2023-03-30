@@ -1,54 +1,48 @@
-import styles from "../styles/Home.module.css";
-import Head from "next/head";
+import Head from "next/head"
 
 export default function Privacy() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Privacy</title>
-        <link rel="icon" href="/favicon.ico"/>
       </Head>
-      <main>
-        <h1 className={styles.title}>
-          Privacy Policy
-        </h1>
+      <div className="text-base md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 lg:px-0 m-auto">
+        <main>
+          <h1 className="text-5xl mb-10 font-extrabold text-center text-gray-900"> Privacy Policy </h1>
+          <div className="text-lg">
+            We take your privacy very seriously. This policy outlines how we collect, use, and protect your personal information.
+            <br />
 
-        <p className={styles.description}>
-          We take your privacy very seriously. This policy outlines how we collect, use, and protect your personal information.
-          <br/>
+            <h3 className="text-lg font-bold mb-2">
+              Information We Collect:
+            </h3>
 
-          <h3>
-            Information We Collect:
-          </h3>
+            We only collect analytical and crash data. This data includes information about how you use our app, device information, and crash reports. We use this data to improve the performance and stability of our app.
 
-          We only collect analytical and crash data. This data includes information about how you use our app, device information, and crash reports. We use this data to improve the performance and stability of our app.
+            <h3 className="text-lg font-bold mb-2">
+              How We Use Your Information:
+            </h3>
 
-          <h3>
-            How We Use Your Information:
-          </h3>
+            We use the data we collect to analyze user behavior and improve the performance of our app. We may also use this data to troubleshoot technical issues and improve user experience.
 
-          We use the data we collect to analyze user behavior and improve the performance of our app. We may also use this data to troubleshoot technical issues and improve user experience.
+            <h3 className="text-lg font-bold mb-2">
 
-          <h3>
+              How We Protect Your Information:
+            </h3>
 
-            How We Protect Your Information:
-          </h3>
+            We take appropriate security measures to protect your information from unauthorized access, disclosure, alteration, or destruction. We limit access to your information to those who need it to perform their job functions.
 
-          We take appropriate security measures to protect your information from unauthorized access, disclosure, alteration, or destruction. We limit access to your information to those who need it to perform their job functions.
+            We do not sell or share your personal information with third parties.
 
-          We do not sell or share your personal information with third parties.
+            <h3 className="text-lg font-bold mb-2">
+              Updates to This Policy:
+            </h3>
 
-          <h3>
-            Updates to This Policy:
-          </h3>
+            We may update this policy from time to time. Any changes to this policy will be posted on our website.
 
-          We may update this policy from time to time. Any changes to this policy will be posted on our website.
-
-          {/*<h3> Contact Us: </h3>*/}
-
-          {/*If you have any questions or concerns about our privacy policy, please contact us at [insert contact information].*/}
-        </p>
-      </main>
-    </div>
+          </div>
+        </main>
+      </div>
+    </>
   )
 }
