@@ -5,6 +5,6 @@
   a:hover span.arrow {
     display: inline-block;
     transition: transform 0.3s ease;
-    transform: translateX(8rem);
+    transform: translateX(7rem);
   }
 }
