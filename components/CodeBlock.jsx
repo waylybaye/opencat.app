@@ -41,7 +41,7 @@ export const generateRandomString = (length, lowercase = false) => {
 
 
 export const CodeBlock= memo(({ language, value }) => {
-  const [isCopied, setIsCopied] = useState<Boolean>(false);
+  const [isCopied, setIsCopied] = useState(false);
 
   const copyToClipboard = () => {
     if (!navigator.clipboard || !navigator.clipboard.writeText) {
