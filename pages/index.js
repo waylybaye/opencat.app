@@ -2,14 +2,14 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 dark:bg-[#343541]">
       <Head>
         <title>OpenCat - Native iOS/macOS/iPadOS client for OpenAI/ChatGPT </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="min-h-screen py-20 flex flex-col items-center md:max-w-3xl m-auto">
-        <h1 className="text-5xl font-extrabold text-center text-gray-900">
+        <h1 className="text-5xl font-extrabold text-center text-gray-900 dark:text-white">
           Welcome to OpenCat
         </h1>
 
