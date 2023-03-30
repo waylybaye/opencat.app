@@ -19,6 +19,27 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+          <a href="/docs/zh-CN/help" className={styles.card} target={'_blank'}>
+            <h3>
+              帮助文档
+              <span >
+                &rarr;
+              </span>
+            </h3>
+            <p>查看 OpenCat 的帮助文档 </p>
+          </a>
+          <a href="https://platform.openai.com/account/api-keys" className={styles.card} target={'_blank'}>
+            <h3>
+              OpenAI API
+              <span >
+                &rarr;
+              </span>
+            </h3>
+            <p>Create your API Key on OpenAI Platform to use our app.</p>
+          </a>
+        </div>
+
+        <div className={styles.grid}>
           <a href="/privacy" className={styles.card} target={'_blank'}>
             <h3>
               Privacy Policy
@@ -29,15 +50,15 @@ export default function Home() {
             <p>We don't collect any private data. We only collect </p>
           </a>
 
-          <a href="https://platform.openai.com/account/api-keys" className={styles.card} target={'_blank'}>
-            <h3>
-              OpenAI API
-              <span >
-                &rarr;
-              </span>
-            </h3>
-            <p>Create your API Key on OpenAI Platform to use our app.</p>
-          </a>
+          {/*<a href="https://platform.openai.com/account/api-keys" className={styles.card} target={'_blank'}>*/}
+          {/*  <h3>*/}
+          {/*    OpenAI API*/}
+          {/*    <span >*/}
+          {/*      &rarr;*/}
+          {/*    </span>*/}
+          {/*  </h3>*/}
+          {/*  <p>Create your API Key on OpenAI Platform to use our app.</p>*/}
+          {/*</a>*/}
 
           {/*<a*/}
           {/*  href="https://github.com/vercel/next.js/tree/master/examples"*/}
