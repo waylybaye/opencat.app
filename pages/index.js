@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
 export default function Home() {
   return (
@@ -16,8 +16,16 @@ export default function Home() {
         <p className="leading-2 text-2xl my-8 text-center text-gray-500">
           Download at <a className="text-blue-500 underline" href="https://apps.apple.com/us/app/opencat/id6445999201" target="_blank">App Store</a>
         </p>
-
         <div className="mt-10 max-w-7xl mx-auto grid gap-8 grid-cols-1 grid-cols-1 sm:grid-cols-2 px-8">
+          <a href="/docs/zh-CN/help" className="hover:text-blue-500 hover:border-blue-500 flex flex-col items-start p-6 bg-white rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-gray-900">
+            <h3 className="hover:text-blue-500 text-2xl font-bold mb-2">
+              帮助文档
+              <span className="arrow"> &rarr; </span>
+            </h3>
+            <p className="text-base">
+            查看 OpenCat 的帮助文档
+            </p>
+          </a>
           <a href="https://platform.openai.com/account/api-keys" className="hover:text-blue-500 hover:border-blue-500 flex flex-col items-start p-6 bg-white rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-gray-900">
             <h3 className="hover:text-blue-500 text-2xl font-bold mb-2">
               OpenAI API
@@ -27,7 +35,6 @@ export default function Home() {
               Create your API Key on OpenAI Platform to use our app.
             </p>
           </a>
-
           <a href="/privacy" className="card hover:text-blue-500 hover:border-blue-500 flex flex-col items-start p-6 bg-white rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-gray-900">
             <h3 className="text-2xl font-bold mb-2">
               Privacy Policy

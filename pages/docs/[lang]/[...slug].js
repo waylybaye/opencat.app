@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import fs from 'fs'
 import path from 'path'
 import { remark } from 'remark'
@@ -7,6 +8,9 @@ import Markdown from '../../../components/Code'
 export default function Doc({ data, content }) {
   return (
     <>
+      <Head>
+        <title>{data.title??''}</title>
+      </Head>
       <div className="text-base md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 lg:px-0 m-auto">
         <Markdown content={content} />
       </div>
