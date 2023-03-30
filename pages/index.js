@@ -1,126 +1,48 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="min-h-screen bg-gray-100">
       <Head>
         <title>OpenCat - Native iOS/macOS/iPadOS client for OpenAI/ChatGPT </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className={styles.title}>
+      <main className="min-h-screen py-20 flex flex-col items-center md:max-w-3xl m-auto">
+        <h1 className="text-5xl font-extrabold text-center text-gray-900">
           Welcome to OpenCat
         </h1>
 
-        <p className={styles.description}>
-          Download at <a href="https://apps.apple.com/us/app/opencat/id6445999201" target="_blank">App Store</a>
+        <p className="leading-2 text-2xl my-8 text-center text-gray-500">
+          Download at <a className="text-blue-500 underline" href="https://apps.apple.com/us/app/opencat/id6445999201" target="_blank">App Store</a>
         </p>
 
-        <div className={styles.grid}>
-          <a href="/privacy" className={styles.card} target={'_blank'}>
-            <h3>
-              Privacy Policy
-              <span >
-                &rarr;
-              </span>
-            </h3>
-            <p>We don't collect any private data. We only collect </p>
-          </a>
-
-          <a href="https://platform.openai.com/account/api-keys" className={styles.card} target={'_blank'}>
-            <h3>
+        <div className="mt-10 max-w-7xl mx-auto grid gap-8 grid-cols-1 grid-cols-1 sm:grid-cols-2 px-8">
+          <a href="https://platform.openai.com/account/api-keys" className="hover:text-blue-500 hover:border-blue-500 flex flex-col items-start p-6 bg-white rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-gray-900">
+            <h3 className="hover:text-blue-500 text-2xl font-bold mb-2">
               OpenAI API
-              <span >
-                &rarr;
-              </span>
+              <span className="arrow"> &rarr; </span>
             </h3>
-            <p>Create your API Key on OpenAI Platform to use our app.</p>
+            <p className="text-base">
+              Create your API Key on OpenAI Platform to use our app.
+            </p>
           </a>
 
-          {/*<a*/}
-          {/*  href="https://github.com/vercel/next.js/tree/master/examples"*/}
-          {/*  className={styles.card}*/}
-          {/*>*/}
-          {/*  <h3>Examples &rarr;</h3>*/}
-          {/*  <p>Discover and deploy boilerplate example Next.js projects.</p>*/}
-          {/*</a>*/}
-
-          {/*<a*/}
-          {/*  href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"*/}
-          {/*  className={styles.card}*/}
-          {/*>*/}
-          {/*  <h3>Deploy &rarr;</h3>*/}
-          {/*  <p>*/}
-          {/*    Instantly deploy your Next.js site to a public URL with Vercel.*/}
-          {/*  </p>*/}
-          {/*</a>*/}
+          <a href="/privacy" className="card hover:text-blue-500 hover:border-blue-500 flex flex-col items-start p-6 bg-white rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-gray-900">
+            <h3 className="text-2xl font-bold mb-2">
+              Privacy Policy
+              <span className="arrow"> &rarr; </span>
+            </h3>
+            <p className="text-base">
+              We don't collect any private data. We only collect
+            </p>
+          </a>
         </div>
       </main>
 
-      <footer>
+      <footer className="flex justify-center items-center w-full h-[100px] border-t border-gray-300">
         Copyright 2023, All rights reserved.
-        {/*<a*/}
-        {/*  href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"*/}
-        {/*  target="_blank"*/}
-        {/*  rel="noopener noreferrer"*/}
-        {/*>*/}
-        {/*  Powered by{' '}*/}
-        {/*  <img src="/vercel.svg" alt="Vercel" className={styles.logo} />*/}
-        {/*</a>*/}
       </footer>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </div>
   )
 }
