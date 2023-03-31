@@ -1,15 +1,20 @@
+import Head from 'next/head'
 import fs from 'fs'
 import path from 'path'
 import { remark } from 'remark'
-import html from 'remark-html'
 import matter from 'gray-matter'
+import Markdown from '../../../components/Code'
 
-export default function Doc({ data, contentHtml }) {
+export default function Doc({ data, content }) {
   return (
-    <>
-      <h2>{data.title ?? ''}</h2>
-      <div dangerouslySetInnerHTML={{ __html: contentHtml }}></div>
-    </>
+    <div className="dark:bg-[#343541] min-h-screen">
+      <Head>
+        <title>{data.title??''}</title>
+      </Head>
+      <div className="break-words text-base md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-10 m-auto">
+        <Markdown content={content} />
+      </div>
+    </div>
   )
 }
 
@@ -42,14 +47,10 @@ export async function getStaticProps({ params }) {
 
 async function generateProps(fileContents) {
   const data = matter(fileContents)
-  const processedContent = await remark()
-    .use(html)
-    .process(data.content)
-  const contentHtml = processedContent.toString()
   return {
     props: {
       data: data.data,
-      contentHtml,
+      content: data.content,
     },
   }
 }
