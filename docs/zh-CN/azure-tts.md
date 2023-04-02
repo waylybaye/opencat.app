@@ -5,10 +5,14 @@
 
 1. 登录您的 Azure 账号
 2. 点击链接创建 TTS 资源 https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices
+
+![](img/create-tts.png)
+
+* 区域: 最好选择 `East Asia`
+* 名称: 随便起一个名字
+* 定价层：选择免费试用（Free F0）或者标准计费
+
 3. 填写完毕后，点击「审阅并创建」
-    * 区域: 最好选择 `East Asia`
-    * 名称: 随便起一个名字
-    * 定价层：选择免费试用（Free F0）或者标准计费
 4. 点击「创建」
 
 ## 配置 OpenCat
