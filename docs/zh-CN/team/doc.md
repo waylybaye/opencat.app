@@ -2,6 +2,8 @@
 title: 'OpenCat for Team 技术文档'
 ---
 
+此文档是比较旧的版本，请查看最新版本 [OpenCat for Team](../opencat-for-team) 
+
 # OpenCat for Team 技术文档
 
 ## Docker 环境变量 
