@@ -33,6 +33,7 @@ sh get-docker.sh
 
 1. 如果你想跑 HTTPS，在 OpenCat 中填入域名后，会自动生成一串命令，如果跑 HTTP 模式，选择 HTTP 会直接生成一串命令
 2. 将 OpenCat 显示的 `docker run` 开头的命令复制粘贴到 SSH 窗口中运行
+> 如果你想更改 HTTP 模式运行的端口，只要将其中的 `-p 80:80` 改为 `-p 端口:80` 既可
 3. 如果你在选了 HTTPS 模式，下方连接服务的 Domain 输入框会自动同步你上面填的域名，如果 HTTP 模式则需要自己填入 IP 或者域名，用 http 开头。
 4. 在 OpenCat 中点击创建团队，成功后会自动进入 Team 页面
 5. 在 Keys 中，点击加号，创建一个 Key
@@ -49,6 +50,10 @@ sh get-docker.sh
 
 
 ## 技术细节
+
+### 如何备份及回复数据
+
+在 `/srv/data` 下的 `cat.db` 保存了所有数据，备份该文件即可，如果想要重来，只要删除该文件然后 `docker restart opencatd` 既可。
 
 ### Docker 环境变量 
 
