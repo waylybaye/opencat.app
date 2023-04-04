@@ -32,7 +32,7 @@ sh get-docker.sh
 ![](/img/create-team.png)
 
 1. 如果你想跑 HTTPS，在 OpenCat 中填入域名后，会自动生成一串命令，如果跑 HTTP 模式，选择 HTTP 会直接生成一串命令
-2. 将 OpenCat 显示的 `docker run` 的命令复制粘贴到 SSH 窗口中运行
+2. 将 OpenCat 显示的 `docker run` 开头的命令复制粘贴到 SSH 窗口中运行
 3. 如果你在选了 HTTPS 模式，下方连接服务的 Domain 输入框会自动同步你上面填的域名，如果 HTTP 模式则需要自己填入 IP 或者域名，用 http 开头。
 4. 在 OpenCat 中点击创建团队，成功后会自动进入 Team 页面
 5. 在 Keys 中，点击加号，创建一个 Key
@@ -52,8 +52,8 @@ sh get-docker.sh
 
 ### Docker 环境变量 
 
-* PORT 指定 HTTP 模式的端口
-* API_DOMAIN=https://xx.com  如果想连接另一个 openai 的代理，用这个变量覆盖默认的 `https://api.openai.com`
+* `PORT` 指定 HTTP 模式的端口
+* `API_DOMAIN=https://xx.com`  如果想连接另一个 openai 的代理，用这个变量覆盖默认的 `https://api.openai.com`
 
 ### Team 的流程 
 
