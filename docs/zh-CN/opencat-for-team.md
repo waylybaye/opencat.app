@@ -1,18 +1,18 @@
 ---
-title: 'OpenCat for Team 技术文档'
+title: 'OpenCat for Team（团队版）部署教程'
 ---
 
-# OpenCat for Team  部署文档
+# OpenCat for Team 部署教程 
 
 ## 配置云端
 
 ### 1. 准备一个服务器
 你可以在 AWS、Google Cloud、Digital Ocean、Vultr、Oracle Cloud 等云平台上启动一个云服务器。
 
-1. 通过 SSH 登入服务器
+1.1 通过 SSH 登入服务器
 > 如果你不知道怎么登录 SSH，可以问 ChatGPT：AWS(改成你的厂商名)怎么连接 SSH
 
-2. 安装 docker
+1.2 安装 docker
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
@@ -27,7 +27,9 @@ sh get-docker.sh
 
 将域名解析到 VPS 的 IP 地址（可以问 ChatGPT：XXX如何将域名解析到 IP 地址）
 
-### 2. 运行 OpenCat for Team
+### 3. 运行 OpenCat for Team
+
+![](/img/create-team.png)
 
 1. 如果你想跑 HTTPS，在 OpenCat 中填入域名后，会自动生成一串命令，如果跑 HTTP 模式，选择 HTTP 会直接生成一串命令
 2. 将 OpenCat 显示的 `docker run` 的命令复制粘贴到 SSH 窗口中运行
@@ -36,6 +38,8 @@ sh get-docker.sh
 5. 在 Keys 中，点击加号，创建一个 Key
 
 ## 管理和邀请成员
+
+![](/img/invite-user.png)
 
 1. root 用户是管理员用户，只有他能看到团队成员、管理团队成员。
 2. 创建一个用户，点击后面的三点后，选择邀请。
