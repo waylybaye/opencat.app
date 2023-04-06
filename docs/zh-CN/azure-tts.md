@@ -7,7 +7,7 @@ title: 'OpenCat Azure TTS 配置指南'
 ## 在 Azure 创建资源
 
 1. 登录您的 Azure 账号
-2. 点击链接创建 TTS 资源 https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices
+2. 点击链接创建 TTS 资源 [https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices](https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices)
 
 ![](/img/create-tts.png)
 
