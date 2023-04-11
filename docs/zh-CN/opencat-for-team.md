@@ -38,6 +38,8 @@ sh get-docker.sh
 4. 在 OpenCat 中点击创建团队，成功后会自动进入 Team 页面
 5. 在 Keys 中，点击加号，创建一个 Key
 
+> 注意: 如果您使用 AWS、Azure、GCP 等，请确保安全组允许了 80/443 的访问。
+
 ## 管理和邀请成员
 
 ![](/img/invite-user.png)

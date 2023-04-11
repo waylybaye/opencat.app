@@ -32,4 +32,6 @@ GPT4 的 API 权限需要单独申请：
 [https://openai.com/waitlist/gpt-4-api](https://openai.com/waitlist/gpt-4-api)
 
 
+### OpenAl: Error : Your access was terminated due to violation of our policies, please check your email for more information. If you believe this is in error and would like to appeal, please contact
 
+账号被风控了，很可能是用 OpenAI 封锁的 IP 使用了。
