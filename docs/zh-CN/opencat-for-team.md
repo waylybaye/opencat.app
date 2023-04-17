@@ -84,9 +84,10 @@ docker run ...之前的命令重新运行一遍...
 docker rm opencatd_bak
 ```
 
-### 如何备份及回复数据
+### 如何备份及恢复数据
 
-在 `/srv/data` 下的 `cat.db` 保存了所有数据，备份该文件即可，如果想要重来，只要删除该文件然后 `docker restart opencatd` 既可。
+在 `/srv/data` 下的 `cat.db` 保存了所有重要数据，备份该文件即可，如果想要重来，只要删除该文件然后 `docker restart opencatd` 既可。
+在 `/srv/data` 下的 `usage.db` 保存了所有统计信息
 
 ### Docker 环境变量 
 
@@ -98,7 +99,6 @@ docker rm opencatd_bak
 1. 第一次创建团队时会生成一个 root 账号，客户端会保存这个 root 的 token，自此客户端便可以管理服务端了。
 2. 如果客户端需要再次连接服务端并管理数据，需要重置 root 的 token，然后输入 token 连接
 
-`docker exec opencatd opencatd reset_root`
-
-
-
+### 支持的命令
+1. `docker exec opencatd opencatd root_token` 获得 root 的 token 
+2. `docker exec opencatd opencatd reset_root` 重置 root 的 token
