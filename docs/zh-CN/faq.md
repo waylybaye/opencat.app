@@ -40,3 +40,8 @@ GPT4 的 API 权限需要单独申请：
 ### OpenAl: Error : Your access was terminated due to violation of our policies, please check your email for more information. If you believe this is in error and would like to appeal, please contact
 
 账号被风控了，很可能是用 OpenAI 封锁的 IP 使用了。
+
+
+### 未能合并更改
+
+已知在极少数情况下会出现这个问题，尚未定位出现的原因，但有用户反馈重启手机可以解决这个问题。
