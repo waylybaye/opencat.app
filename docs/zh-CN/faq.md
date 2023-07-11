@@ -4,7 +4,12 @@ title: 'OpenCat 常见问题'
 
 # OpenCat FAQ
 
-## 常见错误和原因
+
+## OpenCat Cloud 的常见问题
+
+### 订阅 Cloud 后无法使用，会有 401 错误
+
+这个问题是下载的账号和内购的账号不一致导致的。用内购账号重新下载 App 就可以了。
 
 ### OpenCat Cloud 是怎么计费的？
 
@@ -12,7 +17,15 @@ title: 'OpenCat 常见问题'
 
 ### No active subscription found
 
-这个问题一般是因为有两个 App Store 账号，下载的账号和内购的账号不一致导致的。用内购账号重新下载 App 就可以了。
+这个问题同上
+
+### 提示网络超时或者其它网络链接错误
+
+1. 请检查您是否填写了 API Key，删掉就可以了。本地有 API Key 时默认会走 API Key。
+2. 如果没有 API Key，请通过 App 里的「联系我们」寻求帮助。
+
+
+## 常见错误和原因
 
 ### OpenAI: You exceeded your current quota, please check your plan and billing details.
 
