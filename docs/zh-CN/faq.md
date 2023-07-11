@@ -6,10 +6,13 @@ title: 'OpenCat 常见问题'
 
 ## 常见错误和原因
 
+### OpenCat Cloud 是怎么计费的？
+
+您的订阅费用扣去 30% 苹果税 ≈ $2 美元，这个就是您的订阅每月的使用限额。我们根据 OpenAI 的成本 1:1 计费，没有加任何费用，OpenAI 的 API 成本多少钱，我们就算多少钱。
+
 ### No active subscription found
 
 这个问题一般是因为有两个 App Store 账号，下载的账号和内购的账号不一致导致的。用内购账号重新下载 App 就可以了。
-
 
 ### OpenAI: You exceeded your current quota, please check your plan and billing details.
 
@@ -19,7 +22,11 @@ title: 'OpenCat 常见问题'
 
 ### 要继续用 API 需要订阅 Plus 吗？
 
-不需要，PLUS 和 API 没有关系。 OpenAI 的 API 和网页版的 ChatGPT（包括 PLUS）是两套独立系统，功能和计费都是分开的，互相独立，互不影响。
+不需要，PLUS 和 API 没有关系。 
+
+### API 和 ChatGPT 是什么关系？
+
+OpenAI 的 API 和网页版的 ChatGPT（包括 PLUS）是两套独立系统，功能和计费都是分开的，互相独立，互不影响。
 
 ### API 是怎么计费的？
 
