@@ -18,7 +18,8 @@ export default function Home() {
         </h1>
         
         <p className="leading-2 text-2xl text-center text-gray-500">
-          Download at <a className="text-blue-500 underline" href="https://apps.apple.com/app/opencat/id6445999201" target="_blank">App Store</a>
+          Available on iOS, iPadOS, macOS.<br />
+          Download at <a className="text-blue-500 underline" href="https://apps.apple.com/app/opencat/id6445999201" target="_blank"> App Store</a>
         </p>
         <div className="max-w-7xl mx-auto grid gap-8 grid-cols-1 sm:grid-cols-2 px-8">
           <a href="/docs/zh-CN/help" className="hover:text-blue-500 hover:border-blue-500 flex flex-col items-start p-6 bg-white rounded-lg shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-gray-900">
