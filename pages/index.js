@@ -9,6 +9,9 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen py-20 flex flex-col items-center md:max-w-3xl m-auto">
+        
+        <img src="/img/opencat.png" className="w-32 h-32" />
+        
         <h1 className="text-5xl font-extrabold text-center text-gray-900 dark:text-white">
           Welcome to OpenCat
         </h1>
