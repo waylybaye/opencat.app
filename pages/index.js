@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-[#343541]">
+    <div className="min-h-screen bg-gray-100 dark:bg-[#343541] dark:text-white">
       <Head>
         <meta name="apple-itunes-app" content="app-id=6445999201, app-argument=OpenCat is a native AI chat client, offering a smoother and faster chat experience." />
         <title>OpenCat - Native iOS/macOS/iPadOS client for OpenAI/ChatGPT</title>
