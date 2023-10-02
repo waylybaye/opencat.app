@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-[#343541]">
       <Head>
-        <title>OpenCat - Native iOS/macOS/iPadOS client for OpenAI/ChatGPT </title>
+        <title>OpenCat - Native iOS/macOS/iPadOS client for OpenAI/ChatGPT</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
