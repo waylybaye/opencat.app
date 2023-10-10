@@ -14,14 +14,16 @@ export default function Home() {
       <main className="py-20 px-8 flex flex-col gap-14 items-center md:max-w-3xl m-auto">
         
         <img src="/img/opencat.png" className="w-32 h-32" />
+       
+        <div>
+          <h1 className="text-5xl font-extrabold text-center mb-4 bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
+            OpenCat
+          </h1>
         
-        <h1 className="text-5xl font-extrabold text-center bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-         OpenCat
-        </h1>
-        
-        <p className="text-xl text-center text-gray-600 dark:text-gray-400">
-          A native AI chat client, offering a smoother and faster chat experience. 
-        </p>
+          <p className="text-xl text-center text-gray-600 dark:text-gray-400">
+            A native AI chat client, offering a smoother and faster chat experience. 
+          </p>
+        </div> 
         
         <a href="https://apps.apple.com/app/opencat/id6445999201" target="_blank">
           <button className="bg-blue-500 text-center text-white rounded-2xl p-5 transition duration-500 ease-in-out transform hover:-translate-y-1">
