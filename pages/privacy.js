@@ -2,7 +2,7 @@ import Head from "next/head"
 
 export default function Privacy() {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-[#343541] dark:text-white">
+    <div className="min-h-screen dark:text-white">
       <Head>
         <title>Privacy</title>
       </Head>

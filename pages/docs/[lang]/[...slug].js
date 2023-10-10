@@ -6,7 +6,7 @@ import Markdown from '../../../components/Markdown'
 
 export default function Doc({ data, content }) {
   return (
-    <div className="dark:bg-[#343541] min-h-screen">
+    <div className="min-h-screen">
       <Head>
         <title>{data.title??''}</title>
       </Head>
