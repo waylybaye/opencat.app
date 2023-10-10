@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import fs from 'fs'
 import path from 'path'
-import { remark } from 'remark'
 import matter from 'gray-matter'
 import Markdown from '../../../components/Markdown'
 
