@@ -4,7 +4,7 @@ import { IconChevronsDown } from '@tabler/icons-react'
 
 export default function Home() {
   return (
-    <div className="min-h-screen dark:text-white">
+    <div className="min-h-screen">
       <Head>
         <meta name="apple-itunes-app" content="app-id=6445999201, app-argument=OpenCat is a native AI chat client, offering a smoother and faster chat experience." />
         <title>OpenCat - Native iOS/macOS/iPadOS client for OpenAI/ChatGPT</title>

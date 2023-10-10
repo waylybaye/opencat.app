@@ -2,13 +2,13 @@ import Head from "next/head"
 
 export default function Privacy() {
   return (
-    <div className="min-h-screen dark:text-white">
+    <div className="min-h-screen">
       <Head>
         <title>Privacy</title>
       </Head>
       <div className="text-base md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-10 m-auto">
         <main>
-          <h1 className="text-5xl mb-10 font-extrabold text-center text-gray-900 dark:text-white"> Privacy Policy </h1>
+          <h1 className="text-5xl mb-10 font-extrabold text-center text-gray-900 "> Privacy Policy </h1>
           <div className="text-lg">
             We take your privacy very seriously. This policy outlines how we collect, use, and protect your personal information.
             <br />

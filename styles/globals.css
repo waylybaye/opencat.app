@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer utilities {
   body {
-    @apply bg-gray-100 dark:bg-gray-800;
+    @apply bg-gray-100 dark:bg-gray-800 dark:text-white;
   }
   
   a:hover span.arrow {
