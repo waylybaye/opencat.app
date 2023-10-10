@@ -25,12 +25,15 @@ export default function Home() {
           </p>
         </div> 
         
-        <a href="https://apps.apple.com/app/opencat/id6445999201" target="_blank">
-          <button className="bg-blue-500 text-center text-white rounded-2xl p-5 transition duration-500 ease-in-out transform hover:-translate-y-1">
-            <span className='text-2xl'>Download at <span className="text-black"> App Store</span></span><br />
-            Available on iOS, iPadOS, macOS.
-          </button>
-        </a>
+        <div>
+          <a href="https://apps.apple.com/app/opencat/id6445999201" target="_blank">
+            <button className="bg-blue-500 text-center text-white rounded-2xl p-5 transition duration-500 ease-in-out transform hover:-translate-y-1">
+              <span className='text-2xl'>Download at <span className="text-black"> App Store</span></span><br />
+              Available on iOS, iPadOS, macOS.<br />
+            </button>
+          </a>
+          <div className="text-xs mt-4 text-gray-600 dark:text-gray-400">Requires iOS 16.0, iPadOS 16.0, macOS 13.0 or later.</div>
+        </div>
         
         <IconChevronsDown className="animate-bounce w-10 h-10 mt-4" />
         
@@ -39,7 +42,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid gap-8 grid-cols-1 sm:grid-cols-2 px-8">
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
           <Card title="OpenAI API" description="Create your API Key on OpenAI Platform to use our app." link="https://platform.openai.com/account/api-keys" />
-          <Card title="Privacy Policy" description="We don't collect any private data. We only collect" link="/privacy" />
+          <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
         </div>
       </aside>
     </div>
