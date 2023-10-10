@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import { remark } from 'remark'
 import matter from 'gray-matter'
-import Markdown from '../../../components/Code'
+import Markdown from '../../../components/Markdown'
 
 export default function Doc({ data, content }) {
   return (
