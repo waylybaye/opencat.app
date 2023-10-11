@@ -5,7 +5,7 @@ import { IconChevronsDown } from '@tabler/icons-react'
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div>
       <Head>
         <meta name="description" content="OpenCat is a native AI chat client, offering a smoother and faster chat experience." />
         <meta name="apple-itunes-app" content="app-id=6445999201, app-argument=OpenCat is a native AI chat client, offering a smoother and faster chat experience." />
@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="py-20 px-8 flex flex-col gap-14 items-center md:max-w-3xl m-auto">
+      <main className="min-h-[calc(100vh-4.5rem)] px-8 flex flex-col justify-center gap-14 items-center md:max-w-3xl m-auto">
         
         <Image src="/img/opencat.png" alt='OpenCat' width={128} height={128} className="w-32 h-32" />
        
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="text-xs mt-4 text-gray-600 dark:text-gray-400">Requires iOS 16.0, iPadOS 16.0, macOS 13.0 or later.</div>
         </div>
         
-        <IconChevronsDown className="animate-bounce w-10 h-10 mt-4" />
+        <IconChevronsDown className="animate-bounce w-10 h-10 mt-4 md:hidden" />
         
       </main>
       <aside className='py-10 md:max-w-3xl m-auto'>
