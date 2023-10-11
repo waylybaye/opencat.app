@@ -91,13 +91,18 @@ export default function Home() {
       <aside className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
       <div className='flex items-center gap-2'>
           <IconBook2 />
-          <h2 className='text-lg font-bold'>Docs</h2>
+          <h2 className='text-lg font-bold'>Resources</h2>
         </div>
-        <div className="max-w-7xl mx-auto grid gap-6 grid-cols-1 sm:grid-cols-2">
+        <div className="max-w-7xl mx-auto gap-6 grid-cols-2 hidden sm:grid">
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
           <Card title="OpenAI API" description="Create your API Key on OpenAI Platform to use our app." link="https://platform.openai.com/account/api-keys" />
           <Card title="Azure OpenAI API" description="Create your API Key on Azure OpenAI Platform to use our app." link="https://azure.microsoft.com/en-us/products/ai-services/openai-service" />
           <Card title="Claude API" description="Create your API Key on Claude Platform to use our app." link="https://docs.anthropic.com/claude/reference/getting-started-with-the-api" />
+          <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
+        </div>
+        <div className='max-w-7xl mx-auto gap-6 flex flex-col sm:hidden'>
+          <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
+          <Card title={['OpenAI API', 'Azure OpenAI API', 'Claude API']} description={['Create your API Key on OpenAI Platform to use our app.', 'Create your API Key on Azure OpenAI Platform to use our app.', 'Create your API Key on Claude Platform to use our app.']} link={['https://platform.openai.com/account/api-keys', 'https://azure.microsoft.com/en-us/products/ai-services/openai-service', 'https://docs.anthropic.com/claude/reference/getting-started-with-the-api']} />
           <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
         </div>
       </aside>
