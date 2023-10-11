@@ -53,7 +53,7 @@ export default function Home() {
 
         <div className='flex flex-col justify-center'>
           <a className='flex justify-center' href="https://apps.apple.com/app/id6445999201" target="_blank">
-            <button className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 transition duration-500 ease-in-out transform hover:-translate-y-1">
+            <button className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 hover:-translate-y-1">
               <span className='text-xl'>Download at <span className="font-bold"> App Store</span></span><br />
               <span className='text-sm'>Available on iOS, iPadOS, macOS.</span>
             </button>
