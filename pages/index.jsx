@@ -68,11 +68,13 @@ export default function Home() {
           </div>
         </div>
         
-        <a href='#Screenshots'>
+        <a href='#Next' alt='Read More'>
           <IconChevronsDown className="animate-bounce w-10 h-10 mt-4 md:hidden" />
         </a>
       </main>
-
+      
+      <div id='Next' className='invisible w-0 h-0'></div>
+      
       <div className='px-8 py-6 md:max-w-3xl mx-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconSparkles />
