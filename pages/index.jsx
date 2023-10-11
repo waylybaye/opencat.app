@@ -68,7 +68,7 @@ export default function Home() {
           </div>
         </div>
         
-        <a href='#Next' alt='Read More'>
+        <a href='#Next' aria-label='Read More'>
           <IconChevronsDown className="animate-bounce w-10 h-10 mt-4 md:hidden" />
         </a>
       </main>
