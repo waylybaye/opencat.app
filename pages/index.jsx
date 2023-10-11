@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="min-h-[calc(100vh-4.5rem)] px-8 flex flex-col justify-center gap-10 items-center md:max-w-3xl m-auto">
+      <main className="min-h-[calc(100vh-4.5rem)] px-8 flex flex-col justify-center gap-10 items-center md:max-w-3xl mx-auto">
         <div className='group flex gap-4 justify-center items-center'>
           <Image src="/img/opencat.png" alt='OpenCat' width={128} height={128} className="w-32 h-32" priority/>
           <div className='hidden group-hover:flex flex-col gap-4 items-start'>
@@ -73,7 +73,7 @@ export default function Home() {
         </a>
       </main>
 
-      <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
+      <div className='px-8 py-6 md:max-w-3xl mx-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconSparkles />
           <h2 id='Screenshots' className='text-lg font-bold'>Screenshots</h2>
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
+      <div className='px-8 py-6 md:max-w-3xl mx-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconRocket />
           <h2 id='Features' className='text-lg font-bold'>Features</h2>
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
       </div>
 
-      <aside className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
+      <aside className='px-8 py-6 md:max-w-3xl m-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconBook2 />
           <h2 id='Resources' className='text-lg font-bold'>Resources</h2>
@@ -138,7 +138,7 @@ export default function Home() {
         </div>
       </aside>
       
-      <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
+      <div className='px-8 py-6 md:max-w-3xl m-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconFeather />
           <h2 id='Baye' className='text-lg font-bold'>More by Baye</h2>
