@@ -16,7 +16,7 @@ export const Header = () => {
           }
         }>
           <IconMenu id='theme-toggle-off' className="h-6 w-6" />
-          <IconX id='theme-toggle-on' className="h-6 w-6 text-white hidden" />
+          <IconX id='theme-toggle-on' className="h-6 w-6 hidden" />
         </div>
       </div>
       <div className="mx-auto">
