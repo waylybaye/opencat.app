@@ -10,8 +10,8 @@ export const Header = () => {
       </div>
       <div className="mx-auto">
         <Link href="/">
-          <Image className="h-4 dark:hidden" src="/img/logo-light.svg" width={100} height={50} alt="logo" />
-          <Image className="h-4 hidden dark:block" src="/img/logo-dark.svg" width={100} height={50} alt="logo" />
+          <Image className="h-4 w-auto dark:hidden" src="/img/logo-light.svg" width={100} height={50} alt="logo" />
+          <Image className="h-4 w-auto hidden dark:block" src="/img/logo-dark.svg" width={100} height={50} alt="logo" />
         </Link>
       </div>
       <div className="flex basis-1/4 justify-end">
