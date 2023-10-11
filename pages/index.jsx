@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Head>
         <meta name="description" content="OpenCat is a native AI chat client, offering a smoother and faster chat experience." />
-        <meta name="apple-itunes-app" content="app-id=6445999201, app-argument=OpenCat is a native AI chat client, offering a smoother and faster chat experience." />
+        <meta name="apple-itunes-app" content="app-id=6445999201" />
         <title>OpenCat - Native iOS/macOS/iPadOS client for OpenAI/ChatGPT</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
