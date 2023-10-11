@@ -93,8 +93,8 @@ export default function Home() {
           <IconRocket />
           <h2 id='Features' className='text-lg font-bold'>Features</h2>
         </div> 
-        <div>
-          <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconBrandOpenai className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>OpenAI, Azure OpenAI, Claude API</span></h3>
+        <div className='p-6 bg-gray-200 dark:bg-gray-700 rounded-2xl'>
+          <h3 className='font-bold mb-2 flex gap-2'><IconBrandOpenai className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>OpenAI, Azure OpenAI, Claude API</span></h3>
           <p className='text-gray-600 dark:text-gray-400'>Integrate most powerful AI chat engines in the world. OpenCat is the first native client for AI chatbots.</p>
           <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconKeyboard className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>Keyboard Extension</span></h3>
           <p className='text-gray-600 dark:text-gray-400'>A keyboard extension for you to chat with AI in any app.</p>
