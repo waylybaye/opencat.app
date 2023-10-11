@@ -56,33 +56,7 @@ export const CodeBlock= memo(({ language, value }) => {
       }, 2000);
     });
   };
-  const downloadAsFile = () => {
-    const fileExtension = programmingLanguages[language] || '.file';
-    const suggestedFileName = `file-${generateRandomString(
-      3,
-      true,
-    )}${fileExtension}`;
-    const fileName = window.prompt(
-      'Enter file name' || '',
-      suggestedFileName,
-    );
-
-    if (!fileName) {
-      // user pressed cancel on prompt
-      return;
-    }
-
-    const blob = new Blob([value], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.download = fileName;
-    link.href = url;
-    link.style.display = 'none';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
-  };
+   
   return (
     <div className="codeblock relative font-sans text-[16px]">
       <div className="flex items-center justify-between py-1.5 px-4">
@@ -99,12 +73,6 @@ export const CodeBlock= memo(({ language, value }) => {
               <IconClipboard size={18} />
             )}
             {isCopied ? 'Copied!' : 'Copy code'}
-          </button>
-          <button
-            className="flex items-center rounded bg-none p-1 text-xs text-white"
-            onClick={downloadAsFile}
-          >
-            <IconDownload size={18} />
           </button>
         </div>
       </div>
