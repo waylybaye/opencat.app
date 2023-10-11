@@ -67,9 +67,9 @@ export default function Home() {
       <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconSparkles />
-          <h2 className='text-lg font-bold'>Screenshots</h2>
+          <h2 id='Screenshots' className='text-lg font-bold'>Screenshots</h2>
         </div>
-        <div className='snap-x snap-mandatory flex gap-6 overflow-x-auto'>
+        <div className='snap-x snap-mandatory flex gap-6 overflow-x-auto sm:overflow-x-clip'>
           <div className='snap-always snap-center flex-shrink-0'>
             <Image src={'/img/app/ios-1.webp'} alt='OpenCat' width={230} height={498} className="w-60 rounded-2xl" />
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
       <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconRocket />
-          <h2 className='text-lg font-bold'>Features</h2>
+          <h2 id='Features' className='text-lg font-bold'>Features</h2>
         </div> 
         <div>
           <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconBrandOpenai className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>OpenAI, Azure OpenAI, Claude API</span></h3>
@@ -113,7 +113,7 @@ export default function Home() {
       <aside className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconBook2 />
-          <h2 className='text-lg font-bold'>Resources</h2>
+          <h2 id='Resources' className='text-lg font-bold'>Resources</h2>
         </div>
         <div className="w-full max-w-7xl mx-auto gap-6 grid-cols-2 hidden sm:grid">
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
@@ -132,7 +132,7 @@ export default function Home() {
       <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconFeather />
-          <h2 className='text-lg font-bold'>More by Baye</h2>
+          <h2 id='Baye' className='text-lg font-bold'>More by Baye</h2>
         </div>
         <div className="w-full max-w-7xl mx-auto gap-6 grid-cols-2 hidden sm:grid">
           <Card title="熊猫吃短信" description="机器学习离线拦截垃圾短信" link="https://apps.apple.com/app/id1642682818" icon="/img/pandasms.png"/>

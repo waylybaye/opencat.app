@@ -5,4 +5,8 @@
   body {
     @apply bg-gray-100 dark:bg-gray-800 dark:text-white;
   }
+  
+  html {
+    @apply scroll-smooth scroll-pt-20;
+  }
 }
