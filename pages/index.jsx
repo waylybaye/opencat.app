@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className="min-h-[calc(100vh-4.5rem)] px-8 flex flex-col justify-center gap-10 items-center md:max-w-3xl m-auto">
         <div className='group flex gap-4 justify-center items-center'>
-          <Image src="/img/opencat.png" alt='OpenCat' width={128} height={128} className="w-32 h-32" />
+          <Image src="/img/opencat.png" alt='OpenCat' width={128} height={128} className="w-32 h-32" priority/>
           <div className='hidden group-hover:flex flex-col gap-4 items-start'>
             <div className='flex justify-center items-center'>
               <IconLink className='w-6 h-6 mr-2 text-gray-600 dark:text-gray-400' />
