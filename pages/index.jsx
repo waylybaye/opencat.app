@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Card } from '../components/Card'
-import { IconChevronsDown, IconLink, IconSparkles, IconBook2 } from '@tabler/icons-react'
+import { IconChevronsDown, IconLink, IconSparkles, IconBook2, IconFeather } from '@tabler/icons-react'
 
 export default function Home() {
   return (
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
 
         <div className='flex flex-col justify-center'>
-          <a className='flex justify-center' href="https://apps.apple.com/app/opencat/id6445999201" target="_blank">
+          <a className='flex justify-center' href="https://apps.apple.com/app/id6445999201" target="_blank">
             <button className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 transition duration-500 ease-in-out transform hover:-translate-y-1">
               <span className='text-xl'>Download at <span className="font-bold"> App Store</span></span><br />
               <span className='text-sm'>Available on iOS, iPadOS, macOS.</span>
@@ -89,23 +89,39 @@ export default function Home() {
       </div>
 
       <aside className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
-      <div className='flex items-center gap-2'>
+        <div className='flex items-center gap-2'>
           <IconBook2 />
           <h2 className='text-lg font-bold'>Resources</h2>
         </div>
-        <div className="max-w-7xl mx-auto gap-6 grid-cols-2 hidden sm:grid">
+        <div className="w-full max-w-7xl mx-auto gap-6 grid-cols-2 hidden sm:grid">
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
           <Card title="OpenAI API" description="Create your API Key on OpenAI Platform to use our app." link="https://platform.openai.com/account/api-keys" />
           <Card title="Azure OpenAI API" description="Create your API Key on Azure OpenAI Platform to use our app." link="https://azure.microsoft.com/en-us/products/ai-services/openai-service" />
           <Card title="Claude API" description="Create your API Key on Claude Platform to use our app." link="https://docs.anthropic.com/claude/reference/getting-started-with-the-api" />
           <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
         </div>
-        <div className='max-w-7xl mx-auto gap-6 flex flex-col sm:hidden'>
+        <div className='w-full max-w-7xl mx-auto gap-6 flex flex-col sm:hidden'>
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
           <Card title={['OpenAI API', 'Azure OpenAI API', 'Claude API']} description={['Create your API Key on OpenAI Platform to use our app.', 'Create your API Key on Azure OpenAI Platform to use our app.', 'Create your API Key on Claude Platform to use our app.']} link={['https://platform.openai.com/account/api-keys', 'https://azure.microsoft.com/en-us/products/ai-services/openai-service', 'https://docs.anthropic.com/claude/reference/getting-started-with-the-api']} />
           <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
         </div>
       </aside>
+      
+      <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
+        <div className='flex items-center gap-2'>
+          <IconFeather />
+          <h2 className='text-lg font-bold'>More by Baye</h2>
+        </div>
+        <div className="w-full max-w-7xl mx-auto gap-6 grid-cols-2 hidden sm:grid">
+          <Card title="熊猫吃短信" description="机器学习离线拦截垃圾短信" link="https://apps.apple.com/app/id1642682818" icon="/img/pandasms.png"/>
+          <Card title="ServerCat" description="SSH Terminal & Linux Monitor" link="https://apps.apple.com/app/id1501532023" icon="/img/servercat.png"/>
+          <Card title="DAMA" description="Automatic Redact Privacy" link="https://apps.apple.com/app/id1534690075" icon="/img/dama.png"/>
+        </div>
+        <div className='w-full max-w-7xl mx-auto gap-6 flex flex-col sm:hidden'>
+          <Card title={['熊猫吃短信', 'ServerCat', 'DAMA']} description={['机器学习离线拦截垃圾短信', 'SSH Terminal & Linux Monitor', 'Automatic Redact Privacy']} link={['https://apps.apple.com/app/id1642682818', 'https://apps.apple.com/app/id1501532023', 'https://apps.apple.com/app/id1534690075']} icon={['/img/pandasms.png', '/img/servercat.png', '/img/dama.png']} />
+        </div>
+      </div>
+      
     </div>
   )
 }
