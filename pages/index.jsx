@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Card } from '../components/Card'
 import { IconChevronsDown, IconLink, IconSparkles, IconRocket, IconBrandOpenai, IconKeyboard, IconMicrophone, IconCat, IconCloud, IconBook, IconBook2, IconFeather } from '@tabler/icons-react'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -60,8 +61,10 @@ export default function Home() {
           </a>
           <div className="text-xs mt-4 text-gray-600 dark:text-gray-400">Requires iOS 16.0, iPadOS 16.0, macOS 13.0 or later.</div>
         </div>
-
-        <IconChevronsDown className="animate-bounce w-10 h-10 mt-4 md:hidden" />
+        
+        <a href='#Screenshots'>
+          <IconChevronsDown className="animate-bounce w-10 h-10 mt-4 md:hidden" />
+        </a>
       </main>
 
       <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
