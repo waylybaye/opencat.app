@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Card } from '../components/Card'
-import { IconChevronsDown, IconLink, IconSparkles, IconBook2, IconFeather } from '@tabler/icons-react'
+import { IconChevronsDown, IconLink, IconSparkles, IconRocket, IconBrandOpenai, IconKeyboard, IconMicrophone, IconCat, IconCloud, IconBook, IconBook2, IconFeather } from '@tabler/icons-react'
 
 export default function Home() {
   return (
@@ -85,6 +85,28 @@ export default function Home() {
           <div className='snap-always snap-center flex-shrink-0'>
             <Image src={'/img/app/ios-5.webp'} alt='OpenCat' width={230} height={498} className="w-60 rounded-2xl" />
           </div>
+        </div>
+      </div>
+      
+      <div className='px-8 py-10 md:max-w-3xl m-auto flex flex-col gap-2'>
+        <div className='flex items-center gap-2'>
+          <IconRocket />
+          <h2 className='text-lg font-bold'>Features</h2>
+        </div> 
+        <div>
+          <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconBrandOpenai className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>OpenAI, Azure OpenAI, Claude API</span></h3>
+          <p className='text-gray-600 dark:text-gray-400'>Integrate most powerful AI chat engines in the world. OpenCat is the first native client for AI chatbots.</p>
+          <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconKeyboard className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>Keyboard Extension</span></h3>
+          <p className='text-gray-600 dark:text-gray-400'>A keyboard extension for you to chat with AI in any app.</p>
+          <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconMicrophone className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>Siri Integration</span></h3>
+          <p className='text-gray-600 dark:text-gray-400'>A Siri Shortcut for you to chat with AI anytime.</p>
+          <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconCat className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>OpenCat Cloud</span></h3>
+          <p className='text-gray-600 dark:text-gray-400'>A cloud service for OpenCat users to easily access GPT API, Azure TTS without complex configuration.</p>
+          <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconCloud className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>iCloud synchronization</span></h3>
+          <p className='text-gray-600 dark:text-gray-400'>iCloud synchronization allows you to chat with AI on all your apple devices.</p>
+          <h3 className='font-bold mt-4 mb-2 flex gap-2'><IconBook className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>Prompt Library</span></h3>
+          <p className='text-gray-600 dark:text-gray-400'>OpenCat provides a prompt library for you to chat with AI easily.</p>
+          <h3 className='font-bold mt-4'>More features coming soon...</h3>
         </div>
       </div>
 
