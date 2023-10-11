@@ -12,9 +12,11 @@ export const Header = () => {
           <img className="h-4 hidden dark:block" src="/img/logo-dark.svg" alt="logo" />
         </Link>
       </div>
-      <div id="theme-toggle" className="flex basis-1/4 justify-end">
-        <IconSun className="h-6 w-6 dark:hidden" />
-        <IconMoon className="h-6 w-6 text-white hidden dark:block" />
+      <div className="flex basis-1/4 justify-end">
+        <div id="theme-toggle">
+          <IconSun className="h-6 w-6 dark:hidden" />
+          <IconMoon className="h-6 w-6 text-white hidden dark:block" />
+        </div>
       </div>
     </div>
   );
