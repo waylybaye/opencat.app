@@ -14,7 +14,7 @@ export const Card = ({ title, description, link }) => {
   );
   } else if (Array.isArray(title) && Array.isArray(description) && Array.isArray(link)) {
     return (
-      <div className='flex flex-col items-start bg-gray-200 dark:bg-gray-700 rounded-2xl divide-y divide-gray-300'>
+      <div className='flex flex-col items-start bg-gray-200 dark:bg-gray-700 rounded-2xl divide-y divide-gray-300 dark:divide-gray-700'>
         {title.map((t, i) => (
           <Link key={i} href={link[i]} className="group flex flex-col items-start p-6">
             <div className="group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-gradient-to-r from-cyan-500 to-blue-500 text-lg font-bold mb-2">
