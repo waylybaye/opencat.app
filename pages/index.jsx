@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Card } from '../components/Card'
-import { IconChevronsDown, IconLink, IconSparkles, IconRocket, IconBrandOpenai, IconKeyboard, IconMicrophone, IconCat, IconCloud, IconBook, IconBook2, IconFeather } from '@tabler/icons-react'
+import { IconDevices, IconChevronsDown, IconLink, IconSparkles, IconRocket, IconBrandOpenai, IconKeyboard, IconMicrophone, IconCat, IconCloud, IconBook, IconBook2, IconFeather } from '@tabler/icons-react'
 import Link from 'next/link'
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
           <div className='hidden group-hover:flex flex-col gap-4 items-start'>
             <div className='flex justify-center items-center'>
               <IconLink className='w-6 h-6 mr-2 text-gray-600 dark:text-gray-400' />
-              <svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>OpenAI icon</title><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z" /></svg>
+              <svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z" /></svg>
               <div className='text-center ml-2 hidden md:block'>
                 <span className="font-bold">OpenAI</span> API
               </div>
@@ -48,18 +48,24 @@ export default function Home() {
           </h1>
 
           <p className="text-xl text-center text-gray-600 dark:text-gray-400">
-            A native AI chat client, offering a smoother and faster chat experience.
+            A native AI chat client, offering a smoother and faster chat experience
           </p>
         </div>
 
         <div className='flex flex-col justify-center'>
           <a className='flex justify-center' href="https://apps.apple.com/app/id6445999201" target="_blank">
             <button className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 hover:-translate-y-1">
-              <span className='text-xl'>Download at <span className="font-bold"> App Store</span></span><br />
-              <span className='text-sm'>Available on iOS, iPadOS, macOS.</span>
+              <span className='text-xl flex items-center gap-2'>Download at
+                <svg className='inline'  fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="1.25rem" height="1.25rem" viewBox="0 0 512 512"><path d="M248.644,123.476c-5.45-29.71,8.598-60.285,25.516-80.89,c18.645-22.735,50.642-40.17,77.986-42.086c4.619,31.149-8.093,61.498-24.826,82.965,C309.37,106.527,278.508,124.411,248.644,123.476z M409.034,231.131c8.461-23.606,25.223-44.845,51.227-59.175,c-26.278-32.792-63.173-51.83-97.99-51.83c-46.065,0-65.542,21.947-97.538,21.947c-32.96,0-57.965-21.947-97.866-21.947,c-39.127,0-80.776,23.848-107.19,64.577c-9.712,15.055-16.291,33.758-19.879,54.59c-9.956,58.439,4.916,134.557,49.279,202.144,c21.57,32.796,50.321,69.737,87.881,70.059c33.459,0.327,42.951-21.392,88.246-21.616c45.362-0.258,53.959,21.841,87.372,21.522,c37.571-0.317,67.906-41.199,89.476-73.991c15.359-23.532,21.167-35.418,33.11-62.023,C414.435,352.487,389.459,285.571,409.034,231.131z"></path></svg>
+                <span className="font-bold">App Store</span>
+              </span>
             </button>
           </a>
-          <div className="text-xs mt-4 text-gray-600 dark:text-gray-400">Requires iOS 16.0, iPadOS 16.0, macOS 13.0 or later.</div>
+          <div className="text-sm text-center mt-4 text-gray-600 dark:text-gray-400">
+            <IconDevices className='inline w-4 h-4 mr-1' />
+            Available on iPhone, iPad, Mac<br />
+            Requires iOS 16.0, iPadOS 16.0, macOS 13.0 or later
+          </div>
         </div>
         
         <a href='#Screenshots'>
@@ -120,15 +126,15 @@ export default function Home() {
         </div>
         <div className="w-full max-w-7xl mx-auto gap-6 grid-cols-2 hidden sm:grid">
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
-          <Card title="OpenAI API" description="Create your API Key on OpenAI Platform to use our app." link="https://platform.openai.com/account/api-keys" />
-          <Card title="Azure OpenAI API" description="Create your API Key on Azure OpenAI Platform to use our app." link="https://azure.microsoft.com/en-us/products/ai-services/openai-service" />
-          <Card title="Claude API" description="Create your API Key on Claude Platform to use our app." link="https://docs.anthropic.com/claude/reference/getting-started-with-the-api" />
+          <Card title="OpenAI API" description="Create your API Key on OpenAI Platform to use our app" link="https://platform.openai.com/account/api-keys" />
+          <Card title="Azure OpenAI API" description="Create your API Key on Azure OpenAI Platform to use our app" link="https://azure.microsoft.com/en-us/products/ai-services/openai-service" />
+          <Card title="Claude API" description="Create your API Key on Claude Platform to use our app" link="https://docs.anthropic.com/claude/reference/getting-started-with-the-api" />
           <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
         </div>
         <div className='w-full max-w-7xl mx-auto gap-6 flex flex-col sm:hidden'>
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
-          <Card title={['OpenAI API', 'Azure OpenAI API', 'Claude API']} description={['Create your API Key on OpenAI Platform to use our app.', 'Create your API Key on Azure OpenAI Platform to use our app.', 'Create your API Key on Claude Platform to use our app.']} link={['https://platform.openai.com/account/api-keys', 'https://azure.microsoft.com/en-us/products/ai-services/openai-service', 'https://docs.anthropic.com/claude/reference/getting-started-with-the-api']} />
-          <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
+          <Card title={['OpenAI API', 'Azure OpenAI API', 'Claude API']} description={['Create your API Key on OpenAI Platform to use our app', 'Create your API Key on Azure OpenAI Platform to use our app', 'Create your API Key on Claude Platform to use our app']} link={['https://platform.openai.com/account/api-keys', 'https://azure.microsoft.com/en-us/products/ai-services/openai-service', 'https://docs.anthropic.com/claude/reference/getting-started-with-the-api']} />
+          <Card title="Privacy Policy" description="We don't collect any private data" link="/privacy" />
         </div>
       </aside>
       
