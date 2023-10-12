@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer utilities {
   body {
-    @apply bg-gray-100 dark:bg-gray-800 dark:text-white transition duration-500 ease-in-out transform;
+    @apply bg-gray-100 dark:bg-gray-800 dark:text-white transition duration-500 ease-in-out transform select-none;
   }
   html {
     @apply scroll-smooth scroll-pt-20;
