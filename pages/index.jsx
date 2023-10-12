@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Card } from '../components/Card'
 import { IconDevices, IconChevronsDown, IconLink, IconSparkles, IconRocket, IconBrandOpenai, IconKeyboard, IconMicrophone, IconCat, IconCloud, IconBook, IconBook2, IconFeather } from '@tabler/icons-react'
-import Link from 'next/link'
 
 export default function Home() {
   return (
