@@ -1,7 +1,7 @@
 import { IconMenu, IconX } from "@tabler/icons-react"
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useTheme } from "next-themes";
 import { ThemeToogle } from "./ThemeToggle";
 import { AnimatePresence, motion } from 'framer-motion';
@@ -9,9 +9,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 export const Header = () => {
   const [menu, setMenu] = useState(false);
   const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
-  if (!mounted) return null;
   return (
     <div className="flex flex-col w-full sticky top-0 bg-gray-100/25 dark:bg-gray-800/75 backdrop-blur-xl z-30 divide-y divide-gray-300 dark:divide-gray-600">
       <div className="flex justify-between px-8 py-6 w-full md:max-w-3xl mx-auto items-center">
