@@ -79,7 +79,7 @@ export default function Home() {
           <IconSparkles />
           <h2 id='Screenshots' className='text-lg font-bold'>Screenshots</h2>
         </div>
-        <div className='snap-x snap-mandatory flex gap-6 overflow-x-auto sm:overflow-x-clip'>
+        <div className='snap-x snap-mandatory flex gap-6 overflow-x-auto'>
           <div className='snap-always snap-center flex-shrink-0'>
             <Image src={'/img/app/ios-1.webp'} alt='OpenCat' width={230} height={498} className="w-60 rounded-2xl" />
           </div>
