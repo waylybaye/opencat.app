@@ -6,11 +6,11 @@ import Markdown from '../../../components/Markdown'
 
 export default function Doc({ data, content }) {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-[calc(100vh-4.5rem)]">
       <Head>
         <title>{data.title??''}</title>
       </Head>
-      <div className="break-words text-base md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-10 m-auto">
+      <div className="break-words text-base md:max-w-2xl lg:max-w-2xl xl:max-w-3xl px-8 py-6 m-auto">
         <Markdown content={content} />
       </div>
     </div>
