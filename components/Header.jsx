@@ -39,7 +39,7 @@ export const Header = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }}
           className="flex-col w-full md:max-w-3xl mx-auto px-8 py-6 font-bold h-[calc(100vh-4.5rem)]">
-          <div className="flex flex-col items-center gap-8 w-full" onClick={() => setMenu(false)}>
+          <div className="flex flex-col items-center gap-8 w-full" onClick={() => {setTimeout(() => setMenu(false), 300)}}>
             <Link href="/">Download</Link>
             <Link href="#Screenshots">Screenshots</Link>
             <Link href="#Features">Features</Link>
