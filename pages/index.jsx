@@ -2,14 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Card } from '../components/Card'
 import { IconDevices, IconChevronsDown, IconLink, IconSparkles, IconRocket, IconBrandOpenai, IconKeyboard, IconMicrophone, IconCat, IconCloud, IconBook, IconBook2, IconFeather } from '@tabler/icons-react'
-import { useState } from 'react'
+import { useState} from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { twJoin } from 'tailwind-merge'
+import { useEffect } from 'react'
 
 export default function Home() {
   const [logoHovered, setLogoHovered] = useState(false)
+  
+  useEffect(() => window.addEventListener("scroll", () =>setLogoHovered(false), []))
   return (
-    <div>
+  
+    <div  >
       <Head>
         <meta name="description" content="OpenCat is a native AI chat client, offering a smoother and faster chat experience." />
         <meta name="apple-itunes-app" content="app-id=6445999201 app-argument=https://opencat.app/" />
@@ -22,6 +26,10 @@ export default function Home() {
           className='group flex gap-4 justify-center items-center w-[360px] h-32 relative'
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
+          onClick={() => {window.innerWidth < 768 ? setLogoHovered(!logoHovered) : null}}
+          onBlur={() => setLogoHovered(false)}
+          
+          
         >
           <motion.div className={twJoin(['absolute transition-all', logoHovered ? 'left-0' : 'left-[116px]'])}>
             <Image src="/img/opencat.png" alt='OpenCat' width={128} height={128} className="w-32 h-32" priority />
@@ -29,9 +37,9 @@ export default function Home() {
           <AnimatePresence>
             {logoHovered && (
               <motion.div
-                className='hidden group-hover:flex flex-col gap-4 items-start absolute left-[144px]'
+                className='flex flex-col gap-4 items-start absolute left-[144px]'
                 initial={{ opacity: 0, y: -100 }}
-                animate={{ opacity: 1, y: 0 }}
+                animate={{ opacity: 1, y: 0 }}  
                 exit={{ opacity: 0, y: -100 }}
               >
                 <div className='flex justify-center items-center'>
