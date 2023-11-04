@@ -8,7 +8,7 @@
             <sparkle:version>288</sparkle:version>
             <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="OpenCat-1.5.2.288.zip" length="11194672" type="application/octet-stream"/>
+            <enclosure url="https://opencat.app/releases/OpenCat-1.5.2.288.zip" length="11194672" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
