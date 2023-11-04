@@ -9,10 +9,10 @@ import { useEffect } from 'react'
 
 export default function Home() {
   const [logoHovered, setLogoHovered] = useState(false)
-  
+
   useEffect(() => window.addEventListener("scroll", () =>setLogoHovered(false), []))
   return (
-  
+
     <div  >
       <Head>
         <meta name="description" content="OpenCat is a native AI chat client, offering a smoother and faster chat experience." />
@@ -28,8 +28,8 @@ export default function Home() {
           onMouseLeave={() => setLogoHovered(false)}
           onClick={() => {window.innerWidth < 768 ? setLogoHovered(!logoHovered) : null}}
           onBlur={() => setLogoHovered(false)}
-          
-          
+
+
         >
           <motion.div className={twJoin(['absolute transition-all', logoHovered ? 'left-0' : 'left-[116px]'])}>
             <Image src="/img/opencat.png" alt='OpenCat' width={128} height={128} className="w-32 h-32" priority />
@@ -39,7 +39,7 @@ export default function Home() {
               <motion.div
                 className='flex flex-col gap-4 items-start absolute left-[144px]'
                 initial={{ opacity: 0, y: -100 }}
-                animate={{ opacity: 1, y: 0 }}  
+                animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -100 }}
               >
                 <div className='flex justify-center items-center'>
@@ -66,7 +66,7 @@ export default function Home() {
               </motion.div>
             )}
           </AnimatePresence>
-          
+
         </div>
 
         <div>
@@ -80,28 +80,45 @@ export default function Home() {
         </div>
 
         <div className='flex flex-col justify-center'>
-          <a className='flex justify-center' href="https://apps.apple.com/app/id6445999201" target="_blank">
-            <button className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 md:hover:-translate-y-1 transition duration-500 ease-in-out transform">
-              <span className='text-xl flex items-center gap-2'>Download at
-                <svg className='inline'  fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="1.25rem" height="1.25rem" viewBox="0 0 512 512"><path d="M248.644,123.476c-5.45-29.71,8.598-60.285,25.516-80.89,c18.645-22.735,50.642-40.17,77.986-42.086c4.619,31.149-8.093,61.498-24.826,82.965,C309.37,106.527,278.508,124.411,248.644,123.476z M409.034,231.131c8.461-23.606,25.223-44.845,51.227-59.175,c-26.278-32.792-63.173-51.83-97.99-51.83c-46.065,0-65.542,21.947-97.538,21.947c-32.96,0-57.965-21.947-97.866-21.947,c-39.127,0-80.776,23.848-107.19,64.577c-9.712,15.055-16.291,33.758-19.879,54.59c-9.956,58.439,4.916,134.557,49.279,202.144,c21.57,32.796,50.321,69.737,87.881,70.059c33.459,0.327,42.951-21.392,88.246-21.616c45.362-0.258,53.959,21.841,87.372,21.522,c37.571-0.317,67.906-41.199,89.476-73.991c15.359-23.532,21.167-35.418,33.11-62.023,C414.435,352.487,389.459,285.571,409.034,231.131z"></path></svg>
+          <div className='flex'>
+            <a className='flex justify-center m-1' href="https://apps.apple.com/app/id6445999201" target="_blank">
+              <button
+                className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 md:hover:-translate-y-1 transition duration-500 ease-in-out transform">
+              <span className='text-xl flex items-center gap-2'>
+                <svg className='inline' fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="1.25rem"
+                     height="1.25rem" viewBox="0 0 512 512"><path
+                  d="M248.644,123.476c-5.45-29.71,8.598-60.285,25.516-80.89,c18.645-22.735,50.642-40.17,77.986-42.086c4.619,31.149-8.093,61.498-24.826,82.965,C309.37,106.527,278.508,124.411,248.644,123.476z M409.034,231.131c8.461-23.606,25.223-44.845,51.227-59.175,c-26.278-32.792-63.173-51.83-97.99-51.83c-46.065,0-65.542,21.947-97.538,21.947c-32.96,0-57.965-21.947-97.866-21.947,c-39.127,0-80.776,23.848-107.19,64.577c-9.712,15.055-16.291,33.758-19.879,54.59c-9.956,58.439,4.916,134.557,49.279,202.144,c21.57,32.796,50.321,69.737,87.881,70.059c33.459,0.327,42.951-21.392,88.246-21.616c45.362-0.258,53.959,21.841,87.372,21.522,c37.571-0.317,67.906-41.199,89.476-73.991c15.359-23.532,21.167-35.418,33.11-62.023,C414.435,352.487,389.459,285.571,409.034,231.131z"></path></svg>
                 <span className="font-bold">App Store</span>
               </span>
-            </button>
-          </a>
+              </button>
+            </a>
+
+            <a className='flex justify-center m-1' href="/releases/OpenCat-1.5.3.297.dmg" target="_blank">
+              <button
+                className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 md:hover:-translate-y-1 transition duration-500 ease-in-out transform">
+                <span className='text-xl flex items-center gap-2'>Download for
+                  <span className="font-bold">
+                    macOS
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+
           <div className="text-sm text-center mt-4 text-gray-600 dark:text-gray-400">
             <IconDevices className='inline w-4 h-4 mr-1' />
             Available on iPhone, iPad, Mac<br />
             Requires iOS 16.0, iPadOS 16.0, macOS 13.0 or later
           </div>
         </div>
-        
+
         <a href='#Next' aria-label='Read More'>
           <IconChevronsDown className="animate-bounce w-10 h-10 mt-4 md:hidden" />
         </a>
       </main>
-      
+
       <div id='Next' className='invisible w-0 h-0'></div>
-      
+
       <div className='px-8 py-6 md:max-w-3xl mx-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconSparkles />
@@ -125,12 +142,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       <div className='px-8 py-6 md:max-w-3xl mx-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconRocket />
           <h2 id='Features' className='text-lg font-bold'>Features</h2>
-        </div> 
+        </div>
         <div className='p-6 bg-gray-200 dark:bg-gray-700 rounded-2xl'>
           <h3 className='font-bold mb-2 flex gap-2'><IconBrandOpenai className='text-blue-500' /><span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>OpenAI, Azure OpenAI, Claude API</span></h3>
           <p className='text-gray-600 dark:text-gray-400'>Integrate most powerful AI chat engines in the world. OpenCat is the first native client for AI chatbots.</p>
@@ -166,7 +183,7 @@ export default function Home() {
           <Card title="Privacy Policy" description="We don't collect any private data" link="/privacy" />
         </div>
       </aside>
-      
+
       <div className='px-8 py-6 md:max-w-3xl m-auto flex flex-col gap-2'>
         <div className='flex items-center gap-2'>
           <IconFeather />
@@ -181,7 +198,7 @@ export default function Home() {
           <Card title={['熊猫吃短信', 'ServerCat', 'DAMA']} description={['机器学习离线拦截垃圾短信', 'SSH Terminal & Linux Monitor', 'Automatic Redact Privacy']} link={['https://apps.apple.com/app/id1642682818', 'https://apps.apple.com/app/id1501532023', 'https://apps.apple.com/app/id1534690075']} icon={['/img/pandasms.png', '/img/servercat.png', '/img/dama.png']} />
         </div>
       </div>
-      
+
     </div>
   )
 }
