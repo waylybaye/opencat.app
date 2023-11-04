@@ -4,8 +4,19 @@
         <title>OpenCat</title>
         <item>
             <title>1.5.3</title>
+            <pubDate>Sat, 04 Nov 2023 22:36:19 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>296</sparkle:version>
+            <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-1.5.3.296.zip" length="12130442" type="application/octet-stream" sparkle:edSignature="QtfMW1Tephq256pNcpYbHL5huR4j+hn6w/KzajVvgQxvC7kfwM5FgwQdaeq/vK8E1WwgT7Bfsa2fwppOm3wjDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat296-293.delta" sparkle:deltaFrom="293" length="1679298" type="application/octet-stream" sparkle:edSignature="Z7h+HgWJjBqIbGLm15vcgYrcXTUCnpEQyfZovwp3zZ+9Ld+zLsRiWLWpxmMB65u0XlFszYDmQMbZA9MDGfxsBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.5.3</title>
             <pubDate>Sat, 04 Nov 2023 21:57:39 +0800</pubDate>
-            <description>Fix issues<br/>Performance improvement</description>
             <sparkle:version>293</sparkle:version>
             <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
