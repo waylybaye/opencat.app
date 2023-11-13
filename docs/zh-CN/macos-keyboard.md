@@ -4,11 +4,13 @@
 ## 开启键盘扩展
 要开启键盘扩展，首先要到OpenCat的设置中，找到键盘扩展。
 
-![enable_keyboard_extension](/img/assets/enable_keyboard_extension.png)
+![request_system_capability](/img/assets/request_system_capability.png)
+点击“请求授予权限”按钮。然后根据提示操作。如下图，设置允许OpenCat访问辅助功能。然后关闭OpenCat主程序并重新打开。
 
-### 获取系统权限
-同时，你还需要在系统设置中开启相应的权限，这样键盘扩展才能正常使用。系统设置开启的方法，系统设置->隐私与安全->辅助功能，然后允许OpenCat。最后按照系统提示，重新加载OpenCat。
-![enable_system_cabability](/img/assets/enable_system_cabability.png)
+![allow_opencat](/img/assets/allow_opencat.png)
+此时再打开设置，就会看到权限已经获取了。
+
+![enable_keyboard_extension](/img/assets/enable_keyboard_extension.png)
 
 ## 使用键盘扩展
 使用键盘扩展很简单。只要在任意可以输入文本的地方，以/开头，输入引导命令，然后空格，并输入你想要说的话，最后按shift+回车。等待OpenCat回答即可。
