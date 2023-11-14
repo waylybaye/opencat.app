@@ -3,9 +3,24 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>1.8.0</title>
+            <pubDate>Tue, 14 Nov 2023 21:51:24 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>364</sparkle:version>
+            <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-1.8.0.364.dmg" length="12277618" type="application/octet-stream" sparkle:edSignature="fN0kmH/iDP9QbsM2JvQdxvRwFEznT0DltASkDakG0NV7iuZs2cXVAWNEo+7Ofsqv1/JznfI6ZJByLZ0NSO1rAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat364-340.delta" sparkle:deltaFrom="340" length="1621206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="RHOo/r5MkMVPSc0dgBY1iiC0RHa8UyohNkIhp5EyLS/1cipUx09jjevZ6o66yotMVBkFBN3chD6e34mBu/1dAw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat364-333.delta" sparkle:deltaFrom="333" length="1706738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="vPE5FmiEoStcdrqnYbyCRIbHRV3YRyStZrP8UnhHuYvNeqOSuLVWGhHzjU3ReoTGerlECgL/Op56H/68iLs/CQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat364-323.delta" sparkle:deltaFrom="323" length="1723558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="q4nuM6cbk5FdUFG87430GS4XogUjR4aTddGGbFAeA0M3FRu7lM26EOgTEbRPVXYX8VXMCGWNAhivcBK0NdPtCA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat364-299.delta" sparkle:deltaFrom="299" length="2090142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="svC9azkXxCWofsufSa5q/uCM2Ds/4u2c3Q4l6Ne14jQ1n0kx8stqH3Vzs7/qOsq1lfI1LHpTMYwc0iB0KGBrBA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat364-298.delta" sparkle:deltaFrom="298" length="2103810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="AKrgD+POqxECNPw94SCBOi1qnNszhJiwMYGb7ZpL2hBdJdc9gAwf22RKiSfmIonRspht8JTvJKaU6XONBduBCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.7.2</title>
             <pubDate>Thu, 09 Nov 2023 19:33:14 +0800</pubDate>
-            <description>Fixed team bug</description>
             <link>https://opencat.app</link>
             <sparkle:version>340</sparkle:version>
             <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
@@ -30,19 +45,6 @@
                 <enclosure url="https://opencat.app/releases/OpenCat333-323.delta" sparkle:deltaFrom="323" length="942198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="FdAm5ghZEymW26E5pLYtLnh67IRUGgcjyYKsBrEmDYDnA6/aQ9DvgjHHJR2+rPX7L+BidhMZahOkVZHf6sYfAQ=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat333-299.delta" sparkle:deltaFrom="299" length="1823386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="e/auRlSx2BoT8c7MMYlRLYeoe8iAjVbI5PbCKctS1i7RRxpZIzNqB0CRQ5Y2eqfZ3hoNC0MlCJ4+2Ka/mkciAA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat333-298.delta" sparkle:deltaFrom="298" length="1822866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ZAP0Ld14d/wI+hI+IXT39mBmrt7AS/OkGvJJz5XyUGVWQzOlJp6cDwuAZru+BDCeZT0xHpwj6EZobqXCyIwbAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.7.0</title>
-            <pubDate>Wed, 08 Nov 2023 12:44:51 +0800</pubDate>
-            <link>https://opencat.app</link>
-            <sparkle:version>323</sparkle:version>
-            <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://opencat.app/releases/OpenCat-1.7.0.323.dmg" length="12140699" type="application/octet-stream" sparkle:edSignature="JljNq2GdtqS38mrRogkLLcgSOstYlqJKXPC6IJ1f2BqDvWo/95LxVVgXK4ov3zLo/3672RRq0/WTMgJILazcDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://opencat.app/releases/OpenCat323-299.delta" sparkle:deltaFrom="299" length="1820698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="GZNdsKA1bxw+DYYIfDvTb7d57bJxixAcRYj+QVh8/vN0zIRFoCC4Jmcru4zK2Qi1JeC6voc5bhEDxYxfeWqHDg=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat323-298.delta" sparkle:deltaFrom="298" length="1817606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Z3povSkrqADJzeS+2+24GYa4A9fscx2qnv4mC0X2Fvun+MzKP+vGE7gBYURlTOlsGNRQn8m1/CR3H71BHVspDA=="/>
             </sparkle:deltas>
         </item>
     </channel>
