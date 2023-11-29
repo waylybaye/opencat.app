@@ -3,6 +3,22 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>1.8.4</title>
+            <pubDate>Wed, 29 Nov 2023 20:20:23 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>382</sparkle:version>
+            <sparkle:shortVersionString>1.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-1.8.4.382.dmg" length="12304136" type="application/octet-stream" sparkle:edSignature="COoqR+P9kxoCJlk6MREdXFmHtvZoGfpxDsz1PYQeamxEhcCPD52mxodtt7HM3GIRKbtn0gkvYS+E0Jv7eLIjDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat382-365.delta" sparkle:deltaFrom="365" length="1491290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Mi494lyzP5gjnRyJZBgf8nz4aVNMnExdWMlkcrgA65BZFQ5OQQepbe3bG2LwmVZNwl9V7oy9zZR9OcjaURc7AA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat382-364.delta" sparkle:deltaFrom="364" length="1503958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="mLeoXO7xHkiCZFCTmUheaH128Eo+/ATQ371DlwuiZj2aOWl1OPGlGpa4IT1RO2zP27ljaLjU8yb22yuYTmqgBw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat382-340.delta" sparkle:deltaFrom="340" length="1827526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="703zFLXQWnTr8kyeSRz7XG7uYI6BE03ajqXYnF49NrMwemJ68o0aTYKxLtl3uzNUt8LepXZiHRrTEPgj3XK5BA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat382-333.delta" sparkle:deltaFrom="333" length="1882582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="0eEtm+Cyc/LC6I1PV+TulNatd75KVAln3v4DCV0PjnNx64CLGysuyIc1XtJsv1ijOB+jLZHrfxEM/8fWfF6yAw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat382-323.delta" sparkle:deltaFrom="323" length="1882738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QLc3wsMKht4pQ1zP4KkMj0yP0IMhhMujjLfKN8xzuOOgwSgrqzDPD1GAE1vNsQbfeFKcMANkvyDqRSBSB57pCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.8.1</title>
             <pubDate>Thu, 16 Nov 2023 16:34:49 +0800</pubDate>
             <link>https://opencat.app</link>
@@ -32,21 +48,6 @@
                 <enclosure url="https://opencat.app/releases/OpenCat364-323.delta" sparkle:deltaFrom="323" length="1723558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="q4nuM6cbk5FdUFG87430GS4XogUjR4aTddGGbFAeA0M3FRu7lM26EOgTEbRPVXYX8VXMCGWNAhivcBK0NdPtCA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat364-299.delta" sparkle:deltaFrom="299" length="2090142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="svC9azkXxCWofsufSa5q/uCM2Ds/4u2c3Q4l6Ne14jQ1n0kx8stqH3Vzs7/qOsq1lfI1LHpTMYwc0iB0KGBrBA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat364-298.delta" sparkle:deltaFrom="298" length="2103810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="AKrgD+POqxECNPw94SCBOi1qnNszhJiwMYGb7ZpL2hBdJdc9gAwf22RKiSfmIonRspht8JTvJKaU6XONBduBCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.7.2</title>
-            <pubDate>Thu, 09 Nov 2023 19:33:14 +0800</pubDate>
-            <link>https://opencat.app</link>
-            <sparkle:version>340</sparkle:version>
-            <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://opencat.app/releases/OpenCat-1.7.2.340.dmg" length="12152579" type="application/octet-stream" sparkle:edSignature="77mna9z7uOLD5TgSw1ELjsZODBDvKS0gOgMqZ6XPpyZD4DdVUBlldvTE9/iUAH+eUpBYE/trpLiqkZv6+jbqDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://opencat.app/releases/OpenCat340-333.delta" sparkle:deltaFrom="333" length="1338246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5qZZfFAikoQl8GC7TChqZ/IH7CGVsARqFXPLrShlpOp+KNKg9GQEauks3b/sFrAafzjNokZYFFFiEmFWSveOAA=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat340-323.delta" sparkle:deltaFrom="323" length="1365674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Pb477mPfl49Wh15IaUn5OX6ZSmkwr59Iz4lSihJZaT9pqlgOXLKNbLp36xQLOEx3RmnL7IWhbMWv+/8JmJBbBQ=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat340-299.delta" sparkle:deltaFrom="299" length="1931962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ZrD06h0pZJCRNHtZGjlTWrjZR8If+8kIuFNEY8utYiPrajdImmoQdtvwBTmWyzJJOkhszvNsGTsExJ+55t44BQ=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat340-298.delta" sparkle:deltaFrom="298" length="1904190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="lUawmJavjsNX1OQ6Ii3xxITdrUen5EP9+tQWA8S1pCOr9BYseb4/fw43qOq1eh0a0EQLOo9BT0Y7MSnW2vY0BA=="/>
             </sparkle:deltas>
         </item>
     </channel>
