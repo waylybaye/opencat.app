@@ -171,15 +171,17 @@ export default function Home() {
           <h2 id='Resources' className='text-lg font-bold'>Resources</h2>
         </div>
         <div className="w-full max-w-7xl mx-auto gap-6 grid-cols-2 hidden sm:grid">
+          <Card title="FAQ 常见问题" description="OpenCat 最常见的问题" link="/docs/zh-CN/faq" />
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
-          <Card title="OpenAI API" description="Create your API Key on OpenAI Platform to use our app" link="https://platform.openai.com/account/api-keys" />
-          <Card title="Azure OpenAI API" description="Create your API Key on Azure OpenAI Platform to use our app" link="https://azure.microsoft.com/en-us/products/ai-services/openai-service" />
-          <Card title="Claude API" description="Create your API Key on Claude Platform to use our app" link="https://docs.anthropic.com/claude/reference/getting-started-with-the-api" />
+          {/*<Card title="OpenAI API" description="Create your API Key on OpenAI Platform to use our app" link="https://platform.openai.com/account/api-keys" />*/}
+          {/*<Card title="Azure OpenAI API" description="Create your API Key on Azure OpenAI Platform to use our app" link="https://azure.microsoft.com/en-us/products/ai-services/openai-service" />*/}
+          {/*<Card title="Claude API" description="Create your API Key on Claude Platform to use our app" link="https://docs.anthropic.com/claude/reference/getting-started-with-the-api" />*/}
           <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
         </div>
         <div className='w-full max-w-7xl mx-auto gap-6 flex flex-col sm:hidden'>
+          <Card title="FAQ 常见问题" description="OpenCat 最常见的问题" link="/docs/zh-CN/faq" />
           <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
-          <Card title={['OpenAI API', 'Azure OpenAI API', 'Claude API']} description={['Create your API Key on OpenAI Platform to use our app', 'Create your API Key on Azure OpenAI Platform to use our app', 'Create your API Key on Claude Platform to use our app']} link={['https://platform.openai.com/account/api-keys', 'https://azure.microsoft.com/en-us/products/ai-services/openai-service', 'https://docs.anthropic.com/claude/reference/getting-started-with-the-api']} />
+          {/*<Card title={['OpenAI API', 'Azure OpenAI API', 'Claude API']} description={['Create your API Key on OpenAI Platform to use our app', 'Create your API Key on Azure OpenAI Platform to use our app', 'Create your API Key on Claude Platform to use our app']} link={['https://platform.openai.com/account/api-keys', 'https://azure.microsoft.com/en-us/products/ai-services/openai-service', 'https://docs.anthropic.com/claude/reference/getting-started-with-the-api']} />*/}
           <Card title="Privacy Policy" description="We don't collect any private data" link="/privacy" />
         </div>
       </aside>
