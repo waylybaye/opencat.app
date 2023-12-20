@@ -93,7 +93,7 @@ export default function Home() {
               </button>
             </a>
 
-            <a className='flex justify-center m-1' href="/releases/OpenCat-2.0.0.405.dmg" target="_blank">
+            <a className='flex justify-center m-1' href="/releases/OpenCat-2.0.1.410.dmg" target="_blank">
               <button
                 className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 md:hover:-translate-y-1 transition duration-500 ease-in-out transform">
                 <span className='text-xl flex items-center gap-2'>Download for
