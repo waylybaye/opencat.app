@@ -5,6 +5,7 @@
     "build": "next build",
     "start": "next start"
   },
+  "packageManager": "pnpm@8.9.0",
   "dependencies": {
     "@tabler/icons-react": "^2.39.0",
     "framer-motion": "^10.16.4",
