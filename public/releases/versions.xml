@@ -3,6 +3,22 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.1.2</title>
+            <pubDate>Sun, 14 Jan 2024 23:21:31 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>424</sparkle:version>
+            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.1.2.424.dmg" length="14902932" type="application/octet-stream" sparkle:edSignature="dV0ey7WZyBRt6/YqjgX47u6hCtaOxFfpY8aYaymzgBG52KYpizPBdW8r84qj7gJ7mI9uGULrugsCt0AwBFnODA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat424-423.delta" sparkle:deltaFrom="423" length="935846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Suhso6G7X8+JYt+f8LcFtIsq5LH/uxIqtG6FVrv5qClXoFUMbuWuP8q4NAvdW3rHNc5P0i80rIOOIsRDeqHMBQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat424-422.delta" sparkle:deltaFrom="422" length="1214634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="yuiN6FbLZFONQnlZgXCUbA4Q5eZ88PAzVUMmvAlZwHC2ya8X4yl2GQFEfOeXhX6uy7zS+7P9h99OTOiXa5i2Cg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat424-419.delta" sparkle:deltaFrom="419" length="2860858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="dgfo2vTALIqeILz6sEPhHiM+dTt3t65W/Pqqd69cnlkYcykyl/BT4c0jyMbs4WV5LMqyn8gJGQvzrCl0oJotAA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat424-416.delta" sparkle:deltaFrom="416" length="3017030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="FNNO94RXFtihTRUJ2NDb1fzEEvdPKPPsfgRc0l+p3aYBy6RSnhLs5JiZX+UtdlYjtCZH+o1fJMZzSrdScUcjAw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat424-412.delta" sparkle:deltaFrom="412" length="3732358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="nN5hvqY/CLSnQi84RH4STF08NmrAgADT7psXxg+F1f5rqxL5vp2vVw2opKnb3oxskPiMfqHvwQpJynyfibLfDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.1.1</title>
             <pubDate>Sat, 13 Jan 2024 23:50:57 +0800</pubDate>
             <link>https://opencat.app</link>
@@ -32,22 +48,6 @@
                 <enclosure url="https://opencat.app/releases/OpenCat422-412.delta" sparkle:deltaFrom="412" length="3708654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="InNT3LP9XMrN5J+UQppy5eATxHvLGNgAOFchOhEeAJJ8WXuJT2XHIuT5Bng81XnHXfM6dq4XtOfz26Ilbm+FCw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat422-411.delta" sparkle:deltaFrom="411" length="3723302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="nj4UwZHAOnErHKjOUl+yKoLqXRRm194nYPf30Y+0jnSkuLLFaMwO3+drNEScLXnVDPXhlCTs9W1GVD3gdL4NBw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat422-410.delta" sparkle:deltaFrom="410" length="3989562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QWKf3yg7G2rxN+Up6IGRA7SC4Dih6AxjiedzAs0SeJBlkQnRDT9TjGz7RILDmNCXV//7h5727tjDIMLVxFk1DA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.0.6</title>
-            <pubDate>Thu, 11 Jan 2024 12:28:43 +0800</pubDate>
-            <link>https://opencat.app</link>
-            <sparkle:version>419</sparkle:version>
-            <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://opencat.app/releases/OpenCat-2.0.6.419.dmg" length="12407785" type="application/octet-stream" sparkle:edSignature="HNMqm0E31ntLZZMmEROD3Gu8OQFVzYg/0g14TvlThmEtYR2Qq8ziJYj8G2hNKMWNbzW91WXVWQfioOfnkdi/CA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://opencat.app/releases/OpenCat419-416.delta" sparkle:deltaFrom="416" length="1325438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="C+2wIE162/EoYoS9Udx6Ka4jByRr+RBZdyCkNZL0UFEucAi9IkhQzy/KgXaZ5UO1GmODidr8zD5ANqLeLkX0DQ=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat419-412.delta" sparkle:deltaFrom="412" length="2088430" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="mTlKIAEetzdkD3+l4pUvjB988p6r1Zt117nFjJkNpYa60tvQwPpVIsbdJRH19I3c6Xc7NvtRuvXQBlimlsGWBA=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat419-411.delta" sparkle:deltaFrom="411" length="2107742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="nIfKaPaPNHruMqez+cP3fWyQfhSnr4bTiV+3J1dO6KRR3VzszgCH90GKs5BSiqPqx62N88cydGNGXif78X7nBQ=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat419-410.delta" sparkle:deltaFrom="410" length="2386802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="NzHBOsQ6bGxtbLsE5BShBhSr66eLQiQhRx/3jALmGGv8HyUPyhA7e9H21PY2N5zUtfKq0u3+k53y+8Nw9V4HCg=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat419-405.delta" sparkle:deltaFrom="405" length="2437354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YeC7voW69Ph89tYmpRSlzERi31NQqvVZm963FnXW8xXU3Rz2LaxIqN0ccqib3t8l6zKW+WpswQCoc4vIVfdfAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
