@@ -1,0 +1,266 @@
+{
+  "menu": {
+    "download": "Download",
+    "feature": "Features",
+    "review": "Reviews",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "resource": "Resources",
+    "more": "More by Baye"
+  },
+  "button": {
+    "download": "Download OpenCat Now"
+  },
+  "hero": {
+    "title": "Start a smooth chat with your AI cat",
+    "subtitle": "By chating with various AI bots, you’ll know exactly how to figure out the problem you faced it, what is the best solution you need, and exactly when to start your next adventrue.",
+    "featured": "As featured in"
+  },
+  "review": {
+    "title": "People are Loving OpenCat. You will, too.",
+    "subtitle": "Thousands of people have found the fun of OpenCat in the last 30 days.",
+    "content": [
+      {
+        "title": "Mind-blowing AI!",
+        "body": "I can't believe how intelligent and responsive this AI chat client app is. It feels like I'm talking to a real person!",
+        "author": "ChatEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "Revolutionary Technology",
+        "body": "This AI chat client app has completely changed the way I communicate. It understands me better than any other chat app out there.",
+        "author": "TechGeek",
+        "rating": 5
+      },
+      {
+        "title": "AI at its Best",
+        "body": "The AI models powering this chat client app are simply amazing. The responses are so accurate and natural, it's hard to believe it's not a human.",
+        "author": "AIEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "Unmatched AI Capabilities",
+        "body": "I've tried many AI chat apps, but this one takes the cake. The level of intelligence and understanding is unparalleled.",
+        "author": "TechWizard",
+        "rating": 5
+      },
+      {
+        "title": "AI that Understands",
+        "body": "Finally, an AI chat client app that truly understands my needs and provides insightful responses. It's like having a personal AI assistant!",
+        "author": "ConversationMaster",
+        "rating": 5
+      },
+      {
+        "title": "AI Chat Done Right",
+        "body": "I've been searching for the perfect AI chat app, and I've finally found it. This app exceeds all expectations and delivers exceptional AI-powered conversations.",
+        "author": "AIChatFanatic",
+        "rating": 5
+      },
+      {
+        "title": "AI Revolution",
+        "body": "The future is here with this AI chat client app. It's a game-changer in the world of communication and AI technology.",
+        "author": "Futurist",
+        "rating": 5
+      },
+      {
+        "title": "AI Magic",
+        "body": "Using this AI chat client app feels like magic. The AI models behind it are incredibly advanced and provide an immersive chat experience.",
+        "author": "MagicSeeker",
+        "rating": 5
+      },
+      {
+        "title": "AI Excellence",
+        "body": "I'm blown away by the excellence of this AI chat client app. It's a testament to the power of AI and its potential in everyday applications.",
+        "author": "AIEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "AI Awesomeness",
+        "body": "This AI chat client app is simply awesome. It's like having an intelligent conversation with an AI friend.",
+        "author": "AIAdmirer",
+        "rating": 5
+      },
+      {
+        "title": "AI Marvel",
+        "body": "The AI capabilities of this chat client app are truly a marvel. It's a glimpse into the future of AI-powered communication.",
+        "author": "TechMarvel",
+        "rating": 5
+      },
+      {
+        "title": "AI Perfection",
+        "body": "I've never experienced such perfection in an AI chat app before. The accuracy and precision of the AI models are unmatched.",
+        "author": "AIEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "AI Empowerment",
+        "body": "This AI chat client app empowers me to have meaningful and intelligent conversations. It's like having an AI co-pilot by my side.",
+        "author": "AIChatEmpowered",
+        "rating": 5
+      },
+      {
+        "title": "AI Delight",
+        "body": "Using this AI chat client app is an absolute delight. The AI models bring joy and excitement to every conversation.",
+        "author": "AIChatEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "AI Wonder",
+        "body": "I'm constantly amazed by the wonders of this AI chat client app. It's a testament to the incredible advancements in AI technology.",
+        "author": "TechWonderer",
+        "rating": 5
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Free to you, Pay for more.",
+    "subtitle": "Whether you’re one person wanting have a try or a tech guy trying to use your own keys, we’ve got a plan for you.",
+    "plans": [
+      {
+        "name": "OpenCat",
+        "featured": false,
+        "price": { "Monthly": "$0", "Annually": "$0" },
+        "description":
+          "You’re new to investing but want to do it right. Get started for free.",
+        "button": {
+          "label": "Get started for free",
+          "href": "/#Download"
+        },
+        "features": [
+          "Prompt Library",
+          "Markdown Rendering",
+          "Multiple Models",
+          "Many misc functions",
+          "Upgrade to Pro any time"
+        ]
+      },
+      {
+        "name": "OpenCat Pro",
+        "featured": false,
+        "price": { "Onetime": "$9.99" },
+        "description":
+          "You’ve been investing for a while. Invest more and grow your wealth faster.",
+        "button": {
+          "label": "Subscribe",
+          "href": "/#Download"
+        },
+        "features": [
+          "Keyboard Extension",
+          "iCloud Sync",
+          "Siri Integration",
+          "Text to Speech",
+          "Join Team",
+          "More misc functions"
+        ]
+      },
+      {
+        "name": "Cloud AI",
+        "featured": true,
+        "tag": "Try It Free in 3 Days",
+        "price": { "Monthly": "$2.99", "Annually": "$19.99 - Save 44%" },
+        "description":
+          "You’ve got a huge amount of assets but it’s not enough. To the moon.",
+        "button": {
+          "label": "Subscribe",
+          "href": "/#Download"
+        },
+        "features": [
+          "GPT Access - Fast, Multiple Models",
+          "Voice Chat - Chat like a human",
+          "Vision Chat - Talking about pictures",
+          "Text to Image - Generate images using prompt",
+          "Keyboard Input - Use AI in all Apps",
+          "Integrations - Siri, Shortcuts"
+        ]
+      }
+    ]
+  },
+  "feature": {
+    "title": "Now is the time to start your first amazing chat.",
+    "subtitle": "With smart & fast response, you can learn fast and become stronger. With OpenCat, it’s never too late to build your bravo assistant.",
+    "content": [
+      {
+        "name": "Voice Chat",
+        "description":
+          "Conversate with AI cats using voice and get instant responses. Enjoy hands-free communication and seamless interaction.",
+        "icon": "voice-fill",
+        "image": "/img/features/feature-1.webp"
+      },
+      {
+        "name": "Text to Image",
+        "description":
+          "Transform text into visually appealing images with our advanced AI technology. Create stunning graphics effortlessly.",
+        "icon": "paint-brush-fill",
+        "image": "/img/features/feature-2.webp"
+      },
+      {
+        "name": "Image Chat",
+        "description":
+          "Engage in chat conversations using images and emojis for a more interactive experience. Express yourself visually.",
+        "icon": "chat-2-fill",
+        "image": "/img/features/feature-3.webp"
+      },
+      {
+        "name": "Translation",
+        "description":
+          "Effortlessly translate text from one language to another. Break down language barriers and communicate effectively.",
+        "icon": "translate-fill",
+        "image": "/img/features/feature-4.webp"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start your chat with OpenCat today.",
+    "subtitle": "It takes less than 30 seconds to download the app, start chat with your personal AI assistant today and explore a fluent user experience."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "If you have anything else you want to ask, ",
+    "reach": "reach out to us",
+    "period": ".",
+    "content": [
+      [
+        {
+          "question": "How do I know the tips are good?",
+          "answer": "Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us."
+        },
+        {
+          "question": "Isn’t this insider trading?",
+          "answer": "Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know."
+        },
+        {
+          "question": "But isn’t insider trading illegal?",
+          "answer": "Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here."
+        }
+      ],
+      [
+        {
+          "question": "Do the people giving you tips realize what they are doing?",
+          "answer": "Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us."
+        },
+        {
+          "question": "Where is Pocket based?",
+          "answer": "Let’s just say it’s not somewhere where the SEC is going to find us."
+        },
+        {
+          "question": "Is there any age limit to trading on Pocket?",
+          "answer": "For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog."
+        }
+      ],
+      [
+        {
+          "question": "How did you get this on the App Store?",
+          "answer": "Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves."
+        },
+        {
+          "question": "How do I explain the money I withdraw from Pocket to the IRS?",
+          "answer": "This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns."
+        },
+        {
+          "question": "How do I become an insider?",
+          "answer": "Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work."
+        }
+      ]
+    ]
+  }
+}
