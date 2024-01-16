@@ -262,7 +262,7 @@ function FeaturesMobile({ params }: { params: { feature: Feature } }) {
               </PhoneFrame>
               <div className="absolute inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
                 <div className="h-8 w-8 text-2xl text-white">
-                  <span className={feature.icon === 'voice-fill' ? 'i-mingcute-voice-fill' : feature.icon === 'paint-brush-fill' ? 'i-mingcute-paint-brush-fill' : feature.icon === 'chat-2-fill' ? 'i-mingcute-chat-2-fill' : feature.icon === 'translate-fill' ? 'i-mingcute-translate-fill' : ''}></span>
+                  <span className={feature.icon === 'voice' ? 'i-mingcute-voice-fill' : feature.icon === 'paint-brush' ? 'i-mingcute-paint-brush-fill' : feature.icon === 'chat' ? 'i-mingcute-chat-2-fill' : feature.icon === 'translate' ? 'i-mingcute-translate-fill' : ''}></span>
                 </div>
                 <h3 className="mt-6 text-sm font-semibold text-white sm:text-lg">
                   {feature.name}
