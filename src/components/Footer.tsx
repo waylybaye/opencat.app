@@ -31,7 +31,7 @@ export function Footer() {
                 <p className="mt-1 text-sm">Native AI Utilities</p>
               </div>
             </div>
-            <nav className="mt-11 grid grid-cols-3 lg:grid-cols-6 gap-8">
+            <nav className="mt-11 w-11/12 grid grid-cols-3 lg:grid-cols-6 gap-8">
               <NavLinks />
             </nav>
           </div>
