@@ -147,7 +147,7 @@ function FeaturesDesktop({ params }: { params: { feature: Feature } }) {
             )}
             <div className="relative z-10 p-8">
               <div className="h-8 w-8 text-2xl text-white">
-                <span className={`i-mingcute-${feature.icon}`}></span>
+                <span className={feature.icon === 'voice-fill' ? 'i-mingcute-voice-fill' : feature.icon === 'paint-brush-fill' ? 'i-mingcute-paint-brush-fill' : feature.icon === 'chat-2-fill' ? 'i-mingcute-chat-2-fill' : feature.icon === 'translate-fill' ? 'i-mingcute-translate-fill' : ''}></span>
               </div>
               <h3 className="mt-6 text-lg font-semibold text-white">
                 <Tab className="text-left ui-not-focus-visible:outline-none">
@@ -262,7 +262,7 @@ function FeaturesMobile({ params }: { params: { feature: Feature } }) {
               </PhoneFrame>
               <div className="absolute inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
                 <div className="h-8 w-8 text-2xl text-white">
-                  <span className={`i-mingcute-${feature.icon}`}></span>
+                  <span className={feature.icon === 'voice-fill' ? 'i-mingcute-voice-fill' : feature.icon === 'paint-brush-fill' ? 'i-mingcute-paint-brush-fill' : feature.icon === 'chat-2-fill' ? 'i-mingcute-chat-2-fill' : feature.icon === 'translate-fill' ? 'i-mingcute-translate-fill' : ''}></span>
                 </div>
                 <h3 className="mt-6 text-sm font-semibold text-white sm:text-lg">
                   {feature.name}
