@@ -147,7 +147,7 @@ function FeaturesDesktop({ params }: { params: { feature: Feature } }) {
             )}
             <div className="relative z-10 p-8">
               <div className="h-8 w-8 text-2xl text-white">
-                <span className={feature.icon === 'voice-fill' ? 'i-mingcute-voice-fill' : feature.icon === 'paint-brush-fill' ? 'i-mingcute-paint-brush-fill' : feature.icon === 'chat-2-fill' ? 'i-mingcute-chat-2-fill' : feature.icon === 'translate-fill' ? 'i-mingcute-translate-fill' : ''}></span>
+                <span className={feature.icon === 'voice' ? 'i-mingcute-voice-fill' : feature.icon === 'paint-brush' ? 'i-mingcute-paint-brush-fill' : feature.icon === 'chat' ? 'i-mingcute-chat-2-fill' : feature.icon === 'translate' ? 'i-mingcute-translate-fill' : ''}></span>
               </div>
               <h3 className="mt-6 text-lg font-semibold text-white">
                 <Tab className="text-left ui-not-focus-visible:outline-none">

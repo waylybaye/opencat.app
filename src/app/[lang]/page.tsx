@@ -30,7 +30,10 @@ export default async function Home({
           feature: dict.feature,
         }}
         />
-        <SecondaryFeatures />
+        <SecondaryFeatures parmas={{
+          secondaryFeature: dict['secondary-feature'],
+        }}
+        />
         <CallToAction params={{ cta: dict.cta }} />
         <Reviews params={{
           review: dict.review,

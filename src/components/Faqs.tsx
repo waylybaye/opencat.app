@@ -5,6 +5,7 @@ export function Faqs({ params }: { params: {
     title: string
     subtitle: string
     reach: string
+    contact: string
     period: string
     content: {
       question: string
@@ -29,7 +30,7 @@ export function Faqs({ params }: { params: {
           <p className="mt-2 text-lg text-gray-600 break-all">
             {params.faq.subtitle}
             <a
-              href="mailto:info@example.com"
+              href={`mailto:${params.faq.contact}`}
               className="text-gray-900 underline"
             >
               {params.faq.reach}

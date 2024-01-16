@@ -183,29 +183,65 @@
         "name": "Voice Chat",
         "description":
           "Conversate with AI cats using voice and get instant responses. Enjoy hands-free communication and seamless interaction.",
-        "icon": "voice-fill",
+        "icon": "voice",
         "image": "/img/features/feature-1.webp"
       },
       {
         "name": "Text to Image",
         "description":
           "Transform text into visually appealing images with our advanced AI technology. Create stunning graphics effortlessly.",
-        "icon": "paint-brush-fill",
+        "icon": "paint-brush",
         "image": "/img/features/feature-2.webp"
       },
       {
         "name": "Image Chat",
         "description":
           "Engage in chat conversations using images and emojis for a more interactive experience. Express yourself visually.",
-        "icon": "chat-2-fill",
+        "icon": "chat",
         "image": "/img/features/feature-3.webp"
       },
       {
         "name": "Translation",
         "description":
           "Effortlessly translate text from one language to another. Break down language barriers and communicate effectively.",
-        "icon": "translate-fill",
+        "icon": "translate",
         "image": "/img/features/feature-4.webp"
+      }
+    ]
+  },
+  "secondary-feature": {
+    "title": "More Features",
+    "subtitle": "OpenCat is more than just a chat app. It's a powerful AI platform.",
+    "content": [
+      {
+        "name": "Keyboard Input",
+        "description": "Use AI in all Apps, including Messages, Notes, Mail, and more.",
+        "icon": "keyboard"
+      },
+      {
+        "name": "Siri Integration",
+        "description": "Invest in different industries to find the most opportunities to win huge.",
+        "icon": "apple"
+      },
+      {
+        "name": "OpenCat for Team",
+        "description": "Join a team to share your chat experience and get more tips.",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Markdown Rendering",
+        "description": "Use Markdown to format your AI chat with bold, italics, links, and more.",
+        "icon": "markdown"
+      },
+      {
+        "name": "Prompt Library",
+        "description": "Access a library of prompts to help you get started with AI chat.",
+        "icon": "bling"
+      },
+      {
+        "name": "Multiple Models",
+        "description": "Use different AI models to chat with different AI cats.",
+        "icon": "openai"
       }
     ]
   },
@@ -217,48 +253,47 @@
     "title": "Frequently Asked Questions",
     "subtitle": "If you have anything else you want to ask, ",
     "reach": "reach out to us",
+    "contact": "friends@baye.dev",
     "period": ".",
     "content": [
       [
         {
-          "question": "How do I know the tips are good?",
-          "answer": "Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us."
+          "question": "Is OpenCat available for iOS and macOS?",
+          "answer": "Yes, OpenCat is available for both iOS and macOS devices. You can download the app from the App Store for iOS or visit our website to download the macOS version."
         },
         {
-          "question": "Isn’t this insider trading?",
-          "answer": "Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know."
+          "question": "How secure is OpenCat?",
+          "answer": "OpenCat takes security seriously. We use advanced encryption techniques to protect your data and ensure your privacy. Your conversations and personal information are safe with us."
         },
         {
-          "question": "But isn’t insider trading illegal?",
-          "answer": "Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here."
+          "question": "Can I use OpenCat for business purposes?",
+          "answer": "Yes, OpenCat can be used for both personal and business purposes. You can integrate OpenCat with various apps and use it to enhance communication and productivity in your business."
         }
-      ],
-      [
+      ], [
         {
-          "question": "Do the people giving you tips realize what they are doing?",
-          "answer": "Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us."
+          "question": "Is there a free trial for OpenCat Pro?",
+          "answer": "Yes, there is a free trial for OpenCat Pro. You can try it out for 3 days before deciding whether to subscribe or not."
         },
         {
-          "question": "Where is Pocket based?",
-          "answer": "Let’s just say it’s not somewhere where the SEC is going to find us."
+          "question": "What is the best way to use OpenCat?",
+          "answer": "There is not one best way to use OpenCat. It depends on your needs and preferences. You can use it for personal or business purposes, or both. You can also integrate it with various apps to enhance your productivity."
         },
         {
-          "question": "Is there any age limit to trading on Pocket?",
-          "answer": "For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog."
+          "question": "How secure is OpenCat?",
+          "answer": "OpenCat takes security seriously. We use advanced encryption techniques to protect your data and ensure your privacy. Your conversations and personal information are safe with us."
         }
-      ],
-      [
+      ], [
         {
-          "question": "How did you get this on the App Store?",
-          "answer": "Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves."
+          "question": "How much does OpenCat cost?",
+          "answer": "OpenCat is free to download and use. However, there are some premium features that require a subscription. You can choose to pay monthly or annually for these features."
         },
         {
-          "question": "How do I explain the money I withdraw from Pocket to the IRS?",
-          "answer": "This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns."
+          "question": "How do I cancel my OpenCat subscription?",
+          "answer": "To cancel your OpenCat subscription, simply visit our website and log in to your account. From there, you can manage your subscription and cancel it at any time."
         },
         {
-          "question": "How do I become an insider?",
-          "answer": "Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work."
+          "question": "Can I use OpenCat on multiple devices?",
+          "answer": "Yes, you can use OpenCat on multiple devices. Simply download the app on each device and log in to your iCloud account. Your conversations and settings will be synced across all devices."
         }
       ]
     ]
