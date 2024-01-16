@@ -27,7 +27,7 @@ export function Faqs({ params }: { params: {
           >
             {params.faq.title}
           </h2>
-          <p className="mt-2 text-lg text-gray-600 break-all">
+          <p className="mt-2 text-lg text-gray-600">
             {params.faq.subtitle}
             <a
               href={`mailto:${params.faq.contact}`}
