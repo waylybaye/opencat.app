@@ -51,16 +51,10 @@ function MobileNavLink(
 }
 
 export function Header({ params }: { params: {
-  menu: {
-    download: string
-    screenshot: string
-    feature: string
-    review: string
-    pricing: string
-    faq: string
-    resource: string
-    more: string
-  }
+  links: {
+    name: string
+    href: string
+  }[]
   button: {
     download: string
   }
@@ -74,7 +68,7 @@ export function Header({ params }: { params: {
               <Logo />
             </Link>
             <div className="hidden lg:flex lg:gap-10">
-              <NavLinks />
+              <NavLinks params={{ links: params.links }} />
             </div>
           </div>
           <div className="flex items-center gap-6">
@@ -118,24 +112,11 @@ export function Header({ params }: { params: {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="/#features">
-                              {params.menu.feature}
-                            </MobileNavLink>
-                            <MobileNavLink href="/#reviews">
-                              {params.menu.review}
-                            </MobileNavLink>
-                            <MobileNavLink href="/#pricing">
-                              {params.menu.pricing}
-                            </MobileNavLink>
-                            <MobileNavLink href="/#faqs">
-                              {params.menu.faq}
-                            </MobileNavLink>
-                            <MobileNavLink href="/#resources">
-                              {params.menu.resource}
-                            </MobileNavLink>
-                            <MobileNavLink href="/#more">
-                              {params.menu.more}
-                            </MobileNavLink>
+                            { params.links.filter(({ name }) => (name !== 'Download')).map(({ name, href }) => (
+                              <MobileNavLink key={name} href={href}>
+                                {name}
+                              </MobileNavLink>
+                            )) }
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             <Button href="#">
@@ -150,7 +131,7 @@ export function Header({ params }: { params: {
               )}
             </Popover>
             <Button href="#" className="hidden lg:block">
-              {params.menu.download}
+              {params.button.download}
             </Button>
           </div>
         </Container>

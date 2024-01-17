@@ -1,13 +1,30 @@
 {
-  "menu": {
-    "download": "Download",
-    "feature": "Features",
-    "review": "Reviews",
-    "pricing": "Pricing",
-    "faq": "FAQ",
-    "resource": "Resources",
-    "more": "More by Baye"
-  },
+  "links": [
+    {
+      "name": "Features",
+      "href": "/#Features"
+    },
+    {
+      "name": "Reviews",
+      "href": "/#Reviews"
+    },
+    {
+      "name": "Pricing",
+      "href": "/#Pricing"
+    },
+    {
+      "name": "FAQ",
+      "href": "/#FAQ"
+    },
+    {
+      "name": "Resources",
+      "href": "/#Resources"
+    },
+    {
+      "name": "More",
+      "href": "/#More"
+    }
+  ],
   "button": {
     "download": "Download OpenCat Now"
   },
@@ -345,5 +362,11 @@
         "href": "https://apps.apple.com/app/id1534690075"
       }
     ]
+  },
+  "footer": {
+    "title": "OpenCat",
+    "subtitle": "Native AI Utilities",
+    "download": "Download the app",
+    "cta": "Scan the QR code to download the app from the App Store."
   }
 }

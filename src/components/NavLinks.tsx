@@ -4,20 +4,18 @@ import { useRef, useState } from 'react'
 import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
 
-export function NavLinks() {
+export function NavLinks({ params }: { params: {
+  links: {
+    name: string
+    href: string
+  }[]
+} }) {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   const timeoutRef = useRef<number | null>(null)
 
-  return [
-    ['Features', '/#features'],
-    ['Reviews', '/#reviews'],
-    ['Pricing', '/#pricing'],
-    ['FAQs', '/#faqs'],
-    ['Resources', '/#resources'],
-    ['More by Baye', '/#more'],
-  ].map(([label, href], index) => (
+  return (params.links.map(({ name, href }, index) => (
     <Link
-      key={label}
+      key={name}
       href={href}
       className="relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
       onMouseEnter={() => {
@@ -46,7 +44,8 @@ export function NavLinks() {
           />
         )}
       </AnimatePresence>
-      <span className="relative z-10">{label}</span>
+      <span className="relative z-10">{name}</span>
     </Link>
   ))
+  )
 }
