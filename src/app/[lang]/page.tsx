@@ -5,6 +5,7 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Reviews } from '@/components/Reviews'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import { Resources } from '@/components/Resources'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import type { Locale } from '@/utils/i18n-config'
@@ -44,6 +45,10 @@ export default async function Home({
         }}
         />
         <Faqs params={{ faq: dict.faq }} />
+        <Resources params={{
+          resource: dict.resource,
+        }}
+        />
       </main>
       <Footer />
     </>

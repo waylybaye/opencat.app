@@ -297,5 +297,29 @@
         }
       ]
     ]
+  },
+  "resource": {
+    "title": "Related Resources",
+    "subtitle": "Learn more about OpenCat and how it can help you.",
+    "content": [
+      {
+        "name": "Q & A",
+        "description": "Get answers to more frequently asked questions about OpenCat.",
+        "icon": "question",
+        "href": "faq"
+      },
+      {
+        "name": "Documentation",
+        "description": "Learn how to use OpenCat with our detailed documentation.",
+        "icon": "book",
+        "href": "doc"
+      },
+      {
+        "name": "Privacy Policy",
+        "description": "Read our privacy policy to learn how we protect your data.",
+        "icon": "fingerprint",
+        "href": "privacy"
+      }
+    ]
   }
 }
