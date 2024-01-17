@@ -10,6 +10,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import type { Locale } from '@/utils/i18n-config'
 import { getDictionary } from '@/utils/get-dictionary'
+import { MoreByBaye } from '@/components/MoreByBaye'
 
 export default async function Home({
   params: { lang },
@@ -47,6 +48,10 @@ export default async function Home({
         <Faqs params={{ faq: dict.faq }} />
         <Resources params={{
           resource: dict.resource,
+        }}
+        />
+        <MoreByBaye params={{
+          more: dict.more,
         }}
         />
       </main>

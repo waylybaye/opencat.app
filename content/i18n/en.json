@@ -321,5 +321,29 @@
         "href": "privacy"
       }
     ]
+  },
+  "more": {
+    "title": "More Apps by Baye",
+    "subtitle": "Find more apps by Baye to enhance your productivity and communication.",
+    "content": [
+      {
+        "name": "熊猫吃短信 2",
+        "description": "机器学习离线拦截垃圾短信",
+        "icon": "pandasms",
+        "href": "https://apps.apple.com/app/id1642682818"
+      },
+      {
+        "name": "ServerCat",
+        "description": "SSH Terminal & Linux Monitor",
+        "icon": "servercat",
+        "href": "https://apps.apple.com/app/id1501532023"
+      },
+      {
+        "name": "DAMA",
+        "description": "Automatic Redact Privacy",
+        "icon": "dama",
+        "href": "https://apps.apple.com/app/id1534690075"
+      }
+    ]
   }
 }
