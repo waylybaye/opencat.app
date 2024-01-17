@@ -15,7 +15,7 @@ export function Resources({ params }: { params: {
 } }) {
   return (
     <section
-      id="secondary-features"
+      id="resources"
       aria-label="Features for building a portfolio"
       className="py-20 sm:py-32 bg-gray-900"
     >
