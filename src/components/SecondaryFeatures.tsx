@@ -1,6 +1,6 @@
 import { Container } from '@/components/Container'
 
-export function SecondaryFeatures({ parmas }: { parmas: {
+export function SecondaryFeatures({ params }: { params: {
   secondaryFeature: {
     title: string
     subtitle: string
@@ -20,17 +20,17 @@ export function SecondaryFeatures({ parmas }: { parmas: {
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            {parmas.secondaryFeature.title}
+            {params.secondaryFeature.title}
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            {parmas.secondaryFeature.subtitle}
+            {params.secondaryFeature.subtitle}
           </p>
         </div>
         <ul
           role="list"
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
         >
-          {parmas.secondaryFeature.content.map(feature => (
+          {params.secondaryFeature.content.map(feature => (
             <li
               key={feature.name}
               className="rounded-2xl border border-gray-200 p-8"

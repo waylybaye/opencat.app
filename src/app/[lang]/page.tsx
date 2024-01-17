@@ -32,7 +32,7 @@ export default async function Home({
           feature: dict.feature,
         }}
         />
-        <SecondaryFeatures parmas={{
+        <SecondaryFeatures params={{
           secondaryFeature: dict['secondary-feature'],
         }}
         />
