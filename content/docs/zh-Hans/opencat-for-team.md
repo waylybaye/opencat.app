@@ -29,7 +29,7 @@ sh get-docker.sh
 
 ### 3. 运行 OpenCat for Team
 
-![](/img/create-team.png)
+![](/img/docs/create-team.png)
 
 1. 如果你想跑 HTTPS，在 OpenCat 中填入域名后，会自动生成一串命令，如果跑 HTTP 模式，选择 HTTP 会直接生成一串命令
 2. 将 OpenCat 显示的 `docker run` 开头的命令复制粘贴到 SSH 窗口中运行
@@ -42,7 +42,7 @@ sh get-docker.sh
 
 ## 管理和邀请成员
 
-![](/img/invite-user.png)
+![](/img/docs/invite-user.png)
 
 1. root 用户是管理员用户，只有他能看到团队成员、管理团队成员。
 2. 创建一个用户，点击后面的三点后，选择邀请。

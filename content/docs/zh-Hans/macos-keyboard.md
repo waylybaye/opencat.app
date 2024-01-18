@@ -4,13 +4,13 @@
 ## 开启键盘扩展
 要开启键盘扩展，首先要到OpenCat的设置中，找到键盘扩展。
 
-![request_system_capability](/img/assets/request_system_capability.png)
+![request_system_capability](/img/docs/request_system_capability.png)
 点击“请求授予权限”按钮。然后根据提示操作。如下图，设置允许OpenCat访问辅助功能。然后关闭OpenCat主程序并重新打开。
 
-![allow_opencat](/img/assets/allow_opencat.png)
+![allow_opencat](/img/docs/allow_opencat.png)
 此时再打开设置，就会看到权限已经获取了。
 
-![enable_keyboard_extension](/img/assets/enable_keyboard_extension.png)
+![enable_keyboard_extension](/img/docs/enable_keyboard_extension.png)
 
 ## 使用键盘扩展
 使用键盘扩展很简单。只要在任意可以输入文本的地方，以/开头，输入引导命令，然后空格，并输入你想要说的话，最后按shift+回车。等待OpenCat回答即可。
@@ -55,14 +55,14 @@ Arc de Triomphe
 ##### 模型全称
 可以使用模型的全称。这些全称就是你在菜单里见到的名字。
 
-![model_fullname](/img/assets/model_fullname.png)
+![model_fullname](/img/docs/model_fullname.png)
 
 ##### 模型简称
 也可以使用简称，比如gpt3、gpt4、claude2等。
 #### 指定标题
 除了指定模型，还可以直接指定自己对话的标题，这样就可以使用之前设置好的模型和提示词进行对话了。对话的标题，指的是如图的聊天的标题：比如翻译助理、Swift专家之类的。
 
-![titles](/img/assets/titles.png)
+![titles](/img/docs/titles.png)
 
 #### 指定快捷指令
 最后，你还可以指定快捷指令来调用对话，这个快捷指令不是macOS系统的那个快捷指令，而是你在OpenCat中设置的，用于指代某个对话的简写方式。可以在对话右上角的菜单中进行设置。比如我将翻译助理设置为trans，Swift专家设置为swift，这样就可以通过/trans或者/swift来调用。
