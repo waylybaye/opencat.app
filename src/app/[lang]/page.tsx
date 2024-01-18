@@ -22,7 +22,7 @@ export default async function Home({
 
   return (
     <>
-      <Header params={{ links: dict.links, button: dict.button }} />
+      <Header params={{ links: dict.links, button: dict.button, doc: dict.doc }} />
       <main className="flex-auto">
         <Hero params={{
           hero: dict.hero,
