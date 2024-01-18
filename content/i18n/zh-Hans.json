@@ -29,63 +29,115 @@
     "download": "立即下载 OpenCat"
   },
   "hero": {
-    "title": "与您的AI开始流畅的聊天",
-    "subtitle": "通过与各种AI机器人聊天，您将准确了解面临的问题，需要什么最佳解决方案，以及何时开始下一次冒险。",
+    "title": "与您的 AI 开始流畅的聊天",
+    "subtitle": "通过与各种 AI 机器人聊天，您将准确了解面临的问题，需要什么最佳解决方案，以及何时开始下一次冒险。",
     "featured": "特色"
   },
-  "reviews": [
-    {
-      "title": "AI卓越",
-      "body": "我对这个AI聊天客户端应用的卓越性感到惊叹。它证明了AI的力量以及其在日常应用中的潜力。",
-      "author": "AI爱好者",
-      "rating": 5
-    },
-    {
-      "title": "AI的酷炫之处",
-      "body": "这个AI聊天客户端应用程序简直太棒了。就像与一个智能AI朋友进行智能对话一样。",
-      "author": "AI崇拜者",
-      "rating": 5
-    },
-    {
-      "title": "AI的奇迹",
-      "body": "这个聊天客户端应用程序的AI功能真是令人惊叹。它展示了AI技术的未来。",
-      "author": "科技奇迹",
-      "rating": 5
-    },
-    {
-      "title": "AI的完美",
-      "body": "我以前从未在AI聊天应用程序中体验过如此完美。AI模型的准确性和精度无与伦比。",
-      "author": "AI爱好者",
-      "rating": 5
-    },
-    {
-      "title": "AI的赋能",
-      "body": "这个AI聊天客户端应用程序使我能够进行有意义且智能的对话。就像有一个AI副驾驶员在我身边一样。",
-      "author": "AI聊天赋能者",
-      "rating": 5
-    },
-    {
-      "title": "AI的愉悦",
-      "body": "使用这个AI聊天客户端应用程序绝对是一种愉悦。AI模型为每次对话带来了喜悦和兴奋。",
-      "author": "AI聊天爱好者",
-      "rating": 5
-    },
-    {
-      "title": "AI的奇迹",
-      "body": "我对这个AI聊天客户端应用程序的奇迹感到不可思议。它证明了AI技术的令人难以置信的进步。",
-      "author": "科技奇迹者",
-      "rating": 5
-    }
-  ],
+  "review": {
+    "title": "大家爱 OpenCat。您也会爱上。",
+    "subtitle": "在过去的 30 天里，成千上万的人发现了 OpenCat 的乐趣。",
+    "content": [
+      {
+        "title": "Mind-blowing AI!",
+        "body": "I can't believe how intelligent and responsive this AI chat client app is. It feels like I'm talking to a real person!",
+        "author": "ChatEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "Revolutionary Technology",
+        "body": "This AI chat client app has completely changed the way I communicate. It understands me better than any other chat app out there.",
+        "author": "TechGeek",
+        "rating": 5
+      },
+      {
+        "title": "AI at its Best",
+        "body": "The AI models powering this chat client app are simply amazing. The responses are so accurate and natural, it's hard to believe it's not a human.",
+        "author": "AIEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "Unmatched AI Capabilities",
+        "body": "I've tried many AI chat apps, but this one takes the cake. The level of intelligence and understanding is unparalleled.",
+        "author": "TechWizard",
+        "rating": 5
+      },
+      {
+        "title": "AI that Understands",
+        "body": "Finally, an AI chat client app that truly understands my needs and provides insightful responses. It's like having a personal AI assistant!",
+        "author": "ConversationMaster",
+        "rating": 5
+      },
+      {
+        "title": "AI Chat Done Right",
+        "body": "I've been searching for the perfect AI chat app, and I've finally found it. This app exceeds all expectations and delivers exceptional AI-powered conversations.",
+        "author": "AIChatFanatic",
+        "rating": 5
+      },
+      {
+        "title": "AI Revolution",
+        "body": "The future is here with this AI chat client app. It's a game-changer in the world of communication and AI technology.",
+        "author": "Futurist",
+        "rating": 5
+      },
+      {
+        "title": "AI Magic",
+        "body": "Using this AI chat client app feels like magic. The AI models behind it are incredibly advanced and provide an immersive chat experience.",
+        "author": "MagicSeeker",
+        "rating": 5
+      },
+      {
+        "title": "AI Excellence",
+        "body": "I'm blown away by the excellence of this AI chat client app. It's a testament to the power of AI and its potential in everyday applications.",
+        "author": "AIEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "AI Awesomeness",
+        "body": "This AI chat client app is simply awesome. It's like having an intelligent conversation with an AI friend.",
+        "author": "AIAdmirer",
+        "rating": 5
+      },
+      {
+        "title": "AI Marvel",
+        "body": "The AI capabilities of this chat client app are truly a marvel. It's a glimpse into the future of AI-powered communication.",
+        "author": "TechMarvel",
+        "rating": 5
+      },
+      {
+        "title": "AI Perfection",
+        "body": "I've never experienced such perfection in an AI chat app before. The accuracy and precision of the AI models are unmatched.",
+        "author": "AIEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "AI Empowerment",
+        "body": "This AI chat client app empowers me to have meaningful and intelligent conversations. It's like having an AI co-pilot by my side.",
+        "author": "AIChatEmpowered",
+        "rating": 5
+      },
+      {
+        "title": "AI Delight",
+        "body": "Using this AI chat client app is an absolute delight. The AI models bring joy and excitement to every conversation.",
+        "author": "AIChatEnthusiast",
+        "rating": 5
+      },
+      {
+        "title": "AI Wonder",
+        "body": "I'm constantly amazed by the wonders of this AI chat client app. It's a testament to the incredible advancements in AI technology.",
+        "author": "TechWonderer",
+        "rating": 5
+      }
+    ]
+  },
   "pricing": {
-    "title": "免费使用，付费获取更多功能。",
+    "title": "免费使用，付费获取更多。",
     "subtitle": "无论您是想尝试一下还是想使用自己的密钥，我们都有适合您的计划。",
     "plans": [
       {
         "name": "OpenCat",
         "featured": false,
-        "price": { "Monthly": "$0", "Annually": "$0" },
-        "description": "您是新手投资者，但想做得正确。免费开始。",
+        "price": { "Monthly": "¥0", "Annually": "¥0" },
+        "description": "您是刚接触 AI 的新用户，现在免费开始。",
         "button": {
           "label": "免费开始",
           "href": "/#Download"
@@ -101,8 +153,8 @@
       {
         "name": "OpenCat Pro",
         "featured": false,
-        "price": { "Onetime": "$9.99" },
-        "description": "您已经投资了一段时间。投资更多，更快地增长财富。",
+        "price": { "Onetime": "¥68.00" },
+        "description": "您对 AI 有自己的使用心得，想要更多功能。",
         "button": {
           "label": "订阅",
           "href": "/#Download"
@@ -117,11 +169,11 @@
         ]
       },
       {
-        "name": "云AI",
+        "name": "云端 AI",
         "featured": true,
         "tag": "3天免费试用",
-        "price": { "Monthly": "$2.99", "Annually": "$19.99 - 44%折扣" },
-        "description": "您拥有大量资产，但还不够。飞向月球。",
+        "price": { "Monthly": "¥18", "Annually": "¥128 - 立省41%" },
+        "description": "您想要便捷的一站式 AI 服务，强大的功能支持。",
         "button": {
           "label": "订阅",
           "href": "/#Download"
@@ -138,74 +190,74 @@
     ]
   },
   "feature": {
-    "title": "现在是时候开始您的第一个惊人的聊天了。",
-    "subtitle": "通过智能快速的响应，您可以快速学习并变得更强大。使用OpenCat，建立您的勇敢助手永远不会太晚。",
+    "title": "现在是时候开始您的首个超棒的聊天了。",
+    "subtitle": "通过智能快速的响应，您可以快速学习并变得更强大。使用 OpenCat，建立属于你的强力助手永远不会太晚。",
     "content": [
       {
         "name": "语音聊天",
-        "description": "使用语音与AI猫进行对话并获得即时回复。享受免提通信和无缝互动。",
+        "description": "使用语音与 AI 进行对话并获得即时回复。享受即时语音聊天和无缝互动。",
         "icon": "voice",
-        "image": "/img/features/feature-1.webp"
+        "image": "/img/features/feature-1-zh.webp"
       },
       {
         "name": "文本转图像",
-        "description": "使用我们先进的AI技术将文本转换为视觉上吸引人的图像。轻松创建令人惊叹的图形。",
+        "description": "使用先进的 AI 技术将文本转换为视觉上吸引人的图像。轻松创建令人惊叹的图形。",
         "icon": "paint-brush",
-        "image": "/img/features/feature-2.webp"
+        "image": "/img/features/feature-2-zh.webp"
       },
       {
         "name": "图像聊天",
         "description": "使用图像和表情符号进行聊天对话，获得更互动的体验。以视觉方式表达自己。",
         "icon": "chat",
-        "image": "/img/features/feature-3.webp"
+        "image": "/img/features/feature-3-zh.webp"
       },
       {
         "name": "翻译",
         "description": "轻松将文本从一种语言翻译成另一种语言。消除语言障碍，有效沟通。",
         "icon": "translate",
-        "image": "/img/features/feature-4.webp"
+        "image": "/img/features/feature-4-zh.webp"
       }
     ]
   },
   "secondary-feature": {
     "title": "更多功能",
-    "subtitle": "OpenCat不仅仅是一个聊天应用程序。它是一个强大的AI平台。",
+    "subtitle": "OpenCat 不仅仅是一个聊天应用程序。它是一个强大的 AI 平台。",
     "content": [
       {
         "name": "键盘输入",
-        "description": "在所有应用程序中使用AI，包括消息、笔记、邮件等。",
+        "description": "在所有应用程序中使用 AI，包括消息、笔记、邮件等。",
         "icon": "keyboard"
       },
       {
-        "name": "Siri集成",
+        "name": "Siri 集成",
         "description": "在不同行业进行投资，寻找最多机会以赢得巨大回报。",
         "icon": "apple"
       },
       {
-        "name": "OpenCat团队版",
+        "name": "OpenCat 团队版",
         "description": "加入团队，分享您的聊天体验并获得更多提示。",
         "icon": "briefcase"
       },
       {
-        "name": "Markdown渲染",
-        "description": "使用Markdown格式化您的AI聊天，包括粗体、斜体、链接等。",
+        "name": "Markdown 渲染",
+        "description": "使用 Markdown 格式化您的AI聊天，包括粗体、斜体、链接等。",
         "icon": "markdown"
       },
       {
         "name": "提示库",
-        "description": "访问提示库，帮助您开始使用AI聊天。",
+        "description": "访问提示库，帮助您开始使用 AI 聊天。",
         "icon": "bling"
       },
       {
         "name": "多个模型",
-        "description": "使用不同的AI模型与不同的AI猫聊天。",
+        "description": "使用不同的 AI 模型与不同的AI猫聊天。",
         "icon": "openai"
       }
     ]
   },
   "cta": {
-    "title": "立即开始与OpenCat聊天。",
-    "subtitle": "下载应用程序不到30秒，今天就开始与您的个人AI助手聊天，并探索流畅的用户体验。"
+    "title": "立即开始与 OpenCat 聊天。",
+    "subtitle": "下载应用程序不到 30 秒，今天就开始与您的个人 AI 助手聊天，并探索流畅的用户体验。"
   },
   "faq": {
     "title": "常见问题",
@@ -216,61 +268,61 @@
     "content": [
       [
         {
-          "question": "OpenCat适用于iOS和macOS吗？",
-          "answer": "是的，OpenCat适用于iOS和macOS设备。您可以从App Store下载iOS版本的应用程序，或者访问我们的网站下载macOS版本。"
+          "question": "OpenCat 适用于 iOS 和 macOS 吗？",
+          "answer": "是的，OpenCat 适用于 iOS 和 macOS 设备。您可以从 App Store 下载 iOS 版本的应用程序，或者访问我们的网站下载 macOS 版本。"
         },
         {
-          "question": "OpenCat有多安全？",
-          "answer": "OpenCat非常注重安全。我们使用先进的加密技术保护您的数据并确保您的隐私。您的对话和个人信息在我们这里是安全的。"
+          "question": "OpenCat 有多安全？",
+          "answer": "OpenCat 非常注重安全。我们使用先进的加密技术保护您的数据并确保您的隐私。您的对话和个人信息在我们这里是安全的。"
         },
         {
-          "question": "我可以将OpenCat用于商业用途吗？",
-          "answer": "是的，OpenCat可以用于个人和商业用途。您可以将OpenCat与各种应用程序集成，用于增强您的业务沟通和生产力。"
+          "question": "我可以将 OpenCat 用于商业用途吗？",
+          "answer": "是的，OpenCat 可以用于个人和商业用途。您可以将 OpenCat 与各种应用程序集成，用于增强您的业务沟通和生产力。"
         }
       ],
       [
         {
-          "question": "OpenCat Pro有免费试用吗？",
-          "answer": "是的，OpenCat Pro有免费试用。您可以在订阅之前试用3天。"
+          "question": "OpenCat Pro 有免费试用吗？",
+          "answer": "是的，OpenCat Pro 有免费试用。您可以在订阅之前试用 3 天。"
         },
         {
-          "question": "使用OpenCat的最佳方式是什么？",
-          "answer": "没有一种最佳使用OpenCat的方式。这取决于您的需求和偏好。您可以将其用于个人或商业用途，也可以将其与各种应用程序集成，以提高您的生产力。"
+          "question": "使用 OpenCat 的最佳方式是什么？",
+          "answer": "没有一种最佳使用 OpenCat 的方式。这取决于您的需求和偏好。您可以将其用于个人或商业用途，也可以将其与各种应用程序集成，以提高您的生产力。"
         },
         {
-          "question": "OpenCat有多安全？",
-          "answer": "OpenCat非常注重安全。我们使用先进的加密技术保护您的数据并确保您的隐私。您的对话和个人信息在我们这里是安全的。"
+          "question": "OpenCat 有多安全？",
+          "answer": "OpenCat 非常注重安全。我们使用先进的加密技术保护您的数据并确保您的隐私。您的对话和个人信息在我们这里是安全的。"
         }
       ],
       [
         {
-          "question": "OpenCat的价格是多少？",
-          "answer": "OpenCat可以免费下载和使用。但是，某些高级功能需要订阅。您可以选择按月或按年付费使用这些功能。"
+          "question": "OpenCat 的价格是多少？",
+          "answer": "OpenCat 可以免费下载和使用。但是，某些高级功能需要订阅。您可以选择按月或按年付费使用这些功能。"
         },
         {
-          "question": "如何取消OpenCat的订阅？",
-          "answer": "要取消OpenCat的订阅，只需访问我们的网站并登录您的帐户。然后，您可以管理您的订阅并随时取消。"
+          "question": "如何取消 OpenCat 的订阅？",
+          "answer": "要取消OpenCat的订阅，只需在 App Stroe 里打开订阅项目。然后，您可以管理您的订阅并随时取消。"
         },
         {
-          "question": "我可以在多台设备上使用OpenCat吗？",
-          "answer": "是的，您可以在多台设备上使用OpenCat。只需在每个设备上下载应用程序并登录您的iCloud帐户。您的对话和设置将在所有设备上同步。"
+          "question": "我可以在多台设备上使用 OpenCat 吗？",
+          "answer": "是的，您可以在多台设备上使用 OpenCat。只需在每个设备上下载应用程序并登录您的 iCloud 帐户。您的对话和设置将在所有设备上同步。"
         }
       ]
     ]
   },
   "resource": {
     "title": "相关资源",
-    "subtitle": "了解更多关于OpenCat以及它如何帮助您的信息。",
+    "subtitle": "了解更多关于 OpenCat 以及它如何帮助您的信息。",
     "content": [
       {
         "name": "问答",
-        "description": "获取有关OpenCat的更多常见问题的答案。",
+        "description": "获取有关 OpenCat 的更多常见问题的答案。",
         "icon": "question",
         "href": "faq"
       },
       {
         "name": "文档",
-        "description": "通过我们详细的文档了解如何使用OpenCat。",
+        "description": "通过我们详细的文档了解如何使用 OpenCat。",
         "icon": "book",
         "href": "doc"
       },
@@ -283,8 +335,8 @@
     ]
   },
   "more": {
-    "title": "Baye的更多应用",
-    "subtitle": "找到更多由Baye开发的应用程序，提升您的生产力和沟通能力。",
+    "title": "Baye 的更多应用",
+    "subtitle": "找到更多由 Baye 开发的应用程序，提升您的生产力和沟通能力。",
     "content": [
       {
         "name": "熊猫吃短信 2",
@@ -294,7 +346,7 @@
       },
       {
         "name": "ServerCat",
-        "description": "SSH终端和Linux监控",
+        "description": "SSH 终端和 Linux 监控",
         "icon": "servercat",
         "href": "https://apps.apple.com/app/id1501532023"
       },
@@ -308,8 +360,8 @@
   },
   "footer": {
     "title": "OpenCat",
-    "subtitle": "本地AI实用工具",
+    "subtitle": "本地 AI 实用工具",
     "download": "下载应用程序",
-    "cta": "扫描二维码从App Store下载应用程序。"
+    "cta": "扫描二维码从 App Store 下载应用程序。"
   }
 }
