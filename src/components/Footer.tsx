@@ -53,7 +53,7 @@ export function Footer({ params }: { params: {
             </div>
             <div className="ml-8 lg:w-64">
               <p className="text-base font-semibold text-gray-900">
-                <Link href="/#Download">
+                <Link href="/#download">
                   <span className="absolute inset-0 sm:rounded-2xl" />
                   {params.footer.download}
                 </Link>
