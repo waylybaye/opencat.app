@@ -121,7 +121,7 @@ export function Header({ params }: { params: {
                             )) }
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="#">
+                            <Button href="/#Download">
                               {params.button.download}
                             </Button>
                           </div>
@@ -132,7 +132,7 @@ export function Header({ params }: { params: {
                 </>
               )}
             </Popover>
-            <Button href="#" className="hidden lg:block">
+            <Button href="/#Download" className="hidden lg:block">
               {params.button.download}
             </Button>
           </div>
