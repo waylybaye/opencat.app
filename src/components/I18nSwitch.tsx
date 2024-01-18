@@ -35,7 +35,7 @@ export default function I18nSwitch() {
             return (
               <Menu.Item key={locale}>
                 <Link
-                  className="hover:bg-gray-900 hover:text-white font-bold w-full rounded-md p-2"
+                  className="hover:bg-gray-900 hover:text-white text-sm w-full rounded-md p-2"
                   href={redirectedPathName(locale)}
                 >
                   {locale === 'en' ? 'English' : '中文'}
