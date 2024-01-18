@@ -10,6 +10,7 @@ export function MacAppLink({
     <Link
       href="/release?version=latest"
       target="_blank"
+      prefetch={false}
       aria-label="Download on Official Website"
       className={clsx(
         'rounded-lg transition-colors',
