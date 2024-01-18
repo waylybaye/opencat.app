@@ -132,6 +132,10 @@
   "pricing": {
     "title": "免费使用，付费获取更多。",
     "subtitle": "无论您是想尝试一下还是想使用自己的密钥，我们都有适合您的计划。",
+    "period": {
+      "monthly": "月付",
+      "annually": "年付"
+    },
     "plans": [
       {
         "name": "OpenCat",
@@ -156,7 +160,7 @@
         "price": { "Onetime": "¥68.00" },
         "description": "您对 AI 有自己的使用心得，想要更多功能。",
         "button": {
-          "label": "订阅",
+          "label": "一次性付费",
           "href": "/#Download"
         },
         "features": [

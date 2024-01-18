@@ -132,6 +132,10 @@
   "pricing": {
     "title": "Free to you, Pay for more.",
     "subtitle": "Whether you’re one person wanting have a try or a tech guy trying to use your own keys, we’ve got a plan for you.",
+    "period": {
+      "monthly": "Monthly",
+      "annually": "Annually"
+    },
     "plans": [
       {
         "name": "OpenCat",
@@ -158,7 +162,7 @@
         "description":
           "You’ve been investing for a while. Invest more and grow your wealth faster.",
         "button": {
-          "label": "Subscribe",
+          "label": "One-time purchase",
           "href": "/#Download"
         },
         "features": [

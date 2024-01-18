@@ -160,6 +160,11 @@ function Plan({
 export function Pricing({ params }: { params: { pricing: {
   title: string
   subtitle: string
+  period: {
+    monthly: string
+    annually: string
+    onetime: string
+  }
   plans: {
     name: string
     price: {
@@ -207,20 +212,18 @@ export function Pricing({ params }: { params: { pricing: {
               onChange={setActivePeriod}
               className="grid grid-cols-2"
             >
-              {['Monthly', 'Annually'].map(period => (
-                <RadioGroup.Option
-                  key={period}
-                  value={period}
-                  className={clsx(
-                    'cursor-pointer border border-gray-300 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing.2)-1px)] text-sm text-gray-700 outline-2 outline-offset-2 transition-colors hover:border-gray-400',
-                    period === 'Monthly'
-                      ? 'rounded-l-lg'
-                      : '-ml-px rounded-r-lg',
-                  )}
-                >
-                  {period}
-                </RadioGroup.Option>
-              ))}
+              <RadioGroup.Option
+                value="Monthly"
+                className="cursor-pointer border border-gray-300 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing.2)-1px)] text-sm text-gray-700 outline-2 outline-offset-2 transition-colors hover:border-gray-400 rounded-l-lg"
+              >
+                {params.pricing.period.monthly}
+              </RadioGroup.Option>
+              <RadioGroup.Option
+                value="Annually"
+                className="cursor-pointer border border-gray-300 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing.2)-1px)] text-sm text-gray-700 outline-2 outline-offset-2 transition-colors hover:border-gray-400 -mr-px rounded-r-lg"
+              >
+                {params.pricing.period.annually}
+              </RadioGroup.Option>
             </RadioGroup>
             <div
               aria-hidden="true"
@@ -231,17 +234,16 @@ export function Pricing({ params }: { params: { pricing: {
                   : '[clip-path:inset(0_0_0_calc(50%-1px))]',
               )}
             >
-              {['Monthly', 'Annually'].map(period => (
-                <div
-                  key={period}
-                  className={clsx(
-                    'py-2 text-center text-sm font-semibold text-white',
-                    period === 'Annually' && '-ml-px',
-                  )}
-                >
-                  {period}
-                </div>
-              ))}
+              <div
+                className="py-2 text-center text-sm font-semibold text-white"
+              >
+                {params.pricing.period.monthly}
+              </div>
+              <div
+                className="py-2 text-center text-sm font-semibold text-white -ml-px"
+              >
+                {params.pricing.period.annually}
+              </div>
             </div>
           </div>
         </div>
