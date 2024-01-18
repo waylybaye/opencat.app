@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Popover } from '@headlessui/react'
 import { AnimatePresence, motion } from 'framer-motion'
 
+import I18nSwitch from '@/components/I18nSwitch'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
@@ -72,6 +73,7 @@ export function Header({ params }: { params: {
             </div>
           </div>
           <div className="flex items-center gap-6">
+            <I18nSwitch />
             <Popover className="lg:hidden">
               {({ open }) => (
                 <>
