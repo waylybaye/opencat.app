@@ -2,32 +2,33 @@
   "links": [
     {
       "name": "Features",
-      "href": "/#Features"
+      "href": "/#features"
     },
     {
       "name": "Reviews",
-      "href": "/#Reviews"
+      "href": "/#reviews"
     },
     {
       "name": "Pricing",
-      "href": "/#Pricing"
+      "href": "/#pricing"
     },
     {
       "name": "FAQ",
-      "href": "/#FAQ"
+      "href": "/#faqs"
     },
     {
       "name": "Resources",
-      "href": "/#Resources"
+      "href": "/#resources"
     },
     {
       "name": "More",
-      "href": "/#More"
+      "href": "/#more"
     }
   ],
   "button": {
     "download": "Download OpenCat Now"
   },
+  "doc": "Documentation",
   "hero": {
     "title": "Start a smooth chat with your AI",
     "subtitle": "By chating with various AI bots, you’ll know exactly how to figure out the problem you faced it, what is the best solution you need, and exactly when to start your next adventrue.",
@@ -145,7 +146,7 @@
           "You’re new to investing but want to do it right. Get started for free.",
         "button": {
           "label": "Get started for free",
-          "href": "/#Download"
+          "href": "/#download"
         },
         "features": [
           "Prompt Library",
@@ -163,7 +164,7 @@
           "You’ve been investing for a while. Invest more and grow your wealth faster.",
         "button": {
           "label": "One-time purchase",
-          "href": "/#Download"
+          "href": "/#download"
         },
         "features": [
           "Keyboard Extension",
@@ -183,7 +184,7 @@
           "You’ve got a huge amount of assets but it’s not enough. To the moon.",
         "button": {
           "label": "Subscribe",
-          "href": "/#Download"
+          "href": "/#download"
         },
         "features": [
           "GPT Access - Fast, Multiple Models",
@@ -205,28 +206,28 @@
         "description":
           "Conversate with AI cats using voice and get instant responses. Enjoy hands-free communication and seamless interaction.",
         "icon": "voice",
-        "image": "/img/features/feature-1.webp"
+        "image": "feature-1"
       },
       {
         "name": "Text to Image",
         "description":
           "Transform text into visually appealing images with our advanced AI technology. Create stunning graphics effortlessly.",
         "icon": "paint-brush",
-        "image": "/img/features/feature-2.webp"
+        "image": "feature-2"
       },
       {
         "name": "Image Chat",
         "description":
           "Engage in chat conversations using images and emojis for a more interactive experience. Express yourself visually.",
         "icon": "chat",
-        "image": "/img/features/feature-3.webp"
+        "image": "feature-3"
       },
       {
         "name": "Translation",
         "description":
           "Effortlessly translate text from one language to another. Break down language barriers and communicate effectively.",
         "icon": "translate",
-        "image": "/img/features/feature-4.webp"
+        "image": "feature-4"
       }
     ]
   },
@@ -327,7 +328,7 @@
         "name": "Q & A",
         "description": "Get answers to more frequently asked questions about OpenCat.",
         "icon": "question",
-        "href": "faq"
+        "href": "doc/faq"
       },
       {
         "name": "Documentation",

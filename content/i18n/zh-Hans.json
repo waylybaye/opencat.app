@@ -2,32 +2,33 @@
   "links": [
     {
       "name": "功能",
-      "href": "/#Features"
+      "href": "/#features"
     },
     {
       "name": "评价",
-      "href": "/#Reviews"
+      "href": "/#reviews"
     },
     {
       "name": "定价",
-      "href": "/#Pricing"
+      "href": "/#pricing"
     },
     {
       "name": "常见问题",
-      "href": "/#FAQ"
+      "href": "/#faqs"
     },
     {
       "name": "相关资源",
-      "href": "/#Resources"
+      "href": "/#resources"
     },
     {
       "name": "更多",
-      "href": "/#More"
+      "href": "/#more"
     }
   ],
   "button": {
     "download": "立即下载 OpenCat"
   },
+  "doc": "文档",
   "hero": {
     "title": "与您的 AI 开始流畅的聊天",
     "subtitle": "通过与各种 AI 机器人聊天，您将准确了解面临的问题，需要什么最佳解决方案，以及何时开始下一次冒险。",
@@ -144,7 +145,7 @@
         "description": "您是刚接触 AI 的新用户，现在免费开始。",
         "button": {
           "label": "免费开始",
-          "href": "/#Download"
+          "href": "/#download"
         },
         "features": [
           "提示库",
@@ -161,7 +162,7 @@
         "description": "您对 AI 有自己的使用心得，想要更多功能。",
         "button": {
           "label": "一次性付费",
-          "href": "/#Download"
+          "href": "/#download"
         },
         "features": [
           "键盘扩展",
@@ -180,7 +181,7 @@
         "description": "您想要便捷的一站式 AI 服务，强大的功能支持。",
         "button": {
           "label": "订阅",
-          "href": "/#Download"
+          "href": "/#download"
         },
         "features": [
           "GPT访问 - 快速，多个模型",
@@ -201,25 +202,25 @@
         "name": "语音聊天",
         "description": "使用语音与 AI 进行对话并获得即时回复。享受即时语音聊天和无缝互动。",
         "icon": "voice",
-        "image": "/img/features/feature-1-zh.webp"
+        "image": "feature-1-zh"
       },
       {
         "name": "文本转图像",
         "description": "使用先进的 AI 技术将文本转换为视觉上吸引人的图像。轻松创建令人惊叹的图形。",
         "icon": "paint-brush",
-        "image": "/img/features/feature-2-zh.webp"
+        "image": "feature-2-zh"
       },
       {
         "name": "图像聊天",
         "description": "使用图像和表情符号进行聊天对话，获得更互动的体验。以视觉方式表达自己。",
         "icon": "chat",
-        "image": "/img/features/feature-3-zh.webp"
+        "image": "feature-3-zh"
       },
       {
         "name": "翻译",
         "description": "轻松将文本从一种语言翻译成另一种语言。消除语言障碍，有效沟通。",
         "icon": "translate",
-        "image": "/img/features/feature-4-zh.webp"
+        "image": "feature-4-zh"
       }
     ]
   },
