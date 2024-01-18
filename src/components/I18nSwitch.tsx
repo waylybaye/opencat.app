@@ -17,9 +17,9 @@ export default function I18nSwitch() {
   }
 
   return (
-    <Menu as="div" className="relative inline-block text-left">
-      <Menu.Button>
-        <span className="i-mingcute-translate-fill text-xl"></span>
+    <Menu as="div" className="relative text-left">
+      <Menu.Button className="flex justify-center items-center rounded-lg hover:bg-gray-200/50 p-2">
+        <span className="i-mingcute-translate-fill text-2xl"></span>
       </Menu.Button>
       <Transition
         as={Fragment}
@@ -35,7 +35,7 @@ export default function I18nSwitch() {
             return (
               <Menu.Item key={locale}>
                 <Link
-                  className="hover:bg-gray-900 hover:text-white text-sm w-full rounded-md p-2"
+                  className="hover:bg-gray-200/50 text-sm w-full rounded-md p-2"
                   href={redirectedPathName(locale)}
                 >
                   {locale === 'en' ? 'English' : '中文'}
