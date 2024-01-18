@@ -18,7 +18,7 @@ export function MacAppLink({
           : 'bg-white text-gray-900 hover:bg-gray-50',
       )}
     >
-      <div className="h-full flex items-center justify-center gap-2 p-2">
+      <div className="h-full flex items-center font-medium justify-center gap-2 p-2">
         <span>
           Download for Mac
         </span>
