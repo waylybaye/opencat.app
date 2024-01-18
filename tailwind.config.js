@@ -1,6 +1,7 @@
 /** @type { import('tailwindcss').Config } */
 
 import formsPlugin from '@tailwindcss/forms'
+import typoPlugin from '@tailwindcss/typography'
 import headlessuiPlugin from '@headlessui/tailwindcss'
 import { getIconCollections, iconsPlugin } from '@egoist/tailwindcss-icons'
 
@@ -64,7 +65,7 @@ export default {
       },
     },
   },
-  plugins: [formsPlugin, headlessuiPlugin, iconsPlugin({
+  plugins: [formsPlugin, headlessuiPlugin, typoPlugin, iconsPlugin({
     collections: getIconCollections(['mingcute']),
   })],
 }

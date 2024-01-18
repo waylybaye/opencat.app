@@ -29,12 +29,10 @@ export default function RootLayout({
   return (
     <html
       lang={params.lang}
-      className="h-full bg-gray-50 antialiased font-sans scroll-smooth"
+      className="bg-gray-50 antialiased font-sans scroll-smooth"
     >
-      <body className="flex h-full flex-col">
-        <div className="flex min-h-full flex-col">
-          {children}
-        </div>
+      <body className="flex flex-col min-h-screen">
+        {children}
       </body>
     </html>
   )

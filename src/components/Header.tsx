@@ -51,23 +51,27 @@ function MobileNavLink(
   )
 }
 
-export function Header({ params }: { params: {
-  links: {
-    name: string
-    href: string
-  }[]
-  button: {
-    download: string
+export function Header({ type = 'home', params }: {
+  type?: 'home' | 'doc'
+  params: {
+    links: {
+      name: string
+      href: string
+    }[]
+    button: {
+      download: string
+    }
+    doc: string
   }
-} }) {
+}) {
   return (
     <header>
       <nav>
         <Container className="relative z-50 flex justify-between py-8">
           <div className="relative z-10 flex items-center gap-16">
-            <Link href="/" aria-label="Home">
-              <Logo />
-            </Link>
+            <div className="text-lg font-bold">
+              <Logo type={type} params={{ doc: params.doc }} />
+            </div>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks params={{ links: params.links }} />
             </div>
@@ -121,7 +125,10 @@ export function Header({ params }: { params: {
                             )) }
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/#Download">
+                            <Button
+                              href="https://apps.apple.com/app/id6445999201"
+                              target="_blank"
+                            >
                               {params.button.download}
                             </Button>
                           </div>
@@ -132,7 +139,11 @@ export function Header({ params }: { params: {
                 </>
               )}
             </Popover>
-            <Button href="/#Download" className="hidden lg:block">
+            <Button
+              href="https://apps.apple.com/app/id6445999201"
+              target="_blank"
+              className="hidden lg:block"
+            >
               {params.button.download}
             </Button>
           </div>
