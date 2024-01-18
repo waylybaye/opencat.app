@@ -1,4 +1,5 @@
 import { AppStoreLink } from '@/components/AppStoreLink'
+import { MacAppLink } from '@/components/MacAppLink'
 import { CircleBackground } from '@/components/CircleBackground'
 import { Container } from '@/components/Container'
 
@@ -24,8 +25,9 @@ export function CallToAction({ params }: { params: {
           <p className="mt-4 text-lg text-gray-300">
             {params.cta.subtitle}
           </p>
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 flex justify-center gap-2">
             <AppStoreLink color="white" />
+            <MacAppLink color="white" />
           </div>
         </div>
       </Container>

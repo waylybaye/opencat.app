@@ -14,6 +14,7 @@ import logoForbes from '@/images/logos/forbes.svg'
 import logoHuffpost from '@/images/logos/huffpost.svg'
 import logoTechcrunch from '@/images/logos/techcrunch.svg'
 import logoWired from '@/images/logos/wired.svg'
+import { MacAppLink } from '@/components/MacAppLink'
 
 function BackgroundIllustration(props: React.ComponentPropsWithoutRef<'div'>) {
   const id = useId()
@@ -100,8 +101,9 @@ export function Hero({ params }: { params: { hero: {
             <p className="mt-6 text-lg text-gray-600">
               {params.hero.subtitle}
             </p>
-            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
+            <div className="mt-8 flex flex-wrap gap-2">
               <AppStoreLink />
+              <MacAppLink />
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
