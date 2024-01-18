@@ -11,11 +11,20 @@ import {
 } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
 
+import type { StaticImageData } from 'next/image'
 import Image from 'next/image'
 import { AppScreen } from '@/components/AppScreen'
 import { CircleBackground } from '@/components/CircleBackground'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
+import FeaturePic1 from '@/images/features/feature-1.webp'
+import FeaturePic2 from '@/images/features/feature-2.webp'
+import FeaturePic3 from '@/images/features/feature-3.webp'
+import FeaturePic4 from '@/images/features/feature-4.webp'
+import FeaturePic1zh from '@/images/features/feature-1-zh.webp'
+import FeaturePic2zh from '@/images/features/feature-2-zh.webp'
+import FeaturePic3zh from '@/images/features/feature-3-zh.webp'
+import FeaturePic4zh from '@/images/features/feature-4-zh.webp'
 
 const MotionAppScreenBody = motion(AppScreen.Body)
 
@@ -93,13 +102,24 @@ function usePrevious<T>(value: T) {
 }
 
 function ScreenItem({ params }: { params: ScreenProps }) {
+  const featureImgs: { [key: string]: StaticImageData } = {
+    'feature-1': FeaturePic1,
+    'feature-2': FeaturePic2,
+    'feature-3': FeaturePic3,
+    'feature-4': FeaturePic4,
+    'feature-1-zh': FeaturePic1zh,
+    'feature-2-zh': FeaturePic2zh,
+    'feature-3-zh': FeaturePic3zh,
+    'feature-4-zh': FeaturePic4zh,
+  }
+  const featureImg = featureImgs[params.image]
   return (
     <AppScreen className="w-full">
       <MotionAppScreenBody
         {...(params.animated ? { ...bodyAnimation, custom: params.custom } : {})}
       >
         <Image
-          src={params.image}
+          src={featureImg}
           width={460}
           height={996}
           alt={params.title}
