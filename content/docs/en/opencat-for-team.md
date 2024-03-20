@@ -1,3 +1,4 @@
+---
 title: 'OpenCat for Team Deployment Guide'
 ---
 
