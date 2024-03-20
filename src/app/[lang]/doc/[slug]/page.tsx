@@ -19,8 +19,8 @@ export default async function Document({ params: { lang, slug } }: { params: {
 
   return (
     <>
-      <Container>
-        <Markdown className="prose w-full">{content}</Markdown>
+      <Container className="prose">
+        <Markdown className="w-full">{content}</Markdown>
       </Container>
     </>
   )
