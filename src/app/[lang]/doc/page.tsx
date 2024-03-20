@@ -15,7 +15,7 @@ export default async function Document({ params: { lang } }: { params: {
 
   return (
     <>
-      <Container className="prose">
+      <Container className="prose break-words">
         <Markdown className="w-full">{content}</Markdown>
       </Container>
     </>
