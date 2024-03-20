@@ -1,30 +1,51 @@
 {
+  "name": "opencat-app",
+  "type": "module",
   "private": true,
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
-  "packageManager": "pnpm@8.9.0",
   "dependencies": {
-    "@tabler/icons-react": "^2.39.0",
-    "framer-motion": "^10.16.4",
-    "gray-matter": "^4.0.3",
-    "next": "^13.5.6",
-    "next-themes": "^0.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-markdown": "^9.0.0",
-    "react-syntax-highlighter": "^15.5.0",
-    "tailwind-merge": "^1.14.0"
+    "next": "^14.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.8.0",
+    "@egoist/tailwindcss-icons": "^1.7.4",
+    "@formatjs/intl-localematcher": "^0.5.4",
+    "@headlessui/react": "^1.7.18",
+    "@headlessui/tailwindcss": "^0.2.0",
+    "@iconify-json/mingcute": "^1.1.16",
+    "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
-    "@types/node": "20.8.4",
-    "@types/react": "^18.2.31",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.3",
-    "typescript": "5.2.2"
+    "@types/negotiator": "^0.6.3",
+    "@types/node": "20.11.24",
+    "@types/react": "^18.2.63",
+    "@types/react-dom": "^18.2.20",
+    "autoprefixer": "^10.4.18",
+    "clsx": "^2.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "fast-xml-parser": "^4.3.5",
+    "framer-motion": "^11.0.8",
+    "gray-matter": "^4.0.3",
+    "negotiator": "^0.6.3",
+    "react-markdown": "^9.0.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "use-debounce": "^10.0.0"
   }
 }
