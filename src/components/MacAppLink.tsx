@@ -8,7 +8,7 @@ export function MacAppLink({
 }) {
   return (
     <Link
-      href="/release?version=latest"
+      href="/releases/"
       target="_blank"
       prefetch={false}
       aria-label="Download on Official Website"
