@@ -5,7 +5,7 @@ import { match as matchLocale } from '@formatjs/intl-localematcher'
 import Negotiator from 'negotiator'
 import { i18n } from '@/utils/i18n-config'
 
-function getLocale(request: NextRequest): string | undefined {
+export function getLocale(request: NextRequest): string | undefined {
   // Negotiator expects plain object so we need to transform headers
   const negotiatorHeaders: Record<string, string> = {}
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
@@ -27,6 +27,7 @@ export function middleware(request: NextRequest) {
     [
       'img',
       'release',
+      'docs',
       // Add other folders/files in `public` that you want to ignore
     ].includes(pathname.split('/')[1])
   )
