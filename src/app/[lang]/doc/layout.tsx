@@ -16,7 +16,7 @@ export default async function DashboardLayout({
   return (
     <>
       <Header type="doc" params={{ links: dict.links, button: dict.button, doc: dict.doc }} />
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow py-4">{children}</main>
       <Footer params={{ footer: dict.footer, links: dict.links }} />
     </>
   )
