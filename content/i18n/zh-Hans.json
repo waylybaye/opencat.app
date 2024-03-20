@@ -323,7 +323,7 @@
         "name": "问答",
         "description": "获取有关 OpenCat 的更多常见问题的答案。",
         "icon": "question",
-        "href": "faq"
+        "href": "doc/faq"
       },
       {
         "name": "文档",
