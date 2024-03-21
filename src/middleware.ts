@@ -27,6 +27,7 @@ export function middleware(request: NextRequest) {
     [
       'img',
       'releases',
+      'release',
       'docs',
       // Add other folders/files in `public` that you want to ignore
     ].includes(pathname.split('/')[1])
