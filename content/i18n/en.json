@@ -143,7 +143,7 @@
         "featured": false,
         "price": { "Monthly": "$0", "Annually": "$0" },
         "description":
-          "You’re new to investing but want to do it right. Get started for free.",
+          "New to AI? Get started for free with our simple solution.",
         "button": {
           "label": "Get started for free",
           "href": "/#download"
@@ -152,7 +152,7 @@
           "Prompt Library",
           "Markdown Rendering",
           "Multiple Models",
-          "Many misc functions",
+          "Various extra features",
           "Upgrade to Pro any time"
         ]
       },
@@ -161,7 +161,7 @@
         "featured": false,
         "price": { "Onetime": "$9.99" },
         "description":
-          "You’ve been investing for a while. Invest more and grow your wealth faster.",
+          "You’ve been using for a while. Unlock a new level of your productivity.",
         "button": {
           "label": "One-time purchase",
           "href": "/#download"
@@ -172,7 +172,7 @@
           "Siri Integration",
           "Text to Speech",
           "Join Team",
-          "More misc functions"
+          "Additional Pro features"
         ]
       },
       {
@@ -181,7 +181,7 @@
         "tag": "Try It Free in 3 Days",
         "price": { "Monthly": "$2.99", "Annually": "$19.99 - Save 44%" },
         "description":
-          "You’ve got a huge amount of assets but it’s not enough. To the moon.",
+          "Supercharge your productivity with our all-in-one AI suite.",
         "button": {
           "label": "Subscribe",
           "href": "/#download"
@@ -242,7 +242,7 @@
       },
       {
         "name": "Siri Integration",
-        "description": "Invest in different industries to find the most opportunities to win huge.",
+        "description": "Access AI chat in no time through Siri Shortcuts without opening the app.",
         "icon": "apple"
       },
       {
