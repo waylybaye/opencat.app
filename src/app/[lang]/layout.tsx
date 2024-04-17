@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     appId: '6445999201',
     appArgument: 'opencat://conversations?message=Hello',
   },
+  keywords: "opencat,open cat,desktop ai chat ,ios ai chat, macos ai chat, better ui chatgpt，chat gpt ui",
 }
 
 export default function RootLayout({
