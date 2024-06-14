@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: {
     template: '%s - OpenCat',
-    default: 'OpenCat - Native iOS/macOS/iPadOS client for OpenAI/ChatGPT',
+    default: 'OpenCat - ChatGPT app client for Mac/iOS/iPad',
   },
   description: 'OpenCat is a native AI client, offering a smoother and faster chat experience than the web.',
   itunes: {
