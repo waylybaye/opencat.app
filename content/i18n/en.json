@@ -141,7 +141,10 @@
       {
         "name": "OpenCat",
         "featured": false,
-        "price": { "Monthly": "$0", "Annually": "$0" },
+        "price": {
+          "Monthly": "Free",
+          "Annually": "Free"
+        },
         "description":
           "New to AI? Get started for free with our simple solution.",
         "button": {

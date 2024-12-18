@@ -141,7 +141,10 @@
       {
         "name": "OpenCat",
         "featured": false,
-        "price": { "Monthly": "¥0", "Annually": "¥0" },
+        "price": {
+          "Monthly": "免费",
+          "Annually": "免费"
+        },
         "description": "您是刚接触 AI 的新用户，现在免费开始。",
         "button": {
           "label": "免费开始",
