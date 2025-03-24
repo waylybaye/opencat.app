@@ -3,24 +3,42 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.48.0</title>
+            <pubDate>Mon, 24 Mar 2025 23:57:34 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1195</sparkle:version>
+            <sparkle:shortVersionString>2.48.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>2.48.0 Updates</h2>
+                <ul>
+                    <li>Support new voice transcribe models</li>
+                    <li>Support search models</li>
+                    <li>Support think mode</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.48.0.1195.dmg" length="16766929" type="application/octet-stream" sparkle:edSignature="T3Vzxx68Unky1yw4X8QsTqRbYSOdHZstPW1avDwCZbfiYfKAST9hJu2ltexoiwV1Zwcpr9ArtghfLy0RU/nIDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1195-1163.delta" sparkle:deltaFrom="1163" length="4556103" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="4zpCzN2YVdm9HkVquZ55KIQ5ZUYhQohpSv2UrVkX+/uK6ma4HVIw61t+oS3T/G+FYnjnofsFVuyIM4wfgUNXAA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1195-1143.delta" sparkle:deltaFrom="1143" length="4578714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="HTz1X72M4a4twC1h8CcSLDVOXZh1/I3gwnJ+16Y4hpTmW7pXP7FreRnHnS+WkSUSEG1HX1CxgdHyiDBMXmhKDQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1195-1131.delta" sparkle:deltaFrom="1131" length="4691264" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="bgGwDA5L3EOyhuGg9Nmhh4f5b4ncp2MxUmlZRrg55jRDkGtShHShlYnU2dkRLYxzZldGhKpuSYPoA6TS1jMnCg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1195-1128.delta" sparkle:deltaFrom="1128" length="4672267" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="fghdqPdz0siNOR72/dMHSBc8jgUISjJZd6R+NQLKhxRv6/RCQjnQiKvY40G/nak7J0vGRoWIFeTulXecdj3VAA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1195-1098.delta" sparkle:deltaFrom="1098" length="4836955" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="tc2zS0ble90yagK8lWO3NGWHHRnE7fk3HA8oFQJl3EQ/zNFeqKosilOvKfpohiSBMxX5hIxbCkeOdD7jhPm8DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.47.1</title>
             <pubDate>Fri, 21 Mar 2025 17:56:08 +0800</pubDate>
             <link>https://opencat.app</link>
             <sparkle:version>1163</sparkle:version>
-            <description><![CDATA[
-                <h2>2.47.1 Updates</h2>
-                <ul>
-                    <li>Fixed a potential crash issue after sending a message.</li>
-                </ul>
-            ]]>
-            </description>
             <sparkle:shortVersionString>2.47.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://opencat.app/releases/OpenCat-2.47.1.1163.dmg" length="15567541" type="application/octet-stream" sparkle:edSignature="i/K7SQq9EBJUtnS4XnIGGa19l4mfcqcyWkguomVS0m48dRDkp4NztedmohonvvGArkQdRpxBjMj7nh+2uBXBCA=="/>
             <sparkle:deltas>
                 <enclosure url="https://opencat.app/releases/OpenCat1163-1143.delta" sparkle:deltaFrom="1143" length="1186461" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="/dJm9IfW7y4sZ2z2xVFPwsahoaTKqz+aWGHZVoZkw2Q8S8v8hIBIMvJ4aJ8UFKeIudNdQkCsmrjxSoOstCKTDg=="/>
-                <enclosure url="https://opencat.app/releases/OpenCat1163-1131.delta" sparkle:deltaFrom="1131" length="1701837" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="r5fhAaI+eTDyQH0Rsmu9aNpp1IpzABfhfEJ+oL+Usy1KgqqsP9yzf6vUtT816zoxPb+Q53sT99bjaUCnijgKDw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1163-1128.delta" sparkle:deltaFrom="1128" length="1760548" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="mbJ4TzpuBffNS5y/vqYBAW097nL8IAxDwCpA8k2zAVuGuLhw+jW8e1FbklUzO/1lpex4SYouh7wisVi2kR2ZAg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1163-1131.delta" sparkle:deltaFrom="1131" length="1701837" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="r5fhAaI+eTDyQH0Rsmu9aNpp1IpzABfhfEJ+oL+Usy1KgqqsP9yzf6vUtT816zoxPb+Q53sT99bjaUCnijgKDw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1163-1098.delta" sparkle:deltaFrom="1098" length="2252358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="yQgo2PCK1ltRlBT2l27tl2T8v/bevjeEchuQs6b9toUM8xE6OH+SSwHFwBILBfcuhmeMOja/WtJdXW/EycpcCw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1163-1094.delta" sparkle:deltaFrom="1094" length="2405186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="/MEBYMjl2P1TiwEqwMN4JLcwn2llO4ryephNBvjPtfJfpKv8Gzwo2I+XeLrcTucT8/os6XnhZmMXZbj9Scg9Cg=="/>
             </sparkle:deltas>
