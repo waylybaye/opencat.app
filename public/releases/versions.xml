@@ -3,6 +3,22 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.48.2</title>
+            <pubDate>Wed, 26 Mar 2025 09:37:25 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1212</sparkle:version>
+            <sparkle:shortVersionString>2.48.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.48.2.1212.dmg" length="16787551" type="application/octet-stream" sparkle:edSignature="YEbJZeuGi10IxDiWUvgGTbADGh/9l2ncqeHU1bewaLI/O1jr/esBP1Uxh7pch34IsU35m+z5LaXAny6uDos/CA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1212-1198.delta" sparkle:deltaFrom="1198" length="1947252" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="LYY+3O2E9WfJOaO5woYyRUPQ+HgxGk4rbmYIJQkXcfOyMs4zt4FqL6hNfRnZ3kqQuuy/Olj7s2luL/OKNUdJAA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1212-1195.delta" sparkle:deltaFrom="1195" length="1963618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="siC0TEXf6AlyP2DznNY29zrUjp7ZZ3saSUYUk6e5adaeA0Oj1iv2MUD+lki75swtLqWBOe32cHJi6gWNlqneDA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1212-1163.delta" sparkle:deltaFrom="1163" length="4621565" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="SuEwMD07cl9zi1JaH9CKDfWudMfAvq2Rmp0O0evmzyILFlzAYRroQv+4dH20odnRRrBlQPhRLlVh+rmverZWBQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1212-1143.delta" sparkle:deltaFrom="1143" length="4628470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="f+Xl1w4ec3+LJLyaEDZck1XM0vQ3pfKk0CQyRHwm+/VT9LVRlT5dFmhNxyQ2Xh06qnlH1NtumUIfbeIfQ2f0BA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1212-1131.delta" sparkle:deltaFrom="1131" length="4758748" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="HCEvNCBPGOyIu4EpkxysH+HaGASPQTKtXvLVoagMZ6bipIRXt6NdJ9Ey+i2Ch7SjVk0VRG8qUcP+PYRbicNODA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.48.1</title>
             <pubDate>Tue, 25 Mar 2025 11:42:14 +0800</pubDate>
             <link>https://opencat.app</link>
