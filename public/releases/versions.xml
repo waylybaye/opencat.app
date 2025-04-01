@@ -3,6 +3,42 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.49.2</title>
+            <pubDate>Tue, 01 Apr 2025 11:42:20 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1255</sparkle:version>
+            <sparkle:shortVersionString>2.49.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                <![CDATA[
+                <h3>2.49.2 Updates</h3>
+                <ul>
+                    <li>Support SSE MCP</li>
+                    <li>Could parse multiple MCP servers in one config</li>
+                    <li>Fixed several bugs</li>
+                </ul>
+                ]]>
+            </description>
+            <description xml:lang="zh">
+                <![CDATA[
+                <h3>2.49.2 更新</h3>
+                <ul>
+                    <li>支持 SSE MCP</li>
+                    <li>可以在一个配置中解析多个 MCP 服务器</li>
+                    <li>修复了多个问题</li>
+                </ul>
+                ]]>
+            </description>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.49.2.1255.dmg" length="16918316" type="application/octet-stream" sparkle:edSignature="hIm+drHsUVqsMBIuom+JZ03jH9lEkUB+22UAoFY7F1UYEgkyq18PTTf44kqaryuUW8OS6WgUFDOeCZuXORQuBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1255-1247.delta" sparkle:deltaFrom="1247" length="2059329" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="qHrjpW7e1d4GmU4AtTk8BNnsZRwQqVGchUgmL4wt4yITXcBn3lIurQ5w7RcE3KCv6sjGdEE0Skr92BAWiOf7Ag=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1255-1237.delta" sparkle:deltaFrom="1237" length="2266276" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="L1kMGyQtSPkpeHYH6HIbfwaoJ3kJdR4i6QMyGDS84Bp23id8ZVP4QzoTN+LEwmgf1xrkGiLbBPjwIeg2AjrADA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1255-1233.delta" sparkle:deltaFrom="1233" length="2321379" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Z/QoZXlZaMx0cNeIgKUDPDDf31Q4vx/I4Jq4QJt0HTAAOhfltcFkvRPXzVTe7emOqD54dR5hJRkS8VCCtM/gAQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1255-1212.delta" sparkle:deltaFrom="1212" length="3329223" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="U6ghR2K7Y6/SF2ZbZt6TJrseu6Xg8njy1NhjX7rkwAteSOscVJ8JUPHB7ZNSINqM5lShb+0FhSyxXdPBIwt7Bg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1255-1198.delta" sparkle:deltaFrom="1198" length="3454546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="D1eoafN71x2F5GEMoh4YBPE51IkLcYjSCWCvytjjD+Ysr7LWxOoIp9lbtV7N1jYhTJI5voPLBHIgsXhyuIDcCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.49.1</title>
             <pubDate>Mon, 31 Mar 2025 11:01:45 +0800</pubDate>
             <link>https://opencat.app</link>
