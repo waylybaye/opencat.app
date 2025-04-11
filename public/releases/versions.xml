@@ -3,6 +3,47 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.50.0</title>
+            <pubDate>Fri, 11 Apr 2025 11:23:57 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1313</sparkle:version>
+            <description><![CDATA[
+                <h3>2.50.0 Updates</h3>
+                <ul>
+                    <li>Cloud supports AMap MCP tools, allowing direct use of map features without configuration.  </li>
+                    <li>Reduces iOS/macOS system version requirements, supporting iOS 16.4 and macOS 13.4.  </li>
+                    <li>Supports Grok 3 model.  </li>
+                    <li>Fixes multi-round tool invocation issues with Claude and Gemini.  </li>
+                    <li>Only Prompts are displayed in keyboard extensions, etc.  </li>
+                    <li>Fixes multiple bugs and improves interaction experience.  </li>
+                </ul>
+            ]]>
+            </description>
+            <description xml:lang="zh">
+                <![CDATA[
+                <h3>2.50.0 更新</h3>
+                <ul>
+                    <li>Cloud 添加高德地图 MCP 工具，无需配置可以直接调用地图功能。</li>
+                    <li>降低 iOS/macOS 系统版本要求，支持 iOS 16.4 和 macOS 13.4。</li>
+                    <li>支持 Grok 3 模型。</li>
+                    <li>修复 Claude 和 Gemini 多轮工具调用的问题。</li>
+                    <li>键盘扩展等只显示 Prompts。</li>
+                    <li>修复多个 bug 以及提升交互体验。</li>
+                </ul>
+                ]]>
+            </description>
+            <sparkle:shortVersionString>2.50.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.50.0.1313.dmg" length="17550515" type="application/octet-stream" sparkle:edSignature="PYn3eO7kFUn7fqo1r5QG+kkYm2ZJ4cWVuQI6JVvA/X1vvEFNGlnh7xkFA6Wz8JeTZqrEDy4kR6UBboZhSAicCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1313-1282.delta" sparkle:deltaFrom="1282" length="3942155" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Slptpgc6i3jvOIo9zK3BbgNk7W7fz/nszkztLTCpx7kzZ41711sg6x2ApJGnMx4PptGr7kdD40Zt4B8/Q0ufBw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1313-1263.delta" sparkle:deltaFrom="1263" length="9319551" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="pVuwobnin2YuY1/DLO6cO0mpqUTZ+GcJFGrA0vMrbeXBr/BJ/g7YPM+6XerQ8KRK5ifdjZPL8wutDJCZi03PBQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1313-1255.delta" sparkle:deltaFrom="1255" length="9325537" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="rM6XcFkHKNmVV5tPLhs7DMFcBaJwMEV8SoH5nFUBhnOGVngfW/8ycBTnj9e4CmgWsTzniDCDLPrjCMy03hHBDQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1313-1247.delta" sparkle:deltaFrom="1247" length="9349167" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="2ruohoTv2sfI79y1Ai5FrfdEE/U6GvwCcG2UBlKbQepAIda/47ESxeDT6uwgIkrh4at3AGJ8hpmiZaKeVFWSAQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1313-1237.delta" sparkle:deltaFrom="1237" length="9413012" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5dnNFddl2gp53ISgEa7lLk5UcgxJLCblWstQt1ZmOUhHEKMSACf/Dtyi94JR/w9UoIMPmB5wPjVuu7ZeTE3bBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.49.4</title>
             <pubDate>Sat, 05 Apr 2025 10:56:25 +0800</pubDate>
             <link>https://opencat.app</link>
