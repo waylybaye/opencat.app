@@ -3,6 +3,39 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.51.0</title>
+            <pubDate>Tue, 15 Apr 2025 12:20:03 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1332</sparkle:version>
+            <description><![CDATA[
+                <h3>2.51.0 Updates</h3>
+                <ul>
+                    <li>Support GPT 4.1</li>
+                    <li>Add Calendar and Reminders Tool to manage system calendar and reminders.</li>
+                </ul>
+            ]]>
+            </description>
+            <description xml:lang="zh">
+                <![CDATA[
+                <h3>2.51.0 更新</h3>
+                <ul>
+                <li>支持 GPT 4.1</li>
+                <li>添加了 日历 和 提醒事项 工具，可以用 AI 直接查询、管理日历和提醒事项 App 的内容了。</li>
+                </ul>
+            ]]>
+            </description>
+            <sparkle:shortVersionString>2.51.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.51.0.1332.dmg" length="17537462" type="application/octet-stream" sparkle:edSignature="Pe+RFO8Vwr1lQmpHrOj8+WU6rU6LcxVIBTftEwsdydga6aa8cxCx15kB7sk3ipIci1YmOzoRJ1CDAmjuH1SKAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1332-1313.delta" sparkle:deltaFrom="1313" length="3026494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="J3eTLEI3AhXTmD/gbIC2jCl5FghZRupppNci1uzG/tuTpZjr/1OH+/MohOeLsVc8kR6pJuOAbjfhthI/PlFqBQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1332-1282.delta" sparkle:deltaFrom="1282" length="4075207" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6Djl1v/rdCThKmK2lzpbaGKcuDGeEheH8yXMOxOk4jNxQFHwhtU2aAAY3EjXthZ+ChqEheNMl4IqBJqbboveCQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1332-1263.delta" sparkle:deltaFrom="1263" length="9388011" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jcxwxfUmw9uT7pfh16bBARAj4U21GnIY7xpEFiliGPjEbOfdSYQFpPjkL8uTanrUT3S8moNDTNVZToYyRxBZAg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1332-1255.delta" sparkle:deltaFrom="1255" length="9374660" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="84CrtM6vA1TigxoDq7clK5wGFo4X9B0L9mB5hbLsudQ1zaOKduuFiXyhULnqCnH59MNNYOL4qhsmUHKeNlR0Ag=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1332-1247.delta" sparkle:deltaFrom="1247" length="9390156" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="A+0dVU9qrStzIdhQ98TzO8NwHmAGUp5ahf91u75cWYU2DNB9KtXOy/c9DGe85oeLXWw73p7HDYIVMYuDHocuDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.50.0</title>
             <pubDate>Fri, 11 Apr 2025 11:23:57 +0800</pubDate>
             <link>https://opencat.app</link>
