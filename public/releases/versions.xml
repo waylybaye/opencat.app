@@ -17,6 +17,26 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1445-1332.delta" sparkle:deltaFrom="1332" length="5356310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ZmCDpvH9PBnpxzE446oLWLzjAoKcL0O9C702LMN4T82ZUdZvD6LyGN/NaqgRwq7ChCaKxSbLXPG2A5AK0J31Ag=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1445-1313.delta" sparkle:deltaFrom="1313" length="6668602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="KS2c/Oi7JrWjQj0W7eaY6XhNbe/UauGxD1x4Ir8zK3GMkHoU0po+XmvCQSGZBQyzaHNq86vC9bhx7EG4lf+HCA=="/>
             </sparkle:deltas>
+            <description xml:lang="zh">
+                <![CDATA[
+                <h3>2.55.0 更新</h3>
+                <ul>
+                    <li>更新模型。</li>
+                    <li>增强 Markdown 的解析。</li>
+                    <li>改善键盘扩展的体验。</li>
+                </ul>
+            ]]>
+            </description>
+            <description>
+                <![CDATA[
+                <h3>2.55.0 Updates</h3>
+                <ul>
+                    <li>Update models</li>
+                    <li>Enhance Markdown parsing</li>
+                    <li>Improve keyboard extension experience</li>
+                </ul>
+            ]]>
+            </description>
         </item>
         <item>
             <title>2.54.0</title>
