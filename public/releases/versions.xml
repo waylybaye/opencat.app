@@ -3,6 +3,28 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.55.2</title>
+            <pubDate>Thu, 03 Jul 2025 10:34:30 +0700</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1474</sparkle:version>
+            <sparkle:shortVersionString>2.55.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.55.2.1474.dmg" length="20606737" type="application/octet-stream" sparkle:edSignature="gE4+dc3tKP1hj28mXuT2MmJzRyijiibbjVci/jcm/8rnFV2EPDCjz+M11mkem0OcCcmTMEOLxCDc4DWmpe4/Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1474-1445.delta" sparkle:deltaFrom="1445" length="6205541" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="tSkX/2JqZqhdk/7i3UzXPaiicUDxRiHrqU0FdJGHFBYigzv7wU/HS5vCKQJ4h2SvWqJGBacrVeCjzt20Et+EDA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1474-1407.delta" sparkle:deltaFrom="1407" length="6950134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YOGKO/tfiLPfhuxcbMnNXLYaSr/xqZIwaRlVLTaCMvJR4io4wQgapGYZ9019NXDvksNU8NpnB8o2YjwmIiCMCw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1474-1376.delta" sparkle:deltaFrom="1376" length="8856888" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="9eH0sRU+AJAaWcnJau4skP02hG9LFniN0ijyiFxYkLWYe0c05GEfYZiw32YtDnJFqYc5lmY6yTpC7RM53wtqCg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1474-1359.delta" sparkle:deltaFrom="1359" length="8912770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6RY6PMNexv1hRouCPpaCO6OoHVlE98JRbYFmTTz/8fVJLakRfw+uruYdf1jyG0IFFk0PfHU/tWcraKhn+1QGBQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1474-1332.delta" sparkle:deltaFrom="1332" length="7152050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="WcJfiJiFpVpbPvQ4yhsUbrW4z3PGHkZS20NRjt6O4+AMISR9hK/qT4ExaQvvGENvvt3yBTbzo62CbwI5k7cIDQ=="/>
+            </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.55.2 Updates</h3>
+                <ul>
+                    <li>Update models and fixed some issues</li>
+                </ul>
+            ]]></description>
+        </item>
+        <item>
             <title>2.55.0</title>
             <pubDate>Tue, 17 Jun 2025 16:52:06 +0700</pubDate>
             <link>https://opencat.app</link>
