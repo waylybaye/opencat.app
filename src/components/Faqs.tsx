@@ -1,4 +1,7 @@
+'use client'
+
 import { Container } from '@/components/Container'
+import { useEffect, useState } from 'react'
 
 export function Faqs({ params }: { params: {
   faq: {
@@ -13,6 +16,19 @@ export function Faqs({ params }: { params: {
     }[][]
   }
 } }) {
+  const [contactEmail, setContactEmail] = useState('')
+
+  useEffect(() => {
+    // Generate email dynamically to prevent crawlers
+    const generateEmail = () => {
+      const user = 'support'
+      const domain = 'dreamoon'
+      const tld = 'ai'
+      return `${user}@${domain}.${tld}`
+    }
+    setContactEmail(generateEmail())
+  }, [])
+
   return (
     <section
       id="faqs"
@@ -30,7 +46,7 @@ export function Faqs({ params }: { params: {
           <p className="mt-2 text-lg text-gray-600">
             {params.faq.subtitle}
             <a
-              href={`mailto:${params.faq.contact}`}
+              href={`mailto:${contactEmail}`}
               className="text-gray-900 underline"
             >
               {params.faq.reach}
