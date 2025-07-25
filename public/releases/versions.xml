@@ -17,6 +17,20 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1513-1445.delta" sparkle:deltaFrom="1445" length="15131584" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="9Xb2ldXbRk+6TwW6UUBOIDUpkbOUNJKB6RYh9xly09IKfo0PhJLsNIMmnaAtMpEWuquWWVo2EacvoIhaCPKSDg=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1513-1407.delta" sparkle:deltaFrom="1407" length="15811425" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="XTo4Rxk2oXsiOVOeb1jdKMD0HGlew4LvgYMuPfM5tuXMl4OqQjElbUPfKZsCjaVK94jwcU6irKLI4en67D/cCA=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.58.0 Updates</h3>
+                <ul>
+                    <li>Supports MLX accelerated on device models.</li>
+                </ul>
+            ]]></description>   
+            <description xml:lang="zh">
+                <![CDATA[
+                <h3>2.58.0 更新</h3>
+                <ul>
+                    <li>支持 MLX 加速的本地模型。</li>
+                </ul>
+            ]]>
+            </description>
         </item>
         <item>
             <title>2.57.0</title>
