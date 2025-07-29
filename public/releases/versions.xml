@@ -17,6 +17,13 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1518-1474.delta" sparkle:deltaFrom="1474" length="13247456" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jvBFLEyhAR1LOPzckhDfM4ij4Pi4Z9mJM4ciCkRHXYnaeugRUwkRUCZgqFgoNyppkw1UTmpKN4Rm5uRvTgYuAg=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1518-1445.delta" sparkle:deltaFrom="1445" length="15161697" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="lRyn1xGAZgnqv+69CcT2XYMi4ymCd2+/YtGiVfvyzW8sjE+17LDxDRQVAlfE/OrsampwMw5kERM4G77bolyEBw=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.59.0 Updates</h3>
+                <ul>
+                    <li>Support Kimi K2.</li>
+                    <li>Support deleting on device models.</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.58.0</title>
