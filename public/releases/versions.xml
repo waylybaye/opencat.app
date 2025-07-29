@@ -3,6 +3,29 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.59.0</title>
+            <pubDate>Tue, 29 Jul 2025 13:06:31 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1518</sparkle:version>
+            <sparkle:shortVersionString>2.59.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.59.0.1518.dmg" length="28638341" type="application/octet-stream" sparkle:edSignature="ouKkPAkP3kGoiOst6tZCeGojvRwyyWMXhgv2+n7FGDl8r4JmR7AD7Y0hQM0txK7co943gvgwbnOCrcNT0xLdCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1518-1513.delta" sparkle:deltaFrom="1513" length="4049978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="cdVGsWKPS1N3384VC1tJIstOtACFF9PIjE3WoCqjaHS+zK+NNwIBY+2GmQEoefvSrTLU9cPnkK94WWft5tJaDw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1518-1502.delta" sparkle:deltaFrom="1502" length="12930217" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="sXGzq8CDmwgxDTJ4ui+cjTliPdAQfuv/uYpC8nz9/XPV2N9yQSS1IZNq/nHrHlt0JNYoSRWO6uXph75Q9WqJAA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1518-1492.delta" sparkle:deltaFrom="1492" length="12943128" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="CfmFDSyTjWPFQr+8QMptC5waIPXxNNVWmQcHN48FXmRoFxrM8DI9e+blBI9gEedFbr1D3gcLn+dOKpI7j0kdDw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1518-1474.delta" sparkle:deltaFrom="1474" length="13247456" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jvBFLEyhAR1LOPzckhDfM4ij4Pi4Z9mJM4ciCkRHXYnaeugRUwkRUCZgqFgoNyppkw1UTmpKN4Rm5uRvTgYuAg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1518-1445.delta" sparkle:deltaFrom="1445" length="15161697" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="lRyn1xGAZgnqv+69CcT2XYMi4ymCd2+/YtGiVfvyzW8sjE+17LDxDRQVAlfE/OrsampwMw5kERM4G77bolyEBw=="/>
+            </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.59.0 Updates</h3>
+                <ul>
+                    <li>Support Kimi K2.</li>
+                    <li>Support deleting on device models.</li>
+                </ul>
+            ]]></description>
+        </item>
+        <item>
             <title>2.58.0</title>
             <pubDate>Fri, 25 Jul 2025 23:23:31 +0800</pubDate>
             <link>https://opencat.app</link>
