@@ -3,6 +3,22 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.60.0</title>
+            <pubDate>Tue, 05 Aug 2025 12:52:52 +0700</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1527</sparkle:version>
+            <sparkle:shortVersionString>2.60.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.60.0.1527.dmg" length="28667876" type="application/octet-stream" sparkle:edSignature="2GFQe/8lECdKDwPPhDJ835RaxzrBUFnc2uvrz0sHdO3cqG2MB0KvBhXPyCqDTW9sqS+ydePISQ968RKAOMitBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1527-1518.delta" sparkle:deltaFrom="1518" length="4234159" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="lmCqz+cLX2eHzHtxpztgdwrQTUNY2gqknLtV2BArp5ApDwLDAAhPOYlKO/RBVl4FjQHPQn6uL6hYTRw3vSNiCA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1527-1513.delta" sparkle:deltaFrom="1513" length="4238969" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="B0fvxCb/nwdr82nLtMo7H3Jvl3bO2vho4RFfWFUgj1xqOjArOFGH/iQkq5v8Bzcic/7RKvJAKTsBv+bdTjbmCg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1527-1502.delta" sparkle:deltaFrom="1502" length="13029912" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kmCR/IFcI4fQlZ9s2XoXsMVe0MAO8eIA8/+3AI9Dq4QfW6UQS7D1f6BQCrpvx1GbxQPI4sa4DzXKn02yiXKCAA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1527-1492.delta" sparkle:deltaFrom="1492" length="13011745" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QXdq+eanhLwrtBYVNBC9i4mpJqhtK5pQUdyrmqyBnlazLv7IIedxUfSZq2H2vpXqc2tU68dq7+dAWwLPuwAwAA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1527-1474.delta" sparkle:deltaFrom="1474" length="13295419" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="k5wp8eQJ4BVpTZjoHGVPFoMebmkdxmZg/cysX+zvmXPNSqZbCCu2d0CBSRblQGMMqD6EwJI91ic67OGhjqkbDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.59.0</title>
             <pubDate>Tue, 29 Jul 2025 13:06:31 +0800</pubDate>
             <link>https://opencat.app</link>
