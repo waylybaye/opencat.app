@@ -17,6 +17,22 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1527-1492.delta" sparkle:deltaFrom="1492" length="13011745" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QXdq+eanhLwrtBYVNBC9i4mpJqhtK5pQUdyrmqyBnlazLv7IIedxUfSZq2H2vpXqc2tU68dq7+dAWwLPuwAwAA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1527-1474.delta" sparkle:deltaFrom="1474" length="13295419" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="k5wp8eQJ4BVpTZjoHGVPFoMebmkdxmZg/cysX+zvmXPNSqZbCCu2d0CBSRblQGMMqD6EwJI91ic67OGhjqkbDg=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.60.0 Updates</h3>
+                <ul>
+                    <li>Support Poe provider.</li>
+                    <li>Fixed potential crash.</li>
+                </ul>
+            ]]></description>
+            <description xml:lang="zh">
+                <![CDATA[
+                <h3>2.60.0 更新</h3>
+                <ul>
+                    <li>支持 Poe 提供商。</li>
+                    <li>修复潜在崩溃。</li>
+                </ul>
+            ]]>
+            </description>
         </item>
         <item>
             <title>2.59.0</title>
