@@ -17,6 +17,12 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1533-1502.delta" sparkle:deltaFrom="1502" length="13068365" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="G1w68FvCoRcLk3Ay8qASbzDW9/IyxmvzE/RYmfKjEaiOBFFbxF5lytByVXmoglDg/R/PV6fnv+ynEFnb63OVCA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1533-1492.delta" sparkle:deltaFrom="1492" length="13162455" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="K7ReTpod1URGF/bMtaF1iiusyV1s5jTGheTc1xJr6/8/o4qss82kWg6622YTo8YA0YAKD7ap3S49BGYXP+dIBQ=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.60.1 Updates</h3>
+                <ul>
+                    <li>Support GPT5 and fixed some UI issues.</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.60.0</title>
