@@ -17,6 +17,14 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1617-1513.delta" sparkle:deltaFrom="1513" length="7988174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="N/4bpvBvLdcdEeo56uQfuPzeilQ9XoPBjoq06De6yRwIdyF/Z9W8vDRwxw+3vrZRqmQjmrAvGZyrJ/u3Ipa3Cw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1617-1502.delta" sparkle:deltaFrom="1502" length="15030020" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="xG85M3wJB/Z0gRssK4h+zfsRXprw97AqzDvLMJcUEtFKlQcmqINEaV/Is/BhORnSis80JFYfUpjzcEpMGx2CBQ=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.70.0 Updates</h3>
+                <ul>
+                    <li>Support MCP HTTP</li>
+                    <li>Improve MCP SSE</li>
+                    <li>Improve HuggingFace search</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.60.1</title>
