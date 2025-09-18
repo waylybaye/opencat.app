@@ -17,6 +17,12 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1703-1518.delta" sparkle:deltaFrom="1518" length="15138176" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Vqv70r0l5Agrlimw23h9W4ax58zok9VEyNXDjZyRw0PYAMalKCXNwq9e5gZmz69lPehDjmldkixu3+QbegTuAQ=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1703-1513.delta" sparkle:deltaFrom="1513" length="15142649" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="S7XR7P4DqLgUhFMxuPaY9wzVpqT7la8e9pBZmE4xRW/k5Z00Om0yc3CEq2dhDHwdxRBHMa3jmIJXp35l0H3iCQ=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.80.1 Updates</h3>
+                <ul>
+                    <li>Liquid Glass UI</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.70.0</title>
