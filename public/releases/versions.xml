@@ -17,6 +17,12 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1717-1527.delta" sparkle:deltaFrom="1527" length="15494189" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="2swyHyp8fiNQUbffN6aB8RKesEw6aTmNIhRdBodUT4a5LMXIJelVc37HL1e2hiZzdG4QP6METKETE+pA4uCcDQ=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1717-1518.delta" sparkle:deltaFrom="1518" length="15500354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="i84pru2a/Iw6SR1oySFGQMs564aqy7yw7p1jNskIEvP7jcqe4vG9V69o/8AGbwUiK7IAEMHvjPp5KbRMcHCFDQ=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.81.1 Updates</h3>
+                <ul>
+                    <li>Fixed some bugs</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.80.1</title>
