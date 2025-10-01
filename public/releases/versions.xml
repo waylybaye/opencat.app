@@ -17,6 +17,13 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1737-1533.delta" sparkle:deltaFrom="1533" length="15533629" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Pt6WngWP8E0vIqPaI3A6aBHSKR0M1ImkOwmkofHcMjhyfOe83flzolnaW2GMgirMWd9Xsi7dDMBESqkBMIxbCA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1737-1527.delta" sparkle:deltaFrom="1527" length="15519844" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jJFEfLedPYLPBsSlvBnnT/eo62anq1c+DQrVf91gUToKSBkG8zm/oHBxi0B/p3AjkyrgwfK2TOTt1DRaPHkoCA=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.81.2 Updates</h3>
+                <ul>
+                    <li>fixed UI issue on macOS 26</li>
+                    <li>fixed stdio MCP may fail to start</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.81.1</title>
