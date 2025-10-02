@@ -3,6 +3,29 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.81.2</title>
+            <pubDate>Wed, 01 Oct 2025 13:35:31 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1737</sparkle:version>
+            <sparkle:shortVersionString>2.81.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.81.2.1737.dmg" length="28469196" type="application/octet-stream" sparkle:edSignature="V/bEzI8jVhDxSj/0MM76g0N/B6x6lDMjjIM0V/bb9IyPIIfObS4iOL4Hp1t3FHAChwlqPjpe8tcor53O3b0DDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1737-1717.delta" sparkle:deltaFrom="1717" length="2878965" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="4axSg85NLVeNVlaJETbbtrY/SEqPV5fdQpPJZQVhGPFjDuwjJQbCQfUOeJLTuusNESEQxUPFUaPxstGe21zpBA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1737-1703.delta" sparkle:deltaFrom="1703" length="5219542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="BTqeFzdAyzvegHz24q9EquxGeAFiwJZiGw+RQyqCsDWu039bl8fVnz/eJe+XgAAvTDzCHjMkTgHw8i/LwpxRAw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1737-1617.delta" sparkle:deltaFrom="1617" length="14312717" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YvgbmngEU73XosS6TeKVMdm+sMDGMtLUGJekSlkxWx9xcuUsy5tPouHVPX4ZpVH+xzbfqlKao7Ri1HLdJq3YCQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1737-1533.delta" sparkle:deltaFrom="1533" length="15533629" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Pt6WngWP8E0vIqPaI3A6aBHSKR0M1ImkOwmkofHcMjhyfOe83flzolnaW2GMgirMWd9Xsi7dDMBESqkBMIxbCA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1737-1527.delta" sparkle:deltaFrom="1527" length="15519844" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jJFEfLedPYLPBsSlvBnnT/eo62anq1c+DQrVf91gUToKSBkG8zm/oHBxi0B/p3AjkyrgwfK2TOTt1DRaPHkoCA=="/>
+            </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.81.2 Updates</h3>
+                <ul>
+                    <li>fixed UI issue on macOS 26</li>
+                    <li>fixed stdio MCP may fail to start</li>
+                </ul>
+            ]]></description>
+        </item>
+        <item>
             <title>2.81.1</title>
             <pubDate>Wed, 24 Sep 2025 22:59:22 +0800</pubDate>
             <link>https://opencat.app</link>
