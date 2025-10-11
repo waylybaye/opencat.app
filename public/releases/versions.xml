@@ -17,6 +17,12 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1750-1617.delta" sparkle:deltaFrom="1617" length="15566117" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="XZwWTx0zZmuYOqgGxKTLu9R14/eYkjSadcLWFU2o522tpHSmqyJxj10kpBHcl5pZ321/D83VjGpegEgNhHHlAA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1750-1533.delta" sparkle:deltaFrom="1533" length="16666261" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="M5e7Y7eEFAXyYspBaWMvRTSYNUOYDLp3k8vP1ke3SS+pgHr8W1+Xbua8z2/IjzYcQrsLLa0TMJkNI7Enqu5xCw=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+                <h3>2.81.3 Updates</h3>
+                <ul>
+                    <li>Fixed crash when using translator on menu bar</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.81.2</title>
