@@ -17,7 +17,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1750-1617.delta" sparkle:deltaFrom="1617" length="15566117" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="XZwWTx0zZmuYOqgGxKTLu9R14/eYkjSadcLWFU2o522tpHSmqyJxj10kpBHcl5pZ321/D83VjGpegEgNhHHlAA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1750-1533.delta" sparkle:deltaFrom="1533" length="16666261" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="M5e7Y7eEFAXyYspBaWMvRTSYNUOYDLp3k8vP1ke3SS+pgHr8W1+Xbua8z2/IjzYcQrsLLa0TMJkNI7Enqu5xCw=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.81.3 Updates</h3>
                 <ul>
                     <li>Fixed crash when using translator on menu bar</li>
@@ -39,7 +39,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1737-1533.delta" sparkle:deltaFrom="1533" length="15533629" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Pt6WngWP8E0vIqPaI3A6aBHSKR0M1ImkOwmkofHcMjhyfOe83flzolnaW2GMgirMWd9Xsi7dDMBESqkBMIxbCA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1737-1527.delta" sparkle:deltaFrom="1527" length="15519844" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jJFEfLedPYLPBsSlvBnnT/eo62anq1c+DQrVf91gUToKSBkG8zm/oHBxi0B/p3AjkyrgwfK2TOTt1DRaPHkoCA=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.81.2 Updates</h3>
                 <ul>
                     <li>fixed UI issue on macOS 26</li>
@@ -62,7 +62,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1717-1527.delta" sparkle:deltaFrom="1527" length="15494189" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="2swyHyp8fiNQUbffN6aB8RKesEw6aTmNIhRdBodUT4a5LMXIJelVc37HL1e2hiZzdG4QP6METKETE+pA4uCcDQ=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1717-1518.delta" sparkle:deltaFrom="1518" length="15500354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="i84pru2a/Iw6SR1oySFGQMs564aqy7yw7p1jNskIEvP7jcqe4vG9V69o/8AGbwUiK7IAEMHvjPp5KbRMcHCFDQ=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.81.1 Updates</h3>
                 <ul>
                     <li>Fixed some bugs</li>
@@ -84,7 +84,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1703-1518.delta" sparkle:deltaFrom="1518" length="15138176" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Vqv70r0l5Agrlimw23h9W4ax58zok9VEyNXDjZyRw0PYAMalKCXNwq9e5gZmz69lPehDjmldkixu3+QbegTuAQ=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1703-1513.delta" sparkle:deltaFrom="1513" length="15142649" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="S7XR7P4DqLgUhFMxuPaY9wzVpqT7la8e9pBZmE4xRW/k5Z00Om0yc3CEq2dhDHwdxRBHMa3jmIJXp35l0H3iCQ=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.80.1 Updates</h3>
                 <ul>
                     <li>Liquid Glass UI</li>
@@ -106,7 +106,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1617-1513.delta" sparkle:deltaFrom="1513" length="7988174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="N/4bpvBvLdcdEeo56uQfuPzeilQ9XoPBjoq06De6yRwIdyF/Z9W8vDRwxw+3vrZRqmQjmrAvGZyrJ/u3Ipa3Cw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1617-1502.delta" sparkle:deltaFrom="1502" length="15030020" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="xG85M3wJB/Z0gRssK4h+zfsRXprw97AqzDvLMJcUEtFKlQcmqINEaV/Is/BhORnSis80JFYfUpjzcEpMGx2CBQ=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.70.0 Updates</h3>
                 <ul>
                     <li>Support MCP HTTP</li>
@@ -130,7 +130,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1533-1502.delta" sparkle:deltaFrom="1502" length="13068365" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="G1w68FvCoRcLk3Ay8qASbzDW9/IyxmvzE/RYmfKjEaiOBFFbxF5lytByVXmoglDg/R/PV6fnv+ynEFnb63OVCA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1533-1492.delta" sparkle:deltaFrom="1492" length="13162455" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="K7ReTpod1URGF/bMtaF1iiusyV1s5jTGheTc1xJr6/8/o4qss82kWg6622YTo8YA0YAKD7ap3S49BGYXP+dIBQ=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.60.1 Updates</h3>
                 <ul>
                     <li>Support GPT5 and fixed some UI issues.</li>
@@ -152,7 +152,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1527-1492.delta" sparkle:deltaFrom="1492" length="13011745" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QXdq+eanhLwrtBYVNBC9i4mpJqhtK5pQUdyrmqyBnlazLv7IIedxUfSZq2H2vpXqc2tU68dq7+dAWwLPuwAwAA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1527-1474.delta" sparkle:deltaFrom="1474" length="13295419" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="k5wp8eQJ4BVpTZjoHGVPFoMebmkdxmZg/cysX+zvmXPNSqZbCCu2d0CBSRblQGMMqD6EwJI91ic67OGhjqkbDg=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.60.0 Updates</h3>
                 <ul>
                     <li>Support Poe provider.</li>
@@ -184,7 +184,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1518-1474.delta" sparkle:deltaFrom="1474" length="13247456" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jvBFLEyhAR1LOPzckhDfM4ij4Pi4Z9mJM4ciCkRHXYnaeugRUwkRUCZgqFgoNyppkw1UTmpKN4Rm5uRvTgYuAg=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1518-1445.delta" sparkle:deltaFrom="1445" length="15161697" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="lRyn1xGAZgnqv+69CcT2XYMi4ymCd2+/YtGiVfvyzW8sjE+17LDxDRQVAlfE/OrsampwMw5kERM4G77bolyEBw=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.59.0 Updates</h3>
                 <ul>
                     <li>Support Kimi K2.</li>
@@ -207,7 +207,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1513-1445.delta" sparkle:deltaFrom="1445" length="15131584" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="9Xb2ldXbRk+6TwW6UUBOIDUpkbOUNJKB6RYh9xly09IKfo0PhJLsNIMmnaAtMpEWuquWWVo2EacvoIhaCPKSDg=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1513-1407.delta" sparkle:deltaFrom="1407" length="15811425" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="XTo4Rxk2oXsiOVOeb1jdKMD0HGlew4LvgYMuPfM5tuXMl4OqQjElbUPfKZsCjaVK94jwcU6irKLI4en67D/cCA=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.58.0 Updates</h3>
                 <ul>
                     <li>Supports MLX accelerated on device models.</li>
@@ -237,7 +237,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1502-1407.delta" sparkle:deltaFrom="1407" length="7188453" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="xeiok0dyAG/gi+zwYYM2ZvrAxxOdGSbIicA6O2p4o75XTxuuOsKHdX2kp1OjAqSHcsI4ggrYcRoPEGCcygHhAA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1502-1376.delta" sparkle:deltaFrom="1376" length="9075045" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="N+8EWTAtw9RGN1A5YU2xptz18MpjlX+YAcErEn4RaBP+6HkI7ytXM3lB5Comzk8TTsRMBbUUiu+0OLLNQ6M/DQ=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.57.0 Updates</h3>
                 <ul>
                     <li>Fixed UI issues and support more providers.</li>
@@ -259,7 +259,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1492-1376.delta" sparkle:deltaFrom="1376" length="9130460" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ooDrZI13asVj7p7flmZLqywTNCh4Cc2pMyBtKN9h1Fz9yohKZlmdXb0Ffc+Ha0fNHWH6BfuwSAnfoLC/XZn9DA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1492-1359.delta" sparkle:deltaFrom="1359" length="9163712" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="nEy3DrQcmqA7YAVzTDXSOziQQyB/+7BeYfAXaSA+mlftaVELLkhm+8gmrxDm0EVG1M+1r1DyPs8GLWqVjw04BA=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.56.0 Updates</h3>
                 <ul>
                     <li>Support fetch models from provider.</li>
@@ -281,7 +281,7 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1474-1359.delta" sparkle:deltaFrom="1359" length="8912770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6RY6PMNexv1hRouCPpaCO6OoHVlE98JRbYFmTTz/8fVJLakRfw+uruYdf1jyG0IFFk0PfHU/tWcraKhn+1QGBQ=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1474-1332.delta" sparkle:deltaFrom="1332" length="7152050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862784" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="WcJfiJiFpVpbPvQ4yhsUbrW4z3PGHkZS20NRjt6O4+AMISR9hK/qT4ExaQvvGENvvt3yBTbzo62CbwI5k7cIDQ=="/>
             </sparkle:deltas>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.55.2 Updates</h3>
                 <ul>
                     <li>Update models and fixed some issues</li>
@@ -313,7 +313,7 @@
                 </ul>
             ]]>
             </description>
-            <description>
+            <description xml:lang="en">
                 <![CDATA[
                 <h3>2.55.0 Updates</h3>
                 <ul>
@@ -332,7 +332,7 @@
             <sparkle:shortVersionString>2.54.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.4</sparkle:minimumSystemVersion>
             <enclosure url="https://opencat.app/releases/OpenCat-2.54.0.1407.dmg" length="18870904" type="application/octet-stream" sparkle:edSignature="F9TPhRq8wyJOkgMQK9jaAfbm2aYDQaRrLpBbce0LKzd7LzqGNPc3+k/N072VO/jeooXoQ0JF3XfNMow/E9TmCQ=="/>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.54.0 Updates</h3>
                 <ul>
                     <li>Support Claude 4</li>
@@ -362,7 +362,7 @@
             <sparkle:version>1376</sparkle:version>
             <sparkle:shortVersionString>2.52.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.52.1 Updates</h3>
                 <ul>
                     <li>Fixed several bugs in tools and API calls.</li>
@@ -391,7 +391,7 @@
             <pubDate>Fri, 18 Apr 2025 15:43:27 +0800</pubDate>
             <link>https://opencat.app</link>
             <sparkle:version>1359</sparkle:version>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.51.2 Updates</h3>
                 <ul>
                     <li>Support o3 and o4-mini</li>
@@ -424,7 +424,7 @@
             <pubDate>Tue, 15 Apr 2025 12:20:03 +0800</pubDate>
             <link>https://opencat.app</link>
             <sparkle:version>1332</sparkle:version>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.51.0 Updates</h3>
                 <ul>
                     <li>Support GPT 4.1</li>
@@ -457,7 +457,7 @@
             <pubDate>Fri, 11 Apr 2025 11:23:57 +0800</pubDate>
             <link>https://opencat.app</link>
             <sparkle:version>1313</sparkle:version>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.50.0 Updates</h3>
                 <ul>
                     <li>Cloud supports AMap MCP tools, allowing direct use of map features without configuration.  </li>
@@ -500,7 +500,7 @@
             <sparkle:version>1282</sparkle:version>
             <sparkle:shortVersionString>2.49.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description>
+            <description xml:lang="en">
                 <![CDATA[
                 <h3>2.49.4 Updates</h3>
                 <ul>
@@ -529,7 +529,7 @@
             <sparkle:version>1263</sparkle:version>
             <sparkle:shortVersionString>2.49.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description>
+            <description xml:lang="en">
                 <![CDATA[
                 <h3>2.49.3 Updates</h3>
                 <ul>
@@ -565,7 +565,7 @@
             <sparkle:version>1255</sparkle:version>
             <sparkle:shortVersionString>2.49.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description>
+            <description xml:lang="en">
                 <![CDATA[
                 <h3>2.49.2 Updates</h3>
                 <ul>
@@ -601,7 +601,7 @@
             <sparkle:version>1247</sparkle:version>
             <sparkle:shortVersionString>2.49.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.49.1 Updates</h3>
                 <ul>
                     <li>Fixed several bugs</li>
@@ -624,7 +624,7 @@
             <sparkle:version>1237</sparkle:version>
             <sparkle:shortVersionString>2.49.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h3>2.49.0 Updates</h3>
                 <ul>
                     <li>Fixed MCP documentation</li>
@@ -674,7 +674,7 @@
             <pubDate>Wed, 19 Mar 2025 15:16:42 +0800</pubDate>
             <link>https://opencat.app</link>
             <sparkle:version>1143</sparkle:version>
-            <description><![CDATA[
+            <description xml:lang="en"><![CDATA[
                 <h2>2.47.0 Updates:</h2>
                 <ul>
                     <li>Add speak, copy, share and remove button under every AI message.</li>
