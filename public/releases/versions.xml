@@ -3,6 +3,30 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.84.2</title>
+            <pubDate>Wed, 19 Nov 2025 14:30:39 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1838</sparkle:version>
+            <sparkle:shortVersionString>2.84.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.84.2.1838.dmg" length="31470339" type="application/octet-stream" sparkle:edSignature="Cd/cXO5e9ot/irQBa9wV5EO0NBWWlk+vlWY8wgWlERj0MgbqXczWOmWwxdJLZz/BQlkzuSqo0Jc+I+rnqcXPBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1838-1834.delta" sparkle:deltaFrom="1834" length="2878492" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6ubxJaJQjF1COL0qrbiyPsrYKBfNt5kEuGWlFYsIPanDPtT3fCdo+Ff+ND/ZVR/mPOZ8lWnqUcWzGqzhM947BQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1838-1778.delta" sparkle:deltaFrom="1778" length="11344919" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gzDLC7VetTSmD0/Xcrp1dxrwC1kvIAGPGAMa8m8R8NIQ6RxPE4XxRTAfhTnXGSeDq8ZDgJUqs21JqeDGQIhLAQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1838-1750.delta" sparkle:deltaFrom="1750" length="15057926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+kiL1fER6uRzUzlDSCEEOLkLMV0Enk6KiOCw3k3oSxcZv2e63U50IUtrdbWPOKOkEfdZG9FIRHhcW1pSCJIRDA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1838-1737.delta" sparkle:deltaFrom="1737" length="16443246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="NbLFeW9Bz+pOBYQ4+PyAss1oLm0Cd/B5O2iglzLtcwKQ9b5CTLiKCsgrbAGEuxPQJmbK3OvsJBLbInDJ31jyAA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1838-1717.delta" sparkle:deltaFrom="1717" length="16515920" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="70Ug35VcKibVBSKUZX58Eh4DaXlzSxr/xk1IM8mekGX92jPsNGprfXMEfKKkbsHd4iNStG1WVfsEJ7bIfnQyDQ=="/>
+            </sparkle:deltas>
+            <description xml:lang="en"><![CDATA[
+                <h3>2.84.2 Updates</h3>
+                <ul>
+                    <li>New system wide voice input using whisper or GPT 4o transcribe</li>
+                    <li>Support Gemini 3 Pro</li>
+                    <li>Fixed Siri voice input</li>
+                </ul>
+            ]]></description>
+        </item>
+        <item>
             <title>2.84.1</title>
             <pubDate>Tue, 18 Nov 2025 18:39:39 +0800</pubDate>
             <link>https://opencat.app</link>
