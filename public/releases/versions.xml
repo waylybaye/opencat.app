@@ -17,6 +17,14 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1838-1737.delta" sparkle:deltaFrom="1737" length="16443246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="NbLFeW9Bz+pOBYQ4+PyAss1oLm0Cd/B5O2iglzLtcwKQ9b5CTLiKCsgrbAGEuxPQJmbK3OvsJBLbInDJ31jyAA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1838-1717.delta" sparkle:deltaFrom="1717" length="16515920" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="70Ug35VcKibVBSKUZX58Eh4DaXlzSxr/xk1IM8mekGX92jPsNGprfXMEfKKkbsHd4iNStG1WVfsEJ7bIfnQyDQ=="/>
             </sparkle:deltas>
+            <description xml:lang="en"><![CDATA[
+                <h3>2.84.2 Updates</h3>
+                <ul>
+                    <li>New system wide voice input using whisper or GPT 4o transcribe</li>
+                    <li>Support Gemini 3 Pro</li>
+                    <li>Fixed Siri voice input</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.84.1</title>
