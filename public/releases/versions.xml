@@ -17,6 +17,23 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1848-1750.delta" sparkle:deltaFrom="1750" length="16401803" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Qoe9hBWDAFQpkTxqY/hW/FfUXvz+QLxie2G7Ucz7cpMw9+7/vN90v8vJBKq495JCW4RCR0MXlrmWH6HRojuRCA=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1848-1737.delta" sparkle:deltaFrom="1737" length="17801667" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="dQbbgW1XzITPa5vjfsMaSquF5bYKdBCf1fXE66+w6hHXa++HEv3ZOLD9z8s6XAS6BzAW+2T4oN8kvfhmqGX1Dw=="/>
             </sparkle:deltas>
+            <description xml:lang="en"><![CDATA[
+                <h3>2.85.0 Updates</h3>
+                <ul>
+                    <li>Sync App Icon with iOS App</li>
+                    <li>Add Default Chat settings</li>
+                    <li>Fixed Resend button not working</li>
+                </ul>
+            ]]></description>
+            <description xml:lang="zh"><![CDATA[
+                <h3>2.85.0 更新</h3>
+                <ul>
+                    <li>同步 iOS 应用图标</li>
+                    <li>添加默认聊天设置</li>
+                    <li>修复重发按钮无法工作</li>
+                </ul>
+            ]]></description>
+
         </item>
         <item>
             <title>2.84.2</title>
