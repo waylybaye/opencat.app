@@ -3,6 +3,29 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.86.1</title>
+            <pubDate>Tue, 02 Dec 2025 12:55:43 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1877</sparkle:version>
+            <sparkle:shortVersionString>2.86.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.86.1.1877.dmg" length="30124961" type="application/octet-stream" sparkle:edSignature="HrAtXigR97+W1vgcoAyKIfboXnk2UcApazLIqeYhD2qhyE7F/FPaT5L+FnWl2rxddBjHjvI5Q7OJMn3/gVB5CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1877-1848.delta" sparkle:deltaFrom="1848" length="5610763" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nKOi6yRGbGshYIoe/0rC7g4I+TqqkIvyftrG+v9p6xgo57N84r3tS5Qog5l/e4pijijcOfo7Pf29NSmEKG3vDQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1877-1838.delta" sparkle:deltaFrom="1838" length="7178324" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sJOJqmBSjt/GdzSUWI3xCFz58vGlLSw1jBkCcE3T296b2+kUtx2mtXZn9plJuw0ZoBYBsgUxZ8gz2Q8yHqF0DA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1877-1834.delta" sparkle:deltaFrom="1834" length="7221691" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uWADDhqhO/QeYVIrQSrUjyFVbE3XpZ1HnlFnJ+BlJIwTbvZyJJwyn7ZXvTajhd2XUDPlgXVBkBBnz4atYjY+BQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1877-1778.delta" sparkle:deltaFrom="1778" length="12762421" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8BOHY8ZjwzjD3HgrhNzdA4A55pUNzCI2Rlo+KJWBxV4hzosp/iQjwSm57cdQKXZ1F4KWHfjVU65K5h7VNwCKDw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1877-1750.delta" sparkle:deltaFrom="1750" length="16338335" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9l/7kZC0tZIxtwPKZAjy1JdRnoC9PQoEet5H6xonzniWodnRyf7rXz3UqxK7sTs2n+QNrwy7RPAV8m7GMPM8CA=="/>
+            </sparkle:deltas>
+            <description xml:lang="en"><![CDATA[
+                <h3>2.86.1 Updates</h3>
+                <ul>
+                    <li>Voice input supports ElevenLabs' real-time model.</li>
+                    <li>MLX model downloads support resumable transfers.</li>
+                </ul>
+            ]]></description>
+        </item>
+        <item>
             <title>2.85.0</title>
             <pubDate>Fri, 21 Nov 2025 16:53:04 +0800</pubDate>
             <link>https://opencat.app</link>
