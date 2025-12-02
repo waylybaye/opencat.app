@@ -17,6 +17,13 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1877-1778.delta" sparkle:deltaFrom="1778" length="12762421" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8BOHY8ZjwzjD3HgrhNzdA4A55pUNzCI2Rlo+KJWBxV4hzosp/iQjwSm57cdQKXZ1F4KWHfjVU65K5h7VNwCKDw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1877-1750.delta" sparkle:deltaFrom="1750" length="16338335" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9l/7kZC0tZIxtwPKZAjy1JdRnoC9PQoEet5H6xonzniWodnRyf7rXz3UqxK7sTs2n+QNrwy7RPAV8m7GMPM8CA=="/>
             </sparkle:deltas>
+            <description xml:lang="en"><![CDATA[
+                <h3>2.86.1 Updates</h3>
+                <ul>
+                    <li>Voice input supports ElevenLabs' real-time model.</li>
+                    <li>MLX model downloads support resumable transfers.</li>
+                </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.85.0</title>
