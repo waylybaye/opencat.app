@@ -17,6 +17,12 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1908-1834.delta" sparkle:deltaFrom="1834" length="17357272" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bxHSgmOSR6wF1leP7TsrqBi7Gv9GmPLZwGCvybSwKBAySnu9vXYScXLMFg9sPxwrKJZclsYbcxfS+A0lJb5QBw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1908-1778.delta" sparkle:deltaFrom="1778" length="21006191" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8bbhi5P3U3tRnTK4ir8+2kZhNDWxceBSYl+iFuGYmEw/LNF97n3mwO6hpu3er5XVTeL1nnaLKfTiYwC9QIkxAw=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+            <h3>2.88.0 Update</h3>
+            <ul>
+                <li>Add "Quick Access" feature</li>
+            </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.86.1</title>
