@@ -3,6 +3,28 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.88.0</title>
+            <pubDate>Sat, 07 Feb 2026 21:55:25 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1908</sparkle:version>
+            <sparkle:shortVersionString>2.88.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.88.0.1908.dmg" length="34082544" type="application/octet-stream" sparkle:edSignature="Q6W0oqjdJLG1qbURTZU3EpTHTamcyV+4a74bwuebPpy4Hq+HPNTzSvOM0uXiBVQWR4R+6GcvHvncADhulY9mCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1908-1877.delta" sparkle:deltaFrom="1877" length="16297780" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rOjZGcsK7BGS/8iMjc+w/uLdU6UiV7HTwxnbZ554Bfl54NFDJlG5T/mV0vF1JCoDOuKdqTd01JDYM5bp36GABQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1908-1848.delta" sparkle:deltaFrom="1848" length="16945910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c8qVdx8EhhiOKW35wKerIYEUBA2cA6ccbyBduMhcO5jZGTDWHu+s0ZakaIjBTz0AayDcDYLuNtbaKmMd3PGCBA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1908-1838.delta" sparkle:deltaFrom="1838" length="17318767" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tTfDjCRGAXcmJaHz8KEU8P9L43EJ9gmFCNfsDYlfxMjWL2eaZbbuFxt+rjjSTynfeeYTI21nV3tkKwnz1DniAQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1908-1834.delta" sparkle:deltaFrom="1834" length="17357272" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bxHSgmOSR6wF1leP7TsrqBi7Gv9GmPLZwGCvybSwKBAySnu9vXYScXLMFg9sPxwrKJZclsYbcxfS+A0lJb5QBw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1908-1778.delta" sparkle:deltaFrom="1778" length="21006191" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8bbhi5P3U3tRnTK4ir8+2kZhNDWxceBSYl+iFuGYmEw/LNF97n3mwO6hpu3er5XVTeL1nnaLKfTiYwC9QIkxAw=="/>
+            </sparkle:deltas>
+            <description><![CDATA[
+            <h3>2.88.0 Update</h3>
+            <ul>
+                <li>Add "Quick Access" feature</li>
+            </ul>
+            ]]></description>
+        </item>
+        <item>
             <title>2.86.1</title>
             <pubDate>Tue, 02 Dec 2025 12:55:43 +0800</pubDate>
             <link>https://opencat.app</link>
