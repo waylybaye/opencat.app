@@ -3,6 +3,28 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.88.1</title>
+            <pubDate>Tue, 10 Feb 2026 13:27:36 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>1909</sparkle:version>
+            <sparkle:shortVersionString>2.88.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.88.1.1909.dmg" length="34084580" type="application/octet-stream" sparkle:edSignature="rC+4ZwniSuiRUghiSHZJFZcOFcKoBiNkzmAhU/dBjuaLLFMXma+WfuvM8NhABYUd9LFjiDklPZqns8SPmv+HDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat1909-1908.delta" sparkle:deltaFrom="1908" length="3161126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="r3oOJEQ/5up67zx3ycz58c6ms3lko/nV+iYxUSRHuA+x0OEjQLgP11SaK9BYAdPj0NVIhpgWRFZvLKhVtQvUCg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1909-1877.delta" sparkle:deltaFrom="1877" length="16299466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y/R63dENAkvZ2cXRa/EAF8qjBTWkm4vn6pmy8WEQyfha5Cyl1XNBC9APXVnpru3Dl0A2/4+WJIK1Yw6Ade+jDA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1909-1848.delta" sparkle:deltaFrom="1848" length="16979102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jpkZeAIdEsQDdEIY4zCs20rNtzTJzSfuDWOeHQDsNVS+6nfptCWJUThaR0ny360cKf3RYDJZWyhNqXxmsidaCQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1909-1838.delta" sparkle:deltaFrom="1838" length="17328553" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8uDwBSN5thOxTVv/fdREB0NbocRpUuAgAWMUqOlqFa01Z4UvvsJSHHyEp4jilNkQsJgqYUqY1mNCVchokdsyBQ=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat1909-1834.delta" sparkle:deltaFrom="1834" length="17384781" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gisHeWFpsf90yjrTQIFb1Ijx+cKuVhgl/lT/aNuiiIWhV/KX+ooen3oi0Z1hX9L0NR7i5FnprtJ/nKv+5XO3AQ=="/>
+            </sparkle:deltas>
+            <description><![CDATA[
+            <h3>2.88.1 Update</h3>
+            <ul>
+                <li>Fixed thinking bugs</li>
+            </ul>
+            ]]></description>
+        </item>
+        <item>
             <title>2.88.0</title>
             <pubDate>Sat, 07 Feb 2026 21:55:25 +0800</pubDate>
             <link>https://opencat.app</link>
