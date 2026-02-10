@@ -17,6 +17,12 @@
                 <enclosure url="https://opencat.app/releases/OpenCat1909-1838.delta" sparkle:deltaFrom="1838" length="17328553" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8uDwBSN5thOxTVv/fdREB0NbocRpUuAgAWMUqOlqFa01Z4UvvsJSHHyEp4jilNkQsJgqYUqY1mNCVchokdsyBQ=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat1909-1834.delta" sparkle:deltaFrom="1834" length="17384781" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gisHeWFpsf90yjrTQIFb1Ijx+cKuVhgl/lT/aNuiiIWhV/KX+ooen3oi0Z1hX9L0NR7i5FnprtJ/nKv+5XO3AQ=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+            <h3>2.88.1 Update</h3>
+            <ul>
+                <li>Fixed thinking bugs</li>
+            </ul>
+            ]]></description>
         </item>
         <item>
             <title>2.88.0</title>
