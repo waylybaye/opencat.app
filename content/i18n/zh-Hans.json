@@ -21,8 +21,8 @@
       "href": "/#resources"
     },
     {
-      "name": "更多",
-      "href": "/#more"
+      "name": "联系我们",
+      "href": "#contact"
     }
   ],
   "button": {
@@ -269,10 +269,7 @@
   },
   "faq": {
     "title": "常见问题",
-    "subtitle": "如果您还有其他问题，",
-    "reach": "请联系我们",
-    "contact": "friends@baye.dev",
-    "period": "。",
+    "subtitle": "如果您还有其他问题，欢迎联系我们。",
     "content": [
       [
         {
@@ -339,30 +336,6 @@
         "description": "阅读我们的隐私政策，了解我们如何保护您的数据。",
         "icon": "fingerprint",
         "href": "privacy"
-      }
-    ]
-  },
-  "more": {
-    "title": "Baye 的更多应用",
-    "subtitle": "找到更多由 Baye 开发的应用程序，提升您的生产力和沟通能力。",
-    "content": [
-      {
-        "name": "熊猫吃短信 2",
-        "description": "机器学习离线拦截垃圾短信",
-        "icon": "pandasms",
-        "href": "https://apps.apple.com/app/id1642682818"
-      },
-      {
-        "name": "ServerCat",
-        "description": "SSH 终端和 Linux 监控",
-        "icon": "servercat",
-        "href": "https://apps.apple.com/app/id1501532023"
-      },
-      {
-        "name": "DAMA",
-        "description": "自动隐私保护",
-        "icon": "dama",
-        "href": "https://apps.apple.com/app/id1534690075"
       }
     ]
   },

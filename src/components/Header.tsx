@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Popover } from '@headlessui/react'
 import { AnimatePresence, motion } from 'framer-motion'
 
+import { ContactLink } from '@/components/ContactLink'
 import I18nSwitch from '@/components/I18nSwitch'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -119,9 +120,19 @@ export function Header({ type = 'home', params }: {
                         >
                           <div className="space-y-4">
                             { params.links.filter(({ name }) => (name !== 'Download')).map(({ name, href }) => (
-                              <MobileNavLink key={name} href={href}>
-                                {name}
-                              </MobileNavLink>
+                              href === '#contact'
+                                ? (
+                                  <ContactLink
+                                    key={name}
+                                    label={name}
+                                    className="block text-base leading-7 tracking-tight text-gray-700"
+                                  />
+                                  )
+                                : (
+                                  <MobileNavLink key={name} href={href}>
+                                    {name}
+                                  </MobileNavLink>
+                                  )
                             )) }
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
