@@ -3,6 +3,29 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.92.0</title>
+            <pubDate>Tue, 14 Apr 2026 12:12:58 +0800</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>2300</sparkle:version>
+            <sparkle:shortVersionString>2.92.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://opencat.app/releases/OpenCat-2.92.0.2300.dmg" length="41314896" type="application/octet-stream" sparkle:edSignature="PtvABixPzubgYYBowwt2rqSaoNuiIJS6UFWmXfJERSzft1f0xgRgVA3UgTmBZTOk2tlxcP8lQyPlmWmSVAUZAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://opencat.app/releases/OpenCat2300-1909.delta" sparkle:deltaFrom="1909" length="16566122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uOKVSnF1a5qJIyJKZBhAAW0JZ1f0p9v2QPZN+1p4PbdTZklBW/Lnm6WaEtTTARYH0+vZ7tBlK5++KSeO3d8KCg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat2300-1908.delta" sparkle:deltaFrom="1908" length="16561562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4uCLnHLA6c0fdeIGsBPHD/SVIkjJeP7B8xxgvECpfC69x2/laMoylL6AWg5GJUGsgvfSPXifwKlsacfUqCtkCA=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat2300-1877.delta" sparkle:deltaFrom="1877" length="27047459" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gECuZXbbDl2E7RzDKJiEGHhK8dwMnkKZNT08WZeatSzkQFMSOsm+He5YGjeJiTWAT0x7WapKGWYMoJUquGHXCg=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat2300-1848.delta" sparkle:deltaFrom="1848" length="27437477" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RRGrnWohQKkzCYwPg0yeNiaPfLY/ZKz/TwkQyTGcnG/AoIcG9UGvfehNbaqLCWaYifcHsUp0VSuUltSql667Cw=="/>
+                <enclosure url="https://opencat.app/releases/OpenCat2300-1838.delta" sparkle:deltaFrom="1838" length="27951152" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UhBmwedPbj7WF9ZErnLKyFaNPoFPVTDARcS9Nn6bDZEGRE7LvrpRjCKQsiMqUTndqX1Y7E8y7yu6edOwlRWxBA=="/>
+            </sparkle:deltas>
+            <description><![CDATA[
+            <h3>2.92.0 Update</h3>
+            <ul>
+                <li>Fixed bugs and performance improvements</li>
+            </ul>
+            ]]></description>
+
+        </item>
+        <item>
             <title>2.88.1</title>
             <pubDate>Tue, 10 Feb 2026 13:27:36 +0800</pubDate>
             <link>https://opencat.app</link>
