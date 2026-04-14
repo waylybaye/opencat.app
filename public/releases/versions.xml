@@ -17,6 +17,13 @@
                 <enclosure url="https://opencat.app/releases/OpenCat2300-1848.delta" sparkle:deltaFrom="1848" length="27437477" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RRGrnWohQKkzCYwPg0yeNiaPfLY/ZKz/TwkQyTGcnG/AoIcG9UGvfehNbaqLCWaYifcHsUp0VSuUltSql667Cw=="/>
                 <enclosure url="https://opencat.app/releases/OpenCat2300-1838.delta" sparkle:deltaFrom="1838" length="27951152" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UhBmwedPbj7WF9ZErnLKyFaNPoFPVTDARcS9Nn6bDZEGRE7LvrpRjCKQsiMqUTndqX1Y7E8y7yu6edOwlRWxBA=="/>
             </sparkle:deltas>
+            <description><![CDATA[
+            <h3>2.92.0 Update</h3>
+            <ul>
+                <li>Fixed bugs and performance improvements</li>
+            </ul>
+            ]]></description>
+
         </item>
         <item>
             <title>2.88.1</title>
