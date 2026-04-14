@@ -5,7 +5,19 @@ import TitleSvglight from '@/images/meta/logo-light.svg'
 
 export function Logomark() {
   return (
-    <Image src={OpenCatLogo} alt="OpenCat" width={40} height={40} />
+    <span className="relative inline-flex h-10 w-10 overflow-hidden rounded-[23.5%]">
+      <Image
+        src={OpenCatLogo}
+        alt="OpenCat"
+        width={40}
+        height={40}
+        className="h-full w-full"
+      />
+      <span
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 rounded-[23.5%] ring-1 ring-inset ring-black/10"
+      />
+    </span>
   )
 }
 
