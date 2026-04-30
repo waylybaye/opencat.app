@@ -126,4 +126,4 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, please contact us at [waylybaye@gmail.com](mailto:waylybaye@gmail.com).
+If you have any questions about this Privacy Policy, please [contact us](mailto:contact).
