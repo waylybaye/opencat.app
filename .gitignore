@@ -33,3 +33,8 @@ yarn-error.log*
 
 # DevTunnel
 /DevTunnels/
+
+# Release binaries live on R2, not in git. Only versions.xml is tracked.
+/public/releases/*.dmg
+/public/releases/*.delta
+/public/releases/old_updates/
