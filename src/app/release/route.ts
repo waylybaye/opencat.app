@@ -9,12 +9,16 @@ export async function GET() {
   const parser = new XMLParser()
   const cast = parser.parse(xml)
   const latest = `${cast.rss.channel.item[0]['sparkle:shortVersionString']}.${cast.rss.channel.item[0]['sparkle:version']}`
-  
-  // Redirect to the static file instead of reading it into memory
+
+  // Binaries are hosted on R2 (served via a custom domain), not in this repo.
+  // Override with RELEASES_DOWNLOAD_BASE if the domain changes.
+  const downloadBase = (process.env.RELEASES_DOWNLOAD_BASE ?? 'https://releases.opencat.app').replace(/\/$/, '')
+
+  // Redirect to the R2-hosted DMG instead of reading it into memory
   return new Response(null, {
     status: 302,
     headers: {
-      'Location': `/releases/OpenCat-${latest}.dmg`,
+      'Location': `${downloadBase}/OpenCat-${latest}.dmg`,
     },
   })
 }
