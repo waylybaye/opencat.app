@@ -3,18 +3,28 @@
     <channel>
         <title>OpenCat</title>
         <item>
+            <title>2.93.2</title>
+            <pubDate>Wed, 10 Jun 2026 10:34:26 +0000</pubDate>
+            <link>https://opencat.app</link>
+            <sparkle:version>2395</sparkle:version>
+            <sparkle:shortVersionString>2.93.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://releases.opencat.app/OpenCat-2.93.2.2395.dmg" length="40324161" type="application/octet-stream" sparkle:edSignature="fQq40A7yujYCAjzDT499GDad1HC2M73/dIDfSQEgmQiExWMLOTR74hSqqCzYy4J3c0MCpLbS3M5UwToKM+dtDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://releases.opencat.app/OpenCat2395-2379.delta" sparkle:deltaFrom="2379" length="3865730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q1c1V4f0UMAT6Eti01YDT0ncru+R/Y+rE/ieeXFw+YEAu3dBGKkhlJs+0cZAOshSL14LJ8ClTS5X1j9lYMecBw=="/>
+                <enclosure url="https://releases.opencat.app/OpenCat2395-2369.delta" sparkle:deltaFrom="2369" length="3805570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8V+nLk6KSQXVzI08XWPqom5vprOEjHSVTFLpsrRR8cV/o9+qIyY7rd3KXVgMvZjqY4NnhfxEZEi1u3ixe1VRDA=="/>
+                <enclosure url="https://releases.opencat.app/OpenCat2395-2339.delta" sparkle:deltaFrom="2339" length="4605234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g3h19UfTwt7P0Gv/jVRRRn7YdCm5t8aE72lChUm0rbanvvAkNj1W/HUfTyQ59qg5HdujbuNUAt5aVSN9VXmNDw=="/>
+                <enclosure url="https://releases.opencat.app/OpenCat2395-2300.delta" sparkle:deltaFrom="2300" length="13173278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Fz/OXbmKCJhJeCvUAThrjVlT+vkCVfeamybVJ2U0Yy75+/a681IxE7UGrvLzgo2WFYVoKxudRvQcX4J+6C3QDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.93.1</title>
-            <pubDate>Thu, 04 Jun 2026 11:06:52 +0000</pubDate>
+            <pubDate>Thu, 04 Jun 2026 11:06:57 +0000</pubDate>
             <link>https://opencat.app</link>
             <sparkle:version>2379</sparkle:version>
             <sparkle:shortVersionString>2.93.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://releases.opencat.app/OpenCat-2.93.1.2379.dmg" length="40330047" type="application/octet-stream" sparkle:edSignature="71Yi1HDVPSWqki/hwgt1v+WBK7dJmHis49880jFRuJ6AaPGflPH+/G+aXM+bnEJlPZCkY1s1u6+xApuvSPdKDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://releases.opencat.app/OpenCat2379-2369.delta" sparkle:deltaFrom="2369" length="3918114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mZhqrPXTkTz5gO/S4QDAXFLEOUBiHttJuQB+H4gIGO57v+oJf3Acgq5Zc2323on+gpP3P4T8bPB9ixLZ9dNFAQ=="/>
-                <enclosure url="https://releases.opencat.app/OpenCat2379-2339.delta" sparkle:deltaFrom="2339" length="4699858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Fc875WitD3CYb9gorO1aYs8ZKmTXrzrQwhEVt/Z7KfJ0C6+rc5NStt39CNaGPAWwGN64CkjqiLkqtRR+hpoYAQ=="/>
-                <enclosure url="https://releases.opencat.app/OpenCat2379-2300.delta" sparkle:deltaFrom="2300" length="13186446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ACPj96gH33QADLEAnPDwUbqFiIDgMV4fXMw+cGcBuYmq1vh8jeXd3VBlXf85Dmgxy6dg3bxTI8Btd1s9GktRAg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.93.0</title>
