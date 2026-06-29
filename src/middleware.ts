@@ -29,6 +29,10 @@ export function middleware(request: NextRequest) {
       'releases',
       'release',
       'docs',
+      // sitemap.xml / robots.txt 是站点级 metadata 路由，不应被加上语言前缀
+      // （否则会被重定向到不存在的 /en/sitemap.xml 而 404）。
+      'sitemap.xml',
+      'robots.txt',
       // Add other folders/files in `public` that you want to ignore
     ].includes(pathname.split('/')[1])
   )
