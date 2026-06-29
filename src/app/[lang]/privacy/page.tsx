@@ -1,19 +1,14 @@
-import path from 'node:path'
-import process from 'node:process'
-import { readFile } from 'node:fs/promises'
 import Markdown from 'react-markdown'
-import matter from 'gray-matter'
 import remarkGfm from 'remark-gfm'
 import type { Locale } from '@/utils/i18n-config'
+import { getPrivacyContent } from '@/utils/markdown-content'
 import { Container } from '@/components/Container'
 import { ContactLink } from '@/components/ContactLink'
 
 export default async function Privacy({ params: { lang } }: { params: {
   lang: Locale
 } }) {
-  const filePath = path.join(process.cwd(), `content/privacy/${lang}.md`)
-  const file = await readFile(filePath, 'utf-8')
-  const { content } = matter(file)
+  const content = getPrivacyContent(lang)
 
   return (
     <Container className="py-16">
