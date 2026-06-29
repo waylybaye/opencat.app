@@ -15,5 +15,12 @@
   // 下载跳转默认指向 R2 自定义域名，域名变更时在此覆盖即可（也可用 Secret）。
   "vars": {
     "RELEASES_DOWNLOAD_BASE": "https://releases.opencat.app"
+  },
+  // 开启 Workers 可观测性日志（含每次调用日志），便于在控制台排查运行时问题。
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    }
   }
 }
