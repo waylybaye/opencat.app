@@ -11,8 +11,8 @@ import {
 } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
 
-import type { StaticImageData } from 'next/image'
-import Image from 'next/image'
+import type { StaticImageData } from '@/components/Image'
+import Image from '@/components/Image'
 import { AppScreen } from '@/components/AppScreen'
 import { CircleBackground } from '@/components/CircleBackground'
 import { Container } from '@/components/Container'

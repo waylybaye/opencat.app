@@ -1,0 +1,45 @@
+---
+import type { Locale } from '@/utils/i18n-config'
+import '@/styles/globals.css'
+
+interface Props {
+  lang: Locale
+  /** 页面标题；省略时用站点默认标题。传入时按 "%s - OpenCat" 模板拼接。 */
+  title?: string
+  description?: string
+}
+
+const {
+  lang,
+  title,
+  description = 'OpenCat is a native AI client, offering a smoother and faster chat experience than the web.',
+} = Astro.props
+
+const defaultTitle = 'OpenCat - ChatGPT app client for Mac/iOS/iPad'
+const pageTitle = title ? `${title} - OpenCat` : defaultTitle
+const keywords = 'opencat,open cat,desktop ai chat ,ios ai chat, macos ai chat, better ui chatgpt，chat gpt ui'
+
+const canonical = new URL(Astro.url.pathname, Astro.site)
+---
+
+<!doctype html>
+<html lang={lang} class="bg-gray-50 antialiased font-sans scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <link rel="canonical" href={canonical} />
+    {/* 对齐旧站 next metadata.itunes：Smart App Banner */}
+    <meta
+      name="apple-itunes-app"
+      content="app-id=6445999201, app-argument=opencat://conversations?message=Hello"
+    />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <slot />
+  </body>
+</html>

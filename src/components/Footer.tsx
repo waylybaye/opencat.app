@@ -1,7 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
-
 import { Container } from '@/components/Container'
+import Image from '@/components/Image'
 import { Logomark } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
 import qrCode from '@/images/meta/qr-code.svg'
@@ -53,10 +51,10 @@ export function Footer({ params }: { params: {
             </div>
             <div className="ml-8 lg:w-64">
               <p className="text-base font-semibold text-gray-900">
-                <Link href="/#download">
+                <a href="/#download">
                   <span className="absolute inset-0 sm:rounded-2xl" />
                   {params.footer.download}
-                </Link>
+                </a>
               </p>
               <p className="mt-1 text-sm text-gray-700">
                 {params.footer.cta}

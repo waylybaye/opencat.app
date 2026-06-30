@@ -1,13 +1,17 @@
 'use client'
 
-import { usePathname } from 'next/navigation'
-import Link from 'next/link'
-import { Fragment } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { type Locale, i18n } from '@/utils/i18n-config'
 
 export default function I18nSwitch() {
-  const pathName = usePathname()
+  // 旧站用 next/navigation 的 usePathname；这里在 island 挂载后读取 window.location，
+  // SSR 阶段先用 '/'，hydration 后修正为真实路径（语言切换需点击，发生在 hydration 之后）。
+  const [pathName, setPathName] = useState('/')
+  useEffect(() => {
+    setPathName(window.location.pathname)
+  }, [])
+
   const redirectedPathName = (locale: Locale) => {
     if (!pathName)
       return '/'
@@ -34,12 +38,12 @@ export default function I18nSwitch() {
           {i18n.locales.map((locale) => {
             return (
               <Menu.Item key={locale}>
-                <Link
+                <a
                   className="hover:bg-gray-200/50 text-sm w-full rounded-md p-2"
                   href={redirectedPathName(locale)}
                 >
                   {locale === 'en' ? 'English' : '中文'}
-                </Link>
+                </a>
               </Menu.Item>
             )
           })}

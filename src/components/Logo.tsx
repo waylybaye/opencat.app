@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from '@/components/Image'
 import OpenCatLogo from '@/images/meta/opencat.png'
 import TitleSvglight from '@/images/meta/logo-light.svg'
 
@@ -29,19 +28,19 @@ export function Logo({ type = 'home', params }: {
 }) {
   return (
     <div className="flex justify-center items-center gap-4">
-      <Link href="/">
+      <a href="/">
         <Logomark />
-      </Link>
+      </a>
       { type === 'home'
         ? (
-          <Link href="/">
+          <a href="/">
             <Image src={TitleSvglight} alt="OpenCat" height={16} />
-          </Link>
+          </a>
           )
         : (
-          <Link href="/doc">
+          <a href="/doc">
             <span>{params.doc}</span>
-          </Link>
+          </a>
           )}
     </div>
   )

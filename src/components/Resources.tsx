@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { Container } from '@/components/Container'
 
 export function Resources({ params }: { params: {
@@ -33,7 +32,7 @@ export function Resources({ params }: { params: {
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
         >
           {params.resource.content.map(item => (
-            <Link href={item.href} key={item.name}>
+            <a href={item.href} key={item.name}>
               <li
                 className="rounded-2xl border border-gray-800 p-8"
               >
@@ -43,7 +42,7 @@ export function Resources({ params }: { params: {
                 </h3>
                 <p className="mt-2 text-gray-400">{item.description}</p>
               </li>
-            </Link>
+            </a>
           ))}
         </ul>
       </Container>

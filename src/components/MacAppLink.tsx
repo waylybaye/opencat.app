@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import clsx from 'clsx'
 
 export function MacAppLink({
@@ -7,10 +6,10 @@ export function MacAppLink({
   color?: 'black' | 'white'
 }) {
   return (
-    <Link
+    <a
       href="/release/"
       target="_blank"
-      prefetch={false}
+      rel="noreferrer"
       aria-label="Download on Official Website"
       className={clsx(
         'rounded-lg transition-colors',
@@ -24,6 +23,6 @@ export function MacAppLink({
           Download for Mac
         </span>
       </div>
-    </Link>
+    </a>
   )
 }

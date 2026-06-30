@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import { AppScreen } from '@/components/AppScreen'
+import Image from '@/components/Image'
 import MainUiPic from '@/images/meta/main-ui.jpeg'
 
 export function AppDemo() {

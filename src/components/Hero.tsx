@@ -1,6 +1,6 @@
 import { useId } from 'react'
-import Image from 'next/image'
 import clsx from 'clsx'
+import Image from '@/components/Image'
 
 import { AppDemo } from '@/components/AppDemo'
 import { AppStoreLink } from '@/components/AppStoreLink'

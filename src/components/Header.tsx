@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import { Popover } from '@headlessui/react'
 import { AnimatePresence, motion } from 'framer-motion'
 
@@ -39,13 +38,13 @@ function ChevronUpIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 function MobileNavLink(
   props: Omit<
-    React.ComponentPropsWithoutRef<typeof Popover.Button<typeof Link>>,
+    React.ComponentPropsWithoutRef<typeof Popover.Button<'a'>>,
     'as' | 'className'
   >,
 ) {
   return (
     <Popover.Button
-      as={Link}
+      as="a"
       className="block text-base leading-7 tracking-tight text-gray-700"
       {...props}
     />
