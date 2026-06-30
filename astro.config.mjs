@@ -28,6 +28,11 @@ export default defineConfig({
   integrations: [
     react(),
     sitemap({
+      // 排除会 30x 跳转的入口路由（裸 / 与 /doc/），sitemap 只列规范的本地化页面。
+      filter: (page) => {
+        const { pathname } = new URL(page)
+        return pathname !== '/' && pathname !== '/doc/'
+      },
       i18n: {
         defaultLocale: 'en',
         locales: {

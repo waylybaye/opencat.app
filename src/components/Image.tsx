@@ -35,11 +35,22 @@ export default function Image({
 }: ImageProps) {
   const meta = typeof src === 'string' ? { src } : src
 
+  // 只指定单边（width 或 height）时，按图片固有宽高比推算另一边，
+  // 与 next/image 行为一致——否则会沿用固有尺寸导致比例失真（如 logo 被压扁）。
+  let resolvedWidth = width ?? meta.width
+  let resolvedHeight = height ?? meta.height
+  if (meta.width && meta.height) {
+    if (width != null && height == null)
+      resolvedHeight = Math.round((Number(width) * meta.height) / meta.width)
+    else if (height != null && width == null)
+      resolvedWidth = Math.round((Number(height) * meta.width) / meta.height)
+  }
+
   return (
     <img
       src={meta.src}
-      width={width ?? meta.width}
-      height={height ?? meta.height}
+      width={resolvedWidth}
+      height={resolvedHeight}
       loading={loading ?? (priority ? 'eager' : 'lazy')}
       decoding="async"
       {...rest}
