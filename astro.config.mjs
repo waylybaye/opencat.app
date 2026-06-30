@@ -11,8 +11,11 @@ export default defineConfig({
   // 所有 URL 末尾带斜杠，对齐旧站 next.config 的 trailingSlash: true。
   trailingSlash: 'always',
 
-  // 默认静态预渲染；动态路由（/release、裸路径语言重定向）单独 export const prerender = false，
-  // 由 Cloudflare Worker 在请求期渲染。
+  // 内容页默认预渲染为静态 HTML（由资源层直接返回）；
+  // 重定向入口（/、裸 /doc、旧 /docs/*、/[lang]/doc/help、/release）各自 export const prerender = false，
+  // 作为 on-demand 路由由 Cloudflare Worker 在请求期处理。
+  // 注：Astro+Cloudflare 的 middleware 只对「已声明路由」运行，无法兜底未声明路径，
+  // 因此所有需要重定向的路径都显式建成路由文件，而非依赖 middleware。
   output: 'static',
   // @astrojs/cloudflare 14 内置官方 Cloudflare Vite 插件，astro dev 直接跑在 workerd 上，
   // 并自动读取 wrangler.jsonc 的 vars/bindings，无需额外配置。
@@ -35,5 +38,6 @@ export default defineConfig({
     }),
   ],
 
-  // 旧文档路径的兼容重定向在 Phase 4 路由建好后再启用（Astro 会校验重定向目标必须是已存在的路由）。
+  // 旧 /docs/* 路径的兼容重定向改在 middleware 里处理（保留 slug 与语言意图），
+  // 避免静态 redirects 对 [lang] 动态路由目标的校验限制。
 })

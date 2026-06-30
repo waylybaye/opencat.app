@@ -1,0 +1,53 @@
+---
+import { type Locale, i18n } from '@/utils/i18n-config'
+import { getEntry, render } from 'astro:content'
+import { getDictionary } from '@/utils/get-dictionary'
+import Layout from '@/layouts/Layout.astro'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+
+export const prerender = true
+
+export function getStaticPaths() {
+  return i18n.locales.map(lang => ({ params: { lang } }))
+}
+
+const { lang } = Astro.params as { lang: Locale }
+const dict = await getDictionary(lang)
+
+const entry = await getEntry('privacy', lang)
+const { Content } = await render(entry!)
+
+const proseClass = 'prose prose-slate mx-auto max-w-3xl break-words prose-headings:scroll-mt-20 prose-h1:text-3xl prose-h1:font-bold prose-h1:tracking-tight prose-h1:text-slate-900 prose-h2:mt-10 prose-h2:border-t prose-h2:border-slate-200 prose-h2:pt-8 prose-h2:text-xl prose-h2:font-semibold prose-h2:text-slate-800 prose-h3:mt-6 prose-h3:text-base prose-h3:font-medium prose-h3:text-slate-700 prose-p:text-slate-600 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-slate-300 prose-blockquote:text-slate-500 prose-li:text-slate-600'
+---
+
+<Layout lang={lang} title={entry?.data.title}>
+  <Header client:load params={{ links: dict.links, button: dict.button, doc: dict.doc }} />
+  <main class="flex-grow py-6">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+      <article class={proseClass}>
+        <Content />
+      </article>
+    </div>
+  </main>
+  <Footer client:visible params={{ footer: dict.footer, links: dict.links }} />
+</Layout>
+
+<script>
+  // 反爬虫：markdown 里写的是占位 mailto:contact，真实邮箱不出现在 HTML。
+  // 用户悬停/聚焦时才解码并填入真实 mailto href —— 复刻旧站 ContactLink 的行为。
+  const codes = [115, 117, 112, 112, 111, 114, 116, 64, 100, 114, 101, 97, 109, 111, 111, 110, 46, 97, 105]
+  const subject = 'Privacy Policy Inquiry'
+
+  document.querySelectorAll<HTMLAnchorElement>('a[href="mailto:contact"]').forEach((el) => {
+    const activate = () => {
+      if (el.dataset.activated)
+        return
+      const email = String.fromCharCode(...codes)
+      el.setAttribute('href', `mailto:${email}?subject=${encodeURIComponent(subject)}`)
+      el.dataset.activated = '1'
+    }
+    el.addEventListener('mouseenter', activate)
+    el.addEventListener('focus', activate)
+  })
+</script>

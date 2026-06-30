@@ -1,0 +1,31 @@
+---
+import { type Locale, i18n } from '@/utils/i18n-config'
+import { getDictionary } from '@/utils/get-dictionary'
+import { getEntry, render } from 'astro:content'
+import Layout from '@/layouts/Layout.astro'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+
+export const prerender = true
+
+export function getStaticPaths() {
+  return i18n.locales.map(lang => ({ params: { lang } }))
+}
+
+const { lang } = Astro.params as { lang: Locale }
+const dict = await getDictionary(lang)
+
+// /[lang]/doc 渲染 help 文档（对齐旧站 doc/page.tsx）
+const entry = await getEntry('docs', `${lang}/help`)
+const { Content } = await render(entry!)
+---
+
+<Layout lang={lang}>
+  <Header type="doc" client:load params={{ links: dict.links, button: dict.button, doc: dict.doc }} />
+  <main class="flex-grow py-4">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 prose break-words">
+      <Content />
+    </div>
+  </main>
+  <Footer client:visible params={{ footer: dict.footer, links: dict.links }} />
+</Layout>

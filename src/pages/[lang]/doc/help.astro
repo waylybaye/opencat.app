@@ -1,0 +1,8 @@
+---
+// /[lang]/doc/help → /[lang]/doc/（help 内容由 doc 列表页呈现，对齐旧站行为）。
+// 静态 help 段优先于 [slug].astro，on-demand 处理避免预渲染重定向的 meta-refresh 延迟。
+export const prerender = false
+
+const { lang } = Astro.params
+return Astro.redirect(`/${lang}/doc/`, 301)
+---

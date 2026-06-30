@@ -1,0 +1,9 @@
+---
+import { detectLocale } from '@/utils/locale'
+
+// 裸路径 "/" → 按 Accept-Language 重定向到带语言前缀的首页（302：随浏览器语言而变，非永久）。
+export const prerender = false
+
+const locale = detectLocale(Astro.request)
+return Astro.redirect(`/${locale}/`, 302)
+---

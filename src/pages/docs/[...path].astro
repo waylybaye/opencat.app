@@ -1,0 +1,27 @@
+---
+import { detectLocale } from '@/utils/locale'
+
+// 旧文档路径兼容（301 永久重定向）：
+//   /docs/zh-CN/*  → /zh-Hans/doc/*  （保留中文语言意图）
+//   /docs/ 及其余  → /{negotiated}/doc/*
+export const prerender = false
+
+const path = Astro.params.path ?? ''
+
+function withTrailingSlash(p: string): string {
+  return p.endsWith('/') ? p : `${p}/`
+}
+
+let target: string
+if (path === 'zh-CN' || path.startsWith('zh-CN/')) {
+  const rest = path.slice('zh-CN'.length).replace(/^\//, '')
+  target = withTrailingSlash(`/zh-Hans/doc/${rest}`)
+}
+else {
+  const locale = detectLocale(Astro.request)
+  const rest = path.replace(/^\//, '')
+  target = withTrailingSlash(`/${locale}/doc/${rest}`)
+}
+
+return Astro.redirect(target, 301)
+---
