@@ -1,8 +1,19 @@
 ---
+import { i18n } from '@/utils/i18n-config'
 import { detectLocale } from '@/utils/locale'
+import HomePage from '@/components/HomePage.astro'
 
-// 裸路径 "/" → 按 Accept-Language 重定向到带语言前缀的首页（302：随浏览器语言而变，非永久）。
+// 裸路径 "/"：按 Accept-Language 协商语言。
+// 默认语言（en）直接在 "/" 直出英文首页，避免无谓的一次跳转；
+// 其它语言才 302 重定向到带语言前缀的本地化首页（302：随浏览器语言而变，非永久）。
 export const prerender = false
 
-return Astro.redirect(`/${detectLocale(Astro.request)}/`, 302)
+const locale = detectLocale(Astro.request)
+
+if (locale !== i18n.defaultLocale) {
+  return Astro.redirect(`/${locale}/`, 302)
+}
 ---
+
+{/* canonical 指向 "/en/"（sitemap 收录的规范本地化 URL），与 "/" 同内容不重复计权。 */}
+<HomePage lang={i18n.defaultLocale} canonicalPath={`/${i18n.defaultLocale}/`} />

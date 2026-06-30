@@ -16,8 +16,14 @@ export default function I18nSwitch() {
     if (!pathName)
       return '/'
     const segments = pathName.split('/')
-    segments[1] = locale
-    return segments.join('/')
+    // segments[1] 是首段：本地化页为语言码；裸 "/"（英文直出）下为空串。
+    if ((i18n.locales as readonly string[]).includes(segments[1]))
+      segments[1] = locale // 替换已有语言前缀
+    else
+      segments.splice(1, 0, locale) // 根路径等无前缀场景：插入语言段
+    const path = segments.join('/')
+    // 站点统一带尾斜杠（trailingSlash: 'always'），补全以免命中跳转。
+    return path.endsWith('/') ? path : `${path}/`
   }
 
   return (

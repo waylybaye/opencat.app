@@ -1,0 +1,42 @@
+---
+import type { Locale } from '@/utils/i18n-config'
+import { getDictionary } from '@/utils/get-dictionary'
+import Layout from '@/layouts/Layout.astro'
+import { Header } from '@/components/Header'
+import { Hero } from '@/components/Hero'
+import { PrimaryFeatures } from '@/components/PrimaryFeatures'
+import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import { CallToAction } from '@/components/CallToAction'
+import { Reviews } from '@/components/Reviews'
+import { Pricing } from '@/components/Pricing'
+import { Faqs } from '@/components/Faqs'
+import { Resources } from '@/components/Resources'
+import { Footer } from '@/components/Footer'
+
+interface Props {
+  lang: Locale
+  /** 规范链接路径；裸 "/" 直出英文时显式指向 "/en/"，避免与本地化页重复。 */
+  canonicalPath?: string
+}
+
+const { lang, canonicalPath } = Astro.props
+const dict = await getDictionary(lang)
+---
+
+<Layout lang={lang} canonicalPath={canonicalPath}>
+  {/* Header 含移动端菜单 / 语言切换，需立即可交互 */}
+  <Header client:load params={{ links: dict.links, button: dict.button, doc: dict.doc }} />
+  <main class="flex-auto">
+    <Hero params={{ hero: dict.hero }} />
+    {/* 折叠下方的交互区块进入视口再 hydrate */}
+    <PrimaryFeatures client:visible params={{ feature: dict.feature }} />
+    <SecondaryFeatures params={{ secondaryFeature: dict['secondary-feature'] }} />
+    <CallToAction params={{ cta: dict.cta }} />
+    <Reviews client:visible params={{ review: dict.review }} />
+    <Pricing client:visible params={{ pricing: dict.pricing }} />
+    <Faqs params={{ faq: dict.faq }} />
+    <Resources params={{ resource: dict.resource }} />
+  </main>
+  {/* Footer 内含 NavLinks 悬停动画与 ContactLink 邮箱解码，需 hydrate */}
+  <Footer client:visible params={{ footer: dict.footer, links: dict.links }} />
+</Layout>
