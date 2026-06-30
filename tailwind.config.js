@@ -6,7 +6,7 @@ import headlessuiPlugin from '@headlessui/tailwindcss'
 import { getIconCollections, iconsPlugin } from '@egoist/tailwindcss-icons'
 
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.{astro,js,jsx,ts,tsx,md,mdx}', './content/**/*.{md,mdx}'],
   theme: {
     fontSize: {
       'xs': ['0.75rem', { lineHeight: '1rem' }],

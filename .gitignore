@@ -12,6 +12,10 @@
 /.next/
 /out/
 
+# Astro 构建产物与生成的类型
+/.astro/
+/dist/
+
 # OpenNext / Cloudflare 构建产物与本地配置
 /.open-next/
 /.wrangler/
