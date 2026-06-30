@@ -4,6 +4,5 @@ import { detectLocale } from '@/utils/locale'
 // 裸路径 "/doc"（如 Logo 在文档页的链接）→ 按 Accept-Language 重定向到 /{locale}/doc/。
 export const prerender = false
 
-const locale = detectLocale(Astro.request)
-return Astro.redirect(`/${locale}/doc/`, 302)
+return Astro.redirect(`/${detectLocale(Astro.request)}/doc/`, 302)
 ---

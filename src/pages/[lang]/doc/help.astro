@@ -3,6 +3,5 @@
 // 静态 help 段优先于 [slug].astro，on-demand 处理避免预渲染重定向的 meta-refresh 延迟。
 export const prerender = false
 
-const { lang } = Astro.params
-return Astro.redirect(`/${lang}/doc/`, 301)
+return Astro.redirect(`/${Astro.params.lang}/doc/`, 301)
 ---

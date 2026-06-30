@@ -1,4 +1,5 @@
 import { useId } from 'react'
+import type { ImageMetadata } from 'astro'
 import clsx from 'clsx'
 import Image from '@/components/Image'
 
@@ -122,7 +123,7 @@ export function Hero({ params }: { params: { hero: {
               role="list"
               className="mx-auto mt-8 flex max-w-xl flex-wrap justify-center gap-x-10 gap-y-8 lg:mx-0 lg:justify-start"
             >
-              {[
+              {([
                 ['Forbes', logoForbes],
                 ['TechCrunch', logoTechcrunch],
                 ['Wired', logoWired],
@@ -131,7 +132,7 @@ export function Hero({ params }: { params: { hero: {
                 ['CBS', logoCbs],
                 ['Fast Company', logoFastCompany],
                 ['HuffPost', logoHuffpost, 'hidden xl:block'],
-              ].map(([name, logo, className]) => (
+              ] as Array<[string, ImageMetadata, string?]>).map(([name, logo, className]) => (
                 <li key={name} className={clsx('flex', className)}>
                   <Image src={logo} alt={name} className="h-8" unoptimized />
                 </li>

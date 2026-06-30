@@ -12,16 +12,11 @@ function withTrailingSlash(p: string): string {
   return p.endsWith('/') ? p : `${p}/`
 }
 
-let target: string
 if (path === 'zh-CN' || path.startsWith('zh-CN/')) {
   const rest = path.slice('zh-CN'.length).replace(/^\//, '')
-  target = withTrailingSlash(`/zh-Hans/doc/${rest}`)
-}
-else {
-  const locale = detectLocale(Astro.request)
-  const rest = path.replace(/^\//, '')
-  target = withTrailingSlash(`/${locale}/doc/${rest}`)
+  return Astro.redirect(withTrailingSlash(`/zh-Hans/doc/${rest}`), 301)
 }
 
-return Astro.redirect(target, 301)
+const rest = path.replace(/^\//, '')
+return Astro.redirect(withTrailingSlash(`/${detectLocale(Astro.request)}/doc/${rest}`), 301)
 ---
